@@ -1,0 +1,23 @@
+﻿{
+  "hero": "VALHEIN",
+  "range": "Xa",
+  "position": "Xạ thủ",
+  "damage1" : "169/323/365",
+  "damage2" : "0/0/0",
+  "hit_point" : "3242/5178/5706",
+  "armor1" : "95/282/333",
+  "armor2" : "50/138/162",
+  "speed"  : "350",
+  "youtube"  : "",
+  "lore"  : "  <p>&quot;Ta từng l&agrave; hy vọng duy nhất của nh&acirc;n loại trong cả thế kỷ chiến tranh với ma c&agrave; rồng&quot;</p>
+
+<p>Tr&ecirc;n đường đến Romania nhận t&agrave;i sản thừa kế, Valhein v&ocirc; t&igrave;nh đối đầu với Dracula. Bất cẩn v&agrave; thiếu kinh nghiệm chiến đấu với ma c&agrave; rồng đ&atilde; dẫn đến c&aacute;i chết của vợ &ocirc;ng. Mất vợ, &ocirc;ng đau đớn, quằn quại v&agrave; nguyền rủa lũ ma c&agrave; rồng. Nỗi uất hận đ&oacute; đ&atilde; biến &ocirc;ng trở th&agrave;nh một thợ săn ma c&agrave; rồng để b&aacute;o th&ugrave;.</p>
+
+<p>&ldquo;Nh&acirc;n danh Ch&uacute;a trời, ta xin thề sẽ đập tan mọi thế lực b&oacute;ng tối v&agrave; chiến đấu chống ma c&agrave; rồng đến hơi thở cuối c&ugrave;ng&rdquo;, lời nguyện thề thi&ecirc;ng li&ecirc;ng đ&oacute; l&agrave; mục ti&ecirc;u sống của Valhein cho đến ng&agrave;y h&ocirc;m nay. Cho đến khi con ma rồng cuối c&ugrave;ng gục xuống, Valhein chợt cảm thấy mọi thứ thật trống rỗng th&igrave; bất ngờ một giọng n&oacute;i vang l&ecirc;n:</p>
+
+<p>&ldquo;Ngươi đ&atilde; l&agrave;m điều kh&ocirc;ng ai c&oacute; thể l&agrave;m. Nhưng b&oacute;ng tối mu&ocirc;n h&igrave;nh vạn trạng v&agrave; ma c&agrave; rồng chỉ l&agrave; 1 trong số ch&uacute;ng m&agrave; th&ocirc;i&rdquo;</p>
+
+<p>Bất ngờ trước c&acirc;u n&oacute;i đến từ hư kh&ocirc;ng đ&oacute;, nhưng điều đ&oacute; cũng kh&ocirc;ng l&agrave;m Valhein sợ h&atilde;i. Giọng n&oacute;i k&igrave; lạ đ&oacute; bất ngờ vang l&ecirc;n: &quot;Liệu ngươi c&oacute; muốn đối đầu với những con quỷ thực sự kh&ocirc;ng?&rdquo;</p>
+
+<p>Nghe đến đ&acirc;y, Valhein cười ph&aacute; l&ecirc;n v&agrave; n&oacute;i: &ldquo;Dẫn đường đi!&rdquo;</p>"
+}

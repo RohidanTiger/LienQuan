@@ -1,0 +1,21 @@
+﻿{
+  "hero": "VEERA",
+  "range": "Xa",
+  "position": "Pháp sư",
+  "damage1" : "170/258/282",
+  "damage2" : "0/0/0",
+  "hit_point" : "3229/5264/5819",
+  "armor1" : "86/273/324",
+  "armor2" : "50/138/162",
+  "speed"  : "340",
+  "youtube"  : "",
+  "lore"  : " <p>&quot;Ta l&agrave; Veera, Nữ Ho&agrave;ng B&oacute;ng Đ&ecirc;m&quot;</p>
+
+<p>Theo cổ thư ghi lại, Veera l&agrave; Đại T&ocirc;ng Đồ mộ đạo v&agrave; quyền lực nhất của c&aacute;c Đấng To&agrave;n Năng. Ả ta c&agrave;ng cầu nguyện v&agrave; t&igrave;m kiếm sự th&ocirc;ng tuệ của họ, họ c&agrave;ng giữ im lặng. V&igrave; n&ocirc;n n&oacute;ng muốn chứng tỏ bản lĩnh, ả ta quyết một m&igrave;nh tấn c&ocirc;ng To&aacute;n Cai Ngục. Ả chắc chắn sẽ nhận được vinh quang trong mắt c&aacute;c Đấng To&agrave;n Năng khi triệt hạ được To&aacute;n Cai NGục, nhưng cũng ch&iacute;nh sự ngạo mạn của ả l&agrave;m cho c&aacute;c Đấng To&agrave;n Năng thấy kinh tởm.</p>
+
+<p>Mặc d&ugrave; rất anh dũng tr&ecirc;n chiến trường, ả vẫn bị địch t&oacute;m gọn. Kh&ocirc;ng cần phải b&agrave;n tới những đ&ograve;n roi ả phải hứng chịu. Điều quan trọng nhất l&agrave; trong đ&ocirc;i mắt trong trẻo từng hướng về thi&ecirc;n đường để t&igrave;m ch&acirc;n l&yacute;, nay chỉ c&ograve;n m&aacute;u v&agrave; những ngọn lửa tăm tối. Maloch, thủ lĩnh của To&aacute;n Cai Ngục, tự tay m&igrave;nh thực hiện những trận tra tấn với Veera. V&agrave; từ đ&oacute; giữa 2 b&ecirc;n đ&atilde; h&igrave;nh th&agrave;nh một mối quan hệ tăm tối kh&aacute;c.</p>
+
+<p>Từ đ&oacute;, ả lu&ocirc;n ở b&ecirc;n cạnh hắn ta, chỉ huỷ qu&acirc;n l&iacute;nh Maloc v&agrave; ti&ecirc;u diệt tất cả những kẻ th&ugrave; của hắn ta. Nhưng ả lu&ocirc;n th&iacute;ch tiếp cận một c&aacute;ch &acirc;m thầm. Bằng sự mưu m&ocirc; v&agrave; n&eacute;t quyết rũ của m&igrave;nh để hạ gục cả những kẻ h&ugrave;ng mạnh nhất. Tr&ecirc;n bia mộ của những kẻ ng&atilde; xuống lu&ocirc;n ghi c&ugrave;ng một lời răn dằn, nếu gặp ả phải che tai lại để kh&ocirc;ng nghe những lời dụ dỗ của ả để đi đến vinh quang.</p>
+
+<p>V&igrave; con đường tới đ&oacute; kh&ocirc;ng hơn g&igrave; đi v&agrave;o chỗ chết. Nữ ho&agrave;ng b&oacute;ng đ&ecirc;m lu&ocirc;n b&igrave;nh tĩnh. Ả biết r&otilde; m&igrave;nh sẽ đạt được mục đ&iacute;ch. V&agrave; ả sẽ l&agrave; lu&ocirc;n l&agrave; kẻ cuối c&ugrave;ng c&ograve;n sống. Ả cũng lu&ocirc;n mơ, mơ một ng&agrave;y sẽ được tắm m&igrave;nh trong m&aacute;u của những Đấng To&agrave;n Năng, v&agrave; cho họ nh&igrave;n thấu được nỗi đau của m&igrave;nh.</p>"
+}

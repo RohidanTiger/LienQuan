@@ -1,0 +1,21 @@
+﻿{
+  "hero": "THANE",
+  "range": "Gần",
+  "position": "Tướng Đỡ Đòn",
+  "damage1" : "157/267/297",
+  "damage2" : "0/0/0",
+  "hit_point" : "3525/7715/8855",
+  "armor1" : "123/409/487",
+  "armor2" : "50/138/162",
+  "speed"  : "370",
+  "youtube"  : "",
+  "lore"  : "  <p>&quot;Tử tế, th&agrave;nh thật, quan t&acirc;m v&agrave; trung th&agrave;nh.&quot;</p>
+
+<p>Thane được lấy h&igrave;nh tượng từ vị vua Arturius huyền thoại, vốn l&agrave; vị ho&agrave;ng tử quyến rũ nhất m&agrave; bất kỳ c&ocirc; g&aacute;i n&agrave;o cũng mơ tới. Nhưng &iacute;t ai biết rằng, khi thiếu vắng người cha, ho&agrave;ng tử đ&atilde; phải trải qua v&ocirc; số gian khổ, hiểm họa r&igrave;nh rập tứ phương. Arturius được vị ph&aacute;p sư huyền thoại &ndash; Merlin nu&ocirc;i nấng, v&agrave; để tr&aacute;nh xa những cặp mắt nh&ograve;m ng&oacute; c&oacute; thể biến ho&agrave;ng tử th&agrave;nh tầm ngắm của kẻ địch bất k&igrave; l&uacute;c n&agrave;o, &ocirc;ng đ&atilde; đưa cậu rời khỏi l&acirc;u đ&agrave;i.</p>
+
+<p>Cho đến khi vua Uther băng h&agrave;, nước Anh trở n&ecirc;n loạn lạc, c&aacute;c hiệp sĩ trong nước x&acirc;u x&eacute; lẫn nhau tranh gi&agrave;nh quyền lực h&ograve;ng kế vị ng&ocirc;i vương. Ngay khi đ&oacute;, Merlin xuất hiện v&agrave; b&agrave;n bạc với c&aacute;c gi&aacute;m mục để tạo ra cuộc thi xem ai r&uacute;t được thanh gươm m&agrave; vị thần ban tặng trước nh&agrave; thờ th&igrave; người đ&oacute; sẽ l&agrave; vua nước Anh.</p>
+
+<p>Rất nhiều hiệp sĩ thử sức m&igrave;nh, nhưng chưa một ai th&agrave;nh c&ocirc;ng. L&uacute;c n&agrave;y đ&acirc;y, Artirius bất ngờ xuất hiện, nhẹ nh&agrave;ng r&uacute;t được thanh gươm huyền thoại đang cắm s&acirc;u trong tảng đ&aacute; m&agrave; kh&ocirc;ng tốn giọt mồ h&ocirc;i n&agrave;o trước sự ngỡ ng&agrave;ng của to&agrave;n thể hiệp sĩ l&uacute;c bấy giờ. Sau khi l&ecirc;n ng&ocirc;i, Arturius c&ugrave;ng c&aacute;c hiệp sĩ B&agrave;n tr&ograve;n đ&aacute;nh bại Đế chế La M&atilde;, thống nhất nước Anh.</p>
+
+<p>&quot;Ta ch&iacute;nh l&agrave; hiện th&acirc;n của ch&iacute;nh nghĩa!&quot;</p>"
+}

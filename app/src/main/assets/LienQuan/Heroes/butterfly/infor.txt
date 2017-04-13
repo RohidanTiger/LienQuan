@@ -1,0 +1,21 @@
+﻿{
+  "hero": "LỮ BỐ",
+  "range": "Gần",
+  "position": "Pháp sư",
+  "damage1" : "174/328/370",
+  "damage2" : "0/0/0",
+  "hit_point" : "3531/6732/7605",
+  "armor1" : "104/313/324",
+  "armor2" : "50/138/162",
+  "speed"  : "380",
+  "youtube"  : "",
+  "lore"  : " <p>&quot;Chịu thua? Sao c&aacute;c ngươi d&aacute;m chịu thua!&quot;</p>
+
+<p>Cưỡi tr&ecirc;n lưng chiến m&atilde; X&iacute;ch Thố ki&ecirc;u h&ugrave;ng, Lữ Bố nh&igrave;n xuống những kẻ địch đang run rẩy v&igrave; sợ h&atilde;i m&agrave; kh&ocirc;ng k&igrave;m nối cơn giận giữ của m&igrave;nh. Chiến thắng như vậy thật chẳng c&ograve;n &yacute; nghĩa g&igrave; cả, Lữ Bố nghĩ trong đầu. Lữ Bố được mệnh danh l&agrave; &ldquo;V&ocirc; Địch Chiến Thần&rdquo; nhờ v&agrave;o khả năng chiến đấu phi thường của bản th&acirc;n. Lữ Bố bắt đầu nhớ lại trận chiến với Lưu Bị, Quan Vũ v&agrave; Trương Phi ở Hổ Lao quan.</p>
+
+<p>Thật bất c&ocirc;ng khi đấu ba người c&ugrave;ng l&uacute;c, nhưng Lữ Bố đ&atilde; quen với kiểu n&agrave;y. Bởi kh&ocirc;ng người thường n&agrave;o c&oacute; thể đấu ngang cơ với Lữ Bố trong một trận chiến tay đ&ocirc;i cả. &quot;N&oacute;i ta nghe xem, ta c&oacute; phải chiến binh mạnh nhất thế gian kh&ocirc;ng?&quot;, Lữ Bố hỏi Đi&ecirc;u Thuyền. Đi&ecirc;u Thuyền mỉm cười ngọt ng&agrave;o v&agrave; r&uacute;t một cuộn giấy ra từ tay &aacute;o.</p>
+
+<p>&quot;Ở thế gian n&agrave;y c&oacute; lẽ kh&ocirc;ng ai đ&aacute;ng để đối đầu. Nhưng tr&ecirc;n thượng giới th&igrave; sao? Ch&agrave;ng c&oacute; muốn đấu với họ kh&ocirc;ng?&quot;</p>
+
+<p>&quot;Thượng giới?! Đ&uacute;ng thế!&quot; Lữ Bố kh&ocirc;ng thể giấu sự phấn kh&iacute;ch trong đ&ocirc;i mắt.</p> 
+}

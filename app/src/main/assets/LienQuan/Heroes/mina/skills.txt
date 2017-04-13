@@ -1,0 +1,38 @@
+﻿[
+    {
+        "name": "Chúa tể",
+        "desc": "Nội tại: Giảm 1 giây hồi chiêu của Phương thiên họa kích bất cứ khi nào Lữ Bố đánh trúng mục tiêu bằng độc chiêu hay đòn đánh thường",
+        "notes": "",
+	"mana" : "0",
+        "dame": "",
+        "youtube":"jL4CIss9Rec",
+        "id": 0
+    },
+    {
+        "name": "Xích thố",
+        "desc": "Lữ Bố xông về phía trước, gây ra sát thương thường, kỹ năng này có thể được sử dụng 3 lần liên tiếp. Đòn tấn công thứ ba sẽ hất tung kẻ thù lên và Lữ Bố có thể bị khống chế",
+        "notes": "",
+	"mana" : "0",
+        "dame": "160/185/210/235/260/285 (+0.84 công vật lý)",
+        "youtube":"2ySkyR8hrn4",
+        "id": 1
+    },
+    {
+        "name": "Phương thiên họa kích",
+        "desc": "Lữ Bố vung cây thương xuống để phóng ra sóng xung kích đến những kẻ thù, gây sát thương thường và làm chậm tốc chạy của chúng trong chốc lát",
+        "notes": "",
+	"mana" : "0",
+        "dame": "240/300/360/420/480/540 (+0.90 công vật lý)",
+        "youtube":"D_j9Cw9i3sg",
+        "id": 2
+    },
+    {
+        "name": "Chiến Thần",
+        "desc": "Lữ Bố được cường hóa bản thân, tăng sát thương, thêm 20% kháng hiệu ứng. Mỗi lần dùng đòn đánh thường hoặc kĩ năng trúng mục tiêu sẽ hồi máu cho bản thân thân. Hiệu ứng kéo dài trong 8 giây",
+        "notes": "",
+	"mana" : "0",
+        "dame": " Thêm 80/120/160 và 20% kháng hiệu ứng",
+        "youtube":"cXddnC0OLfs",
+        "id": 3
+    }
+]

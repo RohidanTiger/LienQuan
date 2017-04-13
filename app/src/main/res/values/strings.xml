@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Liên Quân</string>
+
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="cmn_yes">Có</string>
+    <string name="cmn_ok">OK</string>
+    <string name="cmn_no">Không</string>
+    <string name="cmn_done">Hoàn thành</string>
+    <string name="cmn_cancel">Bỏ qua</string>
+    <string name="cmn_internet_connection_lost">Lỗi kết nối tới máy chủ.Xin vui lòng thử lại</string>
+    <string name="cmn_no_internet_access">Không có kết nối internet.</string>
+    <string name="cmn_update_data_sucess">Hoàn tất cập nhật dữ liệu.</string>
+    <string name="cmn_timeout">Timeout </string>
+    <string name="cmn_no_response">Không có dữ liệu hồi đáp</string>
+    <string name="msg_confirm_quit_app">Bạn có muốn thoát khỏi ứng dụng？</string>
+
+</resources>
