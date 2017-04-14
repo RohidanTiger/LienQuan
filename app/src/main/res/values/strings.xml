@@ -18,4 +18,42 @@
     <string name="cmn_no_response">Không có dữ liệu hồi đáp</string>
     <string name="msg_confirm_quit_app">Bạn có muốn thoát khỏi ứng dụng？</string>
 
+    <string-array name="array_hero">
+        <item>Valhein</item>
+        <item>Thane</item>
+        <item>Veera</item>
+        <item>Lubo</item>
+        <item>Mina</item>
+        <item>Krixi</item>
+        <item>Mganga</item>
+        <item>Tieuvan</item>
+        <item>Omega</item>
+        <item>Kahlii</item>
+        <item>Zephys</item>
+        <item>Đieuthuyen</item>
+        <item>Chaugnar</item>
+        <item>Violet</item>
+        <item>Butterfly</item>
+        <item>Ormarr</item>
+        <item>Azzenka</item>
+        <item>Alice</item>
+        <item>Gildur</item>
+        <item>Yorn</item>
+        <item>Toro</item>
+        <item>Taara</item>
+        <item>Nakroth</item>
+        <item>Grakk</item>
+        <item>Aleister</item>
+        <item>Fennik</item>
+        <item>Lumburr</item>
+        <item>Natalya</item>
+        <item>Cresht</item>
+        <item>Jinna</item>
+        <item>Payna</item>
+        <item>Maloch</item>
+        <item>Ngokhong</item>
+        <item>Kriknak</item>
+    </string-array>
+
+
 </resources>
