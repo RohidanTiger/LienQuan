@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chickenzero.ht.com.lienquan.customize.SquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/Layout.FillWidth"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <chickenzero.ht.com.lienquan.customize.SquareImageView
+            android:id="@+id/img_item"
+            style="@style/Layout.WrapWidthHeight"
+            android:scaleType="fitXY"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/txt_name"-->
+            <!--style="@style/Layout.FillWidth"-->
+            <!--android:layout_marginTop="@dimen/padding_normal_bigger"-->
+            <!--android:textColor="@color/cmn_black"-->
+            <!--android:textSize="@dimen/text_larger"-->
+            <!--android:gravity="center"/>-->
+
+    </LinearLayout>
+
+</chickenzero.ht.com.lienquan.customize.SquareLayout>
