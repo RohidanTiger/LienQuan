@@ -8,6 +8,7 @@ public class Contants {
 
     public static String PREFERENCES_FILENAME = "SOS_PREF";
     public static String NETWORK_ERROR = "Lỗi kết nối tới server. Xin vui lòng thử lại";
+    public static String DEVELOPER_KEY = "AIzaSyD-47Uhd_ssBQqjRe3jIhTjBY9MkPmAOfM";
 
     public static String NAME_IMAGE_CAPTURE = "tempPhoto";
     public static String NUMBER_FORMAT = "#,###,###,###";
@@ -38,5 +39,38 @@ public class Contants {
     public static final int SIZE_SMALL = 512;
     public static final int SIZE_MEDIUM = 1024;
     public static final int SIZE_LARGE = 1280;
+
+    public static final int NUMBER_SKILL = 4;
+
+    public static String getRole(int r){
+        String role = "";
+        switch (r){
+            case 1:{
+                role = "Đấu sĩ";
+                break;
+            }
+            case 2:{
+                role = "Pháp Sư";
+                break;
+            }
+            case 3:{
+                role = "Trợ Thủ";
+                break;
+            }
+            case 4:{
+                role = "Đỡ Đòn";
+                break;
+            }
+            case 5:{
+                role = "Sát Thủ";
+                break;
+            }
+            case 6:{
+                role = "Xạ Thủ";
+                break;
+            }
+        }
+        return role;
+    }
 }
 

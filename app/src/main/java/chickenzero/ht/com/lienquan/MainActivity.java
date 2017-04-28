@@ -2,6 +2,7 @@ package chickenzero.ht.com.lienquan;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.design.widget.FloatingActionButton;
@@ -18,8 +19,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import chickenzero.ht.com.lienquan.config.Contants;
 import chickenzero.ht.com.lienquan.service.FragmentStackManager;
 import chickenzero.ht.com.lienquan.utils.DialogUtil;
+import chickenzero.ht.com.lienquan.views.fragments.HeroFragment;
+import chickenzero.ht.com.lienquan.views.fragments.ItemFragment;
+import chickenzero.ht.com.lienquan.views.fragments.NewsFrament;
+import chickenzero.ht.com.lienquan.views.fragments.VideoListFragment;
+import io.realm.Realm;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     public SCApplication mApplication;
@@ -28,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private ActionBarDrawerToggle mDrawerToggle;
     private Toolbar toolbar;
     private ProgressDialog pDialog;
+    public Realm realm;
 
     // Number Fragment In Stack
     private int currentStackSize = 0;
@@ -42,15 +50,34 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
         mApplication = (SCApplication) getApplication();
+        realm = Realm.getDefaultInstance();
         setUpDrawer();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
         initFragmentStackManager();
         enableNetworkOnMainThread();
+        pushFragments(new HeroFragment(), false, true);
+
     }
 
     private void setUpDrawer(){
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        mDrawerToggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(mDrawerToggle);
+        mDrawerToggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close){
+            /** Called when a drawer has settled in a completely open state. */
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+            }
+
+            /** Called when a drawer has settled in a completely closed state. */
+            public void onDrawerClosed(View view) {
+                super.onDrawerClosed(view);
+                invalidateOptionsMenu(); // creates call to onPrepareOptionsMenu()
+            }
+        };
+        drawer.addDrawerListener(mDrawerToggle);
+        mDrawerToggle.setDrawerIndicatorEnabled(true);
         mDrawerToggle.syncState();
     }
 
@@ -62,12 +89,29 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                                                Fragment topFragment) {
                         currentFragment = (BaseFragment) topFragment;
                         currentStackSize = stackSize;
-                        Log.d("FragmentManager",
-                                "===FRAGMENT STACK MANAGER: STACK CHANGED : New Size: "
-                                        + stackSize
-                                        + " . Current Fragment : "
-                                        + topFragment.getClass()
-                                        .getSimpleName());
+                        if (currentStackSize > 1) {
+                            mDrawerToggle.setDrawerIndicatorEnabled(false);
+                            getSupportActionBar().setDisplayHomeAsUpEnabled(true);// show back button
+                            drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
+                            toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    onBackPressed();
+                                }
+                            });
+                        } else {
+                            //show hamburger
+                            mDrawerToggle.setDrawerIndicatorEnabled(true);
+                            getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+                            drawer.setDrawerLockMode(DrawerLayout.LOCK_MODE_UNLOCKED);
+                            mDrawerToggle.syncState();
+                            toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    drawer.openDrawer(GravityCompat.START);
+                                }
+                            });
+                        }
                     }
                 });
 
@@ -83,6 +127,49 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             StrictMode.setThreadPolicy(policy);
         }
     }
+
+    // Default tab is TAB_HOME
+
+    public void pushFragments(Fragment fragment, Bundle bundle,
+                              boolean shouldAdd) {
+        pushFragments(Contants.TAB_HOME, fragment, bundle, true, shouldAdd);
+    }
+
+    public void pushFragments(Fragment fragment, boolean shouldAnimate,
+                              boolean shouldAdd) {
+        pushFragments(Contants.TAB_HOME, fragment, null, shouldAnimate,
+                shouldAdd);
+    }
+
+    public void pushFragments(Fragment fragment, Bundle bundle,
+                              boolean shouldAnimate, boolean shouldAdd) {
+        pushFragments(Contants.TAB_HOME, fragment, bundle, shouldAnimate,
+                shouldAdd);
+    }
+
+    public void pushFragments(String tag, Fragment fragment, Bundle bundle,
+                              boolean shouldAnimate, boolean shouldAdd) {
+        fragmentStackManager.push(fragment, fragment.getClass().getSimpleName(),
+                bundle, shouldAnimate, shouldAdd);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+            return;
+        }
+    }
+
+    public void popFragments() {
+        popFragments(true);
+    }
+
+    public void popFragments(boolean isSlideBack) {
+        fragmentStackManager.pop(isSlideBack);
+    }
+    //
+    // Clear all current fragment
+    public void clearAllPreviousFragment() {
+        fragmentStackManager.clearAllScreen();
+    }
+
 
     @Override
     public void onBackPressed() {
@@ -117,8 +204,32 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
+
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        mDrawerToggle.onConfigurationChanged(newConfig);
+    }
+
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        // Sync the toggle state after onRestoreInstanceState has occurred.
+        mDrawerToggle.syncState();
+    }
+
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        if (mDrawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+        if (currentStackSize > 1 && !currentFragment.canPressBack()) {
+            popFragments();
+        }else{
+            mDrawerToggle.setDrawerIndicatorEnabled(true);
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -176,6 +287,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 }
             }
         });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        realm.close();
     }
 
 }

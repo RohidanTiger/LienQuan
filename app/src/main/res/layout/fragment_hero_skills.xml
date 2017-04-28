@@ -7,9 +7,8 @@
     android:background="@drawable/app_bg">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycleItem"
-        style="@style/Layout.FillWidth"
-        android:background="@color/transparent">
+        android:id="@+id/recycle_skill"
+        style="@style/Layout.FillWidthHeight">
     </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

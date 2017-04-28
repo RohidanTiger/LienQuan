@@ -6,7 +6,7 @@ import io.realm.RealmObject;
  * Created by QuyDV on 4/13/17.
  */
 
-public class Hero extends RealmObject{
+public class Hero extends RealmObject {
     private String id;
     private String name;
     private String role;

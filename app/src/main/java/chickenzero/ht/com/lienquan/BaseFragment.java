@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import io.realm.Realm;
 
 /**
  * Created by QuyDV on 3/29/17.
@@ -120,4 +121,6 @@ public abstract class BaseFragment extends Fragment {
 
     //Main layout Id for Fragment
     protected abstract void initUI();
+
+
 }

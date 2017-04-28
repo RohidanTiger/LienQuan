@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.library.RippleView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    rv_centered="true"
+    android:id="@+id/ripple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layout_content"
+        style="@style/Layout.FillWidth"
+        android:background="@drawable/list_row_selector">
+
+        <ImageView
+            android:id="@+id/imgVideo"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/default_video"
+            android:layout_marginRight="8dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="@dimen/padding_normal"
+            android:layout_marginBottom="@dimen/padding_normal"
+            android:layout_marginLeft="@dimen/padding_small"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            style="@style/Text.FillWidth"
+            android:layout_alignTop="@+id/imgVideo"
+            android:layout_toRightOf="@+id/imgVideo"
+            android:layout_marginRight="@dimen/padding_small"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_time"
+            style="@style/Text.FillWidth"
+            android:layout_toRightOf="@+id/imgVideo"
+            android:textSize="@dimen/text_normal"
+            android:layout_marginTop="@dimen/padding_small"
+            android:layout_below="@id/txtName"/>
+
+
+
+        <View
+            android:id="@+id/view_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/imgVideo"
+            android:background="@color/list_divider" />
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/layout_ad"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@id/view_divider"-->
+        <!--android:layout_below="@id/layout_content"-->
+        <!--android:visibility="gone">-->
+        <!--<com.google.android.gms.ads.AdView-->
+            <!--android:id="@+id/adView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--ads:adSize="BANNER"-->
+            <!--ads:adUnitId="@string/banner_ad_unit_id">-->
+        <!--</com.google.android.gms.ads.AdView>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:background="@color/list_divider" />-->
+    <!--</RelativeLayout>-->
+</com.andexert.library.RippleView>

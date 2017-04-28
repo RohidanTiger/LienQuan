@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg">
+
+    <RelativeLayout
+        android:id="@+id/layout_filter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/cmn_dark">
+
+        <ImageButton
+            android:id="@+id/btn_change_type"
+            style="@style/Layout.WrapWidthHeight"
+            android:src="@drawable/carousel"
+            android:background="@color/transparent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/padding_huge"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+       style="@style/Layout.FillWidthHeight"
+        android:layout_above="@id/layout_filter">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleHero"
+            style="@style/Layout.FillWidthHeight">
+        </android.support.v7.widget.RecyclerView>
+
+        <chickenzero.ht.com.lienquan.customize.PagerContainer
+            android:id="@+id/pager_container"
+            style="@style/Layout.FillWidth"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/padding_medium"
+            android:layout_marginBottom="@dimen/padding_big"
+            android:overScrollMode="never"
+            android:visibility="gone">
+
+            <chickenzero.ht.com.lienquan.customize.TransformableViewPager
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal">
+            </chickenzero.ht.com.lienquan.customize.TransformableViewPager>
+
+        </chickenzero.ht.com.lienquan.customize.PagerContainer>
+    </RelativeLayout>
+
+</RelativeLayout>

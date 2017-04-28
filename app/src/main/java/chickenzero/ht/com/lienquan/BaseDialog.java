@@ -7,18 +7,23 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v4.content.ContextCompat;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 /**
  * Created by billymobile on 1/9/17.
  */
 
-public class BaseDialog extends Dialog {
+public abstract class BaseDialog extends Dialog {
 
     protected Context mContext;
     private Handler mHandler;
     protected MainActivity mActivity;
+    protected Unbinder mUnbinder;
 
     public BaseDialog(Context context) {
         super(context);
@@ -36,11 +41,21 @@ public class BaseDialog extends Dialog {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        View rootView = View.inflate(getContext(), getViewContent(), null);
+        mUnbinder = ButterKnife.bind(this,rootView);
+        setContentView(rootView);
+        initUI();
         mHandler = new Handler(Looper.getMainLooper());
     }
+
+
 
     protected Handler getMainHandler() {
         return mHandler;
     }
+
+    protected abstract int getViewContent();
+
+    protected abstract void initUI();
 
 }

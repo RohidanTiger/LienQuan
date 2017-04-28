@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg">
+
+    <ScrollView
+        style="@style/Layout.FillWidthHeight">
+        <LinearLayout
+            style="@style/Layout.FillWidthHeight"
+            android:orientation="vertical">
+            <TextView
+                style="@style/Layout.FillWidth"
+                android:paddingLeft="@dimen/padding_normal"
+                android:text="Thứ tự tăng chiêu"
+                android:textColor="@color/red_dark"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/padding_medium"
+                android:textSize="@dimen/text_title" />
+            <ImageView
+                android:id="@+id/img_skill_upgrade"
+                style="@style/Layout.FillWidth"
+                android:scaleType="fitXY"
+                android:layout_margin="@dimen/padding_normal" />
+
+            <TextView
+                style="@style/Layout.FillWidth"
+                android:paddingLeft="@dimen/padding_normal"
+                android:text="Ngọc đề cử"
+                android:textColor="@color/red_dark"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/padding_medium"
+                android:textSize="@dimen/text_title" />
+            <ImageView
+                android:id="@+id/img_rune"
+                style="@style/Layout.FillWidth"
+                android:layout_margin="@dimen/padding_normal" />
+
+            <TextView
+                style="@style/Layout.FillWidth"
+                android:paddingLeft="@dimen/padding_normal"
+                android:text="Trang bị khuyến khích"
+                android:textColor="@color/red_dark"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/padding_medium"
+                android:textSize="@dimen/text_title" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

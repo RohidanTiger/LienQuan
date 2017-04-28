@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header"
+    style="@style/Layout.FillWidth">
+
+    <ImageView
+        android:id="@+id/img_skill"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/padding_small"/>
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:layout_margin="@dimen/padding_small"
+        android:src="@drawable/skill_border_default" />
+
+    <TextView
+        android:id="@+id/txt_skill_mame"
+        style="@style/Layout.FillWidth"
+        android:layout_margin="@dimen/padding_smaller"
+        android:layout_toRightOf="@id/img_skill"
+        android:padding="@dimen/padding_smaller"
+        android:textColor="@color/cmn_orange"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_mana"
+        style="@style/Layout.FillWidth"
+        android:layout_margin="@dimen/padding_smaller"
+        android:layout_toRightOf="@id/img_skill"
+        android:layout_below="@id/txt_skill_mame"
+        android:padding="@dimen/padding_smaller"
+        android:textColor="@color/cmn_name_color"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_description"
+        style="@style/Layout.FillWidth"
+        android:layout_margin="@dimen/padding_smaller"
+        android:layout_toRightOf="@id/img_skill"
+        android:layout_below="@id/txt_mana"
+        android:padding="@dimen/padding_smaller"
+        android:textColor="@color/cmn_white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_watch_video"
+        style="@style/Layout.FillWidth"
+        android:layout_margin="@dimen/padding_smaller"
+        android:layout_toRightOf="@id/img_skill"
+        android:layout_below="@id/txt_description"
+        android:paddingLeft="@dimen/padding_smaller"
+        android:paddingBottom="@dimen/padding_normal"
+        android:textColor="@color/cmn_price2"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_dark"
+        android:paddingTop="@dimen/text_normal"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

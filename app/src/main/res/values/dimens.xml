@@ -25,6 +25,7 @@
     <!-- BUTTON SIZE -->
     <dimen name="btn_height">50dp</dimen>
     <dimen name="btn_height_medium">40dp</dimen>
+    <dimen name="skill_role_bkg_size">37dp</dimen>
     <dimen name="btn_height_small">35dp</dimen>
     <dimen name="btn_height_smaller">30dp</dimen>
     <dimen name="btn_height_smallest">20dp</dimen>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg">
+
+    <ScrollView
+        style="@style/Layout.FillWidth">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/layout_header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/img_hero"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="@dimen/padding_small"/>
+
+                <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="102dp"
+                    android:layout_centerVertical="true"
+                    android:scaleType="fitXY"
+                    android:layout_margin="@dimen/padding_small"
+                    android:src="@drawable/skill_border_default" />
+
+                <TextView
+                    android:id="@+id/txtHeroName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/padding_smaller"
+                    android:layout_toRightOf="@id/img_hero"
+                    android:padding="@dimen/padding_smaller"
+                    android:textColor="@color/color_yellow_dark"
+                    android:textSize="@dimen/text_title"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/txtHeroName"
+                    android:layout_toRightOf="@id/img_hero"
+                    android:background="@color/cmn_gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtHeroName"
+                    android:layout_margin="@dimen/padding_smaller"
+                    android:layout_toRightOf="@id/img_hero">
+
+                    <TextView
+                        android:id="@+id/txtBrandTitle"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dip"
+                        android:paddingTop="@dimen/padding_small"
+                        android:text="@string/cmn_role"
+                        android:textColor="@color/cmn_white"
+                        android:textSize="@dimen/text_normal" />
+
+                    <TextView
+                        android:id="@+id/txtRole"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dip"
+                        android:layout_toRightOf="@+id/txtBrandTitle"
+                        android:paddingTop="@dimen/padding_small"
+                        android:textColor="@color/cmn_white"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/text_normal" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_infor_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/layout_header"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycleInfo"
+                    style="@style/Layout.FillWidth">
+                </android.support.v7.widget.RecyclerView>
+
+                <android.support.percent.PercentRelativeLayout
+                    style="@style/Layout.FillWidth"
+                    android:layout_marginLeft="@dimen/padding_normal"
+                    android:layout_marginTop="@dimen/padding_medium"
+                    android:paddingBottom="@dimen/padding_small">
+
+                    <TextView
+                        android:id="@+id/txt_move_speed"
+                        app:layout_widthPercent="40%"
+                        android:textColor="@color/cmn_white"
+                        android:text="Tốc độ chạy"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/txt_move_value"
+                        app:layout_widthPercent="60%"
+                        android:layout_toRightOf="@id/txt_move_speed"
+                        android:gravity="center"
+                        android:textColor="@color/cmn_white"
+                        android:layout_height="wrap_content"/>
+                </android.support.percent.PercentRelativeLayout>
+
+                <android.support.percent.PercentRelativeLayout
+                    style="@style/Layout.FillWidth"
+                    android:layout_marginLeft="@dimen/padding_normal"
+                    android:layout_marginTop="@dimen/padding_small"
+                    android:paddingBottom="@dimen/padding_small">
+                    <TextView
+                        android:id="@+id/txt_range"
+                        app:layout_widthPercent="40%"
+                        android:textColor="@color/cmn_white"
+                        android:text="Tầm đánh"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/txt_range_value"
+                        app:layout_widthPercent="60%"
+                        android:layout_toRightOf="@id/txt_range"
+                        android:gravity="center"
+                        android:textColor="@color/cmn_white"
+                        android:layout_height="wrap_content"/>
+                </android.support.percent.PercentRelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_lore_title"
+                style="@style/Layout.FillWidth"
+                android:paddingLeft="@dimen/padding_normal"
+                android:text="Truyền thuyết"
+                android:textColor="@color/red_dark"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/padding_medium"
+                android:layout_below="@id/layout_infor_detail"
+                android:textSize="@dimen/text_title" />
+            <TextView
+                android:id="@+id/txt_lore_value"
+                style="@style/Layout.FillWidth"
+                android:layout_margin="@dimen/padding_normal"
+                android:textColor="@color/cmn_white"
+                android:layout_below="@id/txt_lore_title"/>
+
+            <TextView
+                android:id="@+id/txt_watch_video"
+                style="@style/Layout.WrapWidthHeight"
+                android:textSize="@dimen/text_header"
+                android:layout_below="@id/txt_lore_value"
+                android:layout_marginTop="@dimen/text_normal"
+                android:layout_marginBottom="@dimen/padding_big"
+                android:textColor="@color/red_dark"
+                android:textStyle="italic"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

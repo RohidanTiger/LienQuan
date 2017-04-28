@@ -15,8 +15,15 @@
     <string name="cmn_no_internet_access">Không có kết nối internet.</string>
     <string name="cmn_update_data_sucess">Hoàn tất cập nhật dữ liệu.</string>
     <string name="cmn_timeout">Timeout </string>
+    <string name="cmn_role">Vai trò</string>
     <string name="cmn_no_response">Không có dữ liệu hồi đáp</string>
     <string name="msg_confirm_quit_app">Bạn có muốn thoát khỏi ứng dụng？</string>
+    <string name="youtube_key">AIzaSyD-47Uhd_ssBQqjRe3jIhTjBY9MkPmAOfM</string>
+    <string name="year_ago"> năm trước</string>
+    <string name="month_ago"> tháng trước</string>
+    <string name="day_ago"> ngày trước</string>
+    <string name="hour_ago"> giờ trước</string>
+    <string name="minute_ago"> phút trước</string>
 
     <string-array name="array_hero">
         <item>Valhein</item>
@@ -26,11 +33,11 @@
         <item>Mina</item>
         <item>Krixi</item>
         <item>Mganga</item>
-        <item>Tieuvan</item>
+        <item>Trieuvan</item>
         <item>Omega</item>
         <item>Kahlii</item>
         <item>Zephys</item>
-        <item>Đieuthuyen</item>
+        <item>Dieuthuyen</item>
         <item>Chaugnar</item>
         <item>Violet</item>
         <item>Butterfly</item>
@@ -55,5 +62,8 @@
         <item>Kriknak</item>
     </string-array>
 
+    <string name="str_information">Thông tin</string>
+    <string name="str_skills">Kỹ năng</string>
+    <string name="str_guide">Hướng dẫn</string>
 
 </resources>
