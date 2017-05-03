@@ -39,7 +39,7 @@ public class ItemAdapter extends RecyclerView.Adapter{
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, final int position) {
-        String imgUrl = "file:///android_asset/LienQuan/Items/".concat(String.valueOf(position)).concat(".jpg");
+        String imgUrl = "file:///android_asset/LienQuan/Items/".concat(String.valueOf(mNumberData.get(position).getId())).concat(".jpg");
         PicassoLoader.getInstance(mContext).with(mContext).load(imgUrl).into(((ItemAdapter.ViewHolder)holder).imgItem);
         ((ViewHolder)holder).txtNameItem.setText(mNumberData.get(position).getName());
         holder.itemView.setOnClickListener(new View.OnClickListener() {

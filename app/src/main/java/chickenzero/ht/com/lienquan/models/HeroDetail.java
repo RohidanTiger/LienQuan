@@ -1,5 +1,7 @@
 package chickenzero.ht.com.lienquan.models;
 
+import java.util.ArrayList;
+
 import io.realm.RealmObject;
 
 /**
@@ -25,6 +27,7 @@ public class HeroDetail extends RealmObject {
     private String movementSpeed;
     private String range;
     private String lore;
+    private String items;
     private String youtube;
 
     public HeroDetail() {
@@ -41,7 +44,7 @@ public class HeroDetail extends RealmObject {
     public HeroDetail(String attackDame, String attackIncreaseDame, String abilityDame, String abilityIncreaseDame,
                       String hitPoint, String hitPointIncrease, String armor, String armorIncrease, String abilityArmor,
                       String abilityArmorIncrease, String name, String nickName, String role, String movementSpeed,
-                      String range, String lore, String youtube) {
+                      String range, String lore, String items, String youtube) {
         this.attackDame = attackDame;
         this.attackIncreaseDame = attackIncreaseDame;
         this.abilityDame = abilityDame;
@@ -58,6 +61,7 @@ public class HeroDetail extends RealmObject {
         this.movementSpeed = movementSpeed;
         this.range = range;
         this.lore = lore;
+        this.items = items;
         this.youtube = youtube;
 
     }
@@ -196,5 +200,13 @@ public class HeroDetail extends RealmObject {
 
     public void setLore(String lore) {
         this.lore = lore;
+    }
+
+    public String getItems() {
+        return items;
+    }
+
+    public void setItems(String items) {
+        this.items = items;
     }
 }

@@ -33,11 +33,11 @@
         <item>Mina</item>
         <item>Krixi</item>
         <item>Mganga</item>
-        <item>Trieuvan</item>
+        <item>Tieuvan</item>
         <item>Omega</item>
         <item>Kahlii</item>
         <item>Zephys</item>
-        <item>Dieuthuyen</item>
+        <item>Đieuthuyen</item>
         <item>Chaugnar</item>
         <item>Violet</item>
         <item>Butterfly</item>
@@ -60,6 +60,9 @@
         <item>Maloch</item>
         <item>Ngokhong</item>
         <item>Kriknak</item>
+        <item>Mortos</item>
+        <item>Slimz</item>
+        <item>Ilumia</item>
     </string-array>
 
     <string name="str_information">Thông tin</string>

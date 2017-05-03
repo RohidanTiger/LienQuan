@@ -45,6 +45,13 @@
                 android:textStyle="bold"
                 android:layout_marginTop="@dimen/padding_medium"
                 android:textSize="@dimen/text_title" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycleItem"
+                style="@style/Layout.FillWidth"
+                android:layout_marginBottom="@dimen/padding_normal">
+            </android.support.v7.widget.RecyclerView>
+
         </LinearLayout>
     </ScrollView>
 
