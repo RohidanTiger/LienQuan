@@ -1,4 +1,4 @@
-[
+﻿[
 {
 "abilityArmor":"50",
 "abilityArmorIncrease":"8",
@@ -237,7 +237,7 @@
 "name":"Điêu Thuyền",
 "range":"Xa",
 "role":"Pháp Sư",
-"youtube":""
+"youtube":"yAsrYqPHSeg"
 },
 {
 "abilityArmor":"50",
@@ -277,7 +277,7 @@
 "name":"Violet",
 "range":"Xa",
 "role":"Xạ Thủ",
-"youtube":""
+"youtube":"dwb3R64z5yg"
 },
 {
 "abilityArmor":"50",
@@ -457,7 +457,7 @@
 "name":"Nakroth",
 "range":"Gần",
 "role":"Sát Thủ",
-"youtube":""
+"youtube":"uwkA3UMTGQQ"
 },
 {
 "abilityArmor":"50",
@@ -477,7 +477,7 @@
 "name":"Grakk",
 "range":"Gần",
 "role":"Đỡ Đòn",
-"youtube":""
+"youtube":"-17fkLEn2pc"
 },
 {
 "abilityArmor":"50",
@@ -497,7 +497,7 @@
 "name":"Aleister",
 "range":"Xa",
 "role":"Pháp Sư",
-"youtube":""
+"youtube":"1pr-7kqvwYk"
 },
 {
 "abilityArmor":"50",
@@ -517,7 +517,7 @@
 "name":"Fennik",
 "range":"Xa",
 "role":"Xạ Thủ",
-"youtube":""
+"youtube":"7hAs1b91f4s"
 },
 {
 "abilityArmor":"50",
@@ -537,7 +537,7 @@
 "name":"Lumburr",
 "range":"Gần",
 "role":"Đỡ Đòn",
-"youtube":""
+"youtube":"SPb6d9VhcDQ"
 },
 {
 "abilityArmor":"50",
@@ -557,7 +557,7 @@
 "name":"Natalya",
 "range":"Xa",
 "role":"Pháp Sư",
-"youtube":""
+"youtube":"CfJ6oapPwd8"
 },
 {
 "abilityArmor":"50",
@@ -577,7 +577,7 @@
 "name":"Cresht",
 "range":"Gần",
 "role":"Đỡ Đòn",
-"youtube":""
+"youtube":"BWDappiYPDY"
 },
 {
 "abilityArmor":"50",
@@ -597,7 +597,7 @@
 "name":"Jinna",
 "range":"Xa",
 "role":"Pháp Sư",
-"youtube":""
+"youtube":"Wt9_Eq6dpy4"
 },
 {
 "abilityArmor":"50",
@@ -617,7 +617,7 @@
 "name":"Payna",
 "range":"Xa",
 "role":"Trợ Thủ",
-"youtube":""
+"youtube":"4ZQDOlbsVkk"
 },
 {
 "abilityArmor":"50",
@@ -637,7 +637,7 @@
 "name":"Maloch",
 "range":"Gần",
 "role":"Đấu Sĩ",
-"youtube":""
+"youtube":"HkDJNiLL3-s"
 },
 {
 "abilityArmor":"50",
@@ -657,7 +657,7 @@
 "name":"Ngộ Không",
 "range":"Gần",
 "role":"Đấu Sĩ",
-"youtube":""
+"youtube":"DqZGB98dP9s"
 },
 {
 "abilityArmor":"50",
@@ -677,7 +677,7 @@
 "name":"Kriknak",
 "range":"Gần",
 "role":"Sát Thủ",
-"youtube":""
+"youtube":"rR_-jOJIWxw"
 },
 {
 "abilityArmor":"58",
@@ -697,7 +697,7 @@
 "name":"Mortos",
 "range":"Gần",
 "role":"Đấu Sĩ",
-"youtube":""
+"youtube":"CFZ529v7Ti4"
 },
 {
 "abilityArmor":"50",
@@ -717,7 +717,7 @@
 "name":"Slimz",
 "range":"Xa",
 "role":"Xạ Thủ",
-"youtube":""
+"youtube":"EJQzlLh9Y8w"
 },
 {
 "abilityArmor":"50",
@@ -737,6 +737,6 @@
 "name":"Ilumia",
 "range":"Xa",
 "role":"Pháp Sư",
-"youtube":""
+"youtube":"HjVJo5DAEmU"
 }
 ]
