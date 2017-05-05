@@ -42,7 +42,6 @@ public class HeroGridAdapter extends RecyclerView.Adapter{
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, final int position) {
-//        holder.setIsRecyclable(false);
         final Hero hero =  mNumberData.get(position);
         String heroID = hero.getId();
         String imgUrl = "file:///android_asset/LienQuan/Heroes/".concat(heroID).concat("/"+heroID).concat("_avata").concat(".png");

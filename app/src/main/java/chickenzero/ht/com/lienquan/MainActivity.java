@@ -8,6 +8,9 @@ import android.os.StrictMode;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -19,12 +22,19 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import chickenzero.ht.com.lienquan.config.Contants;
 import chickenzero.ht.com.lienquan.service.FragmentStackManager;
 import chickenzero.ht.com.lienquan.utils.DialogUtil;
+import chickenzero.ht.com.lienquan.utils.PrefConfig;
+import chickenzero.ht.com.lienquan.views.adapters.SectionedMenuAdapter;
+import chickenzero.ht.com.lienquan.views.adapters.SlideMenuAdapter;
 import chickenzero.ht.com.lienquan.views.fragments.HeroFragment;
 import chickenzero.ht.com.lienquan.views.fragments.ItemFragment;
 import chickenzero.ht.com.lienquan.views.fragments.NewsFrament;
+import chickenzero.ht.com.lienquan.views.fragments.SupportSkillFragment;
 import chickenzero.ht.com.lienquan.views.fragments.VideoListFragment;
 import io.realm.Realm;
 
@@ -33,13 +43,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public FragmentStackManager fragmentStackManager;
     private DrawerLayout drawer;
     private ActionBarDrawerToggle mDrawerToggle;
+    private SlideMenuAdapter menuAdapter;
     private Toolbar toolbar;
     private ProgressDialog pDialog;
+    private RecyclerView slideMenu;
     public Realm realm;
+    private int mCurrentPosition = 0;
 
     // Number Fragment In Stack
     private int currentStackSize = 0;
     public BaseFragment currentFragment;
+    public PrefConfig mPrefConfig = PrefConfig.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,12 +71,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         initFragmentStackManager();
         enableNetworkOnMainThread();
-        pushFragments(new HeroFragment(), false, true);
-
+        initFirstScreen();
     }
 
     private void setUpDrawer(){
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        slideMenu = (RecyclerView) findViewById(R.id.navList);
+        initSlideMenu();
+        getSupportActionBar().setDisplayShowTitleEnabled(true);
         mDrawerToggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close){
             /** Called when a drawer has settled in a completely open state. */
             public void onDrawerOpened(View drawerView) {
@@ -126,6 +142,102 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     .permitAll().build();
             StrictMode.setThreadPolicy(policy);
         }
+    }
+
+    private void initFirstScreen(){
+        mCurrentPosition = mPrefConfig.getRememberMenuPosition(this);
+        switch (mCurrentPosition){
+            case 0:{
+                setActionBarTitle(R.string.str_hero);
+                pushFragments(new HeroFragment(), false, true);
+                break;
+            }
+            case 1:{
+                setActionBarTitle(R.string.str_item);
+                pushFragments(new ItemFragment(), false, true);
+                break;
+            }
+            case 2:{
+                setActionBarTitle(R.string.str_support_skill);
+                pushFragments(new SupportSkillFragment(), false, true);
+                break;
+            }
+            case 3:{
+                setActionBarTitle(R.string.str_challenger);
+                pushFragments(new VideoListFragment(), false, true);
+                break;
+            }
+            case 4:{
+                setActionBarTitle(R.string.str_league);
+                pushFragments(new HeroFragment(), false, true);
+                break;
+            }
+            case 5:{
+                setActionBarTitle(R.string.str_news);
+                pushFragments(new NewsFrament(), false, true);
+                break;
+            }
+        }
+    }
+
+    private void initSlideMenu(){
+        slideMenu.setLayoutManager(new LinearLayoutManager(this));
+        slideMenu.addItemDecoration(new DividerItemDecoration(this,LinearLayoutManager.VERTICAL));
+
+        //Your RecyclerView.Adapter
+        menuAdapter = new SlideMenuAdapter(this);
+
+
+        //This is the code to provide a sectioned list
+        List<SectionedMenuAdapter.Section> sections =
+                new ArrayList<SectionedMenuAdapter.Section>();
+
+        //Sections
+        sections.add(new SectionedMenuAdapter.Section(0,"Cẩm nang"));
+        sections.add(new SectionedMenuAdapter.Section(3,"Giải trí - Học hỏi"));
+
+        //Add your adapter to the sectionAdapter
+        SectionedMenuAdapter.Section[] dummy = new SectionedMenuAdapter.Section[sections.size()];
+        SectionedMenuAdapter mSectionedAdapter = new SectionedMenuAdapter(this,R.layout.item_section,R.id.section_text,menuAdapter);
+        mSectionedAdapter.setSections(sections.toArray(dummy));
+
+        //Apply this adapter to the RecyclerView
+        slideMenu.setAdapter(mSectionedAdapter);
+
+        menuAdapter.setOnItemClickListener(new SlideMenuAdapter.OnItemClickListener() {
+            @Override
+            public void onClick(int index, int title) {
+                clearAllPreviousFragment();
+                setActionBarTitle(title);
+                mCurrentPosition = index;
+                switch (index){
+                    case 0:{
+                        pushFragments(new HeroFragment(), false, true);
+                        break;
+                    }
+                    case 1:{
+                        pushFragments(new ItemFragment(), false, true);
+                        break;
+                    }
+                    case 2:{
+                        pushFragments(new SupportSkillFragment(), false, true);
+                        break;
+                    }
+                    case 3:{
+                        pushFragments(new VideoListFragment(), false, true);
+                        break;
+                    }
+                    case 4:{
+                        pushFragments(new HeroFragment(), false, true);
+                        break;
+                    }
+                    case 5:{
+                        pushFragments(new NewsFrament(), false, true);
+                        break;
+                    }
+                }
+            }
+        });
     }
 
     // Default tab is TAB_HOME
@@ -289,9 +401,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
     }
 
+    public void setActionBarTitle(String title){
+        getSupportActionBar().setTitle(title);
+    }
+
+    public void setActionBarTitle(int title){
+        getSupportActionBar().setTitle(title);
+    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        mPrefConfig.setRememberMenuPosition(this,mCurrentPosition);
         realm.close();
     }
 

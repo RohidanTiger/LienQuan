@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/app_bg">
 
-    <RelativeLayout
+    <android.support.percent.PercentRelativeLayout
         android:id="@+id/layout_filter"
         android:layout_width="match_parent"
         android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
-        android:background="@color/cmn_dark">
+        android:background="@color/colorPrimary">
 
         <ImageButton
             android:id="@+id/btn_change_type"
@@ -21,7 +23,17 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="@dimen/padding_huge"/>
 
-    </RelativeLayout>
+        <chickenzero.ht.com.lienquan.customize.CustomSpinner
+            android:id="@+id/filter_spinner"
+            android:layout_marginLeft="15dp"
+            style="@style/spinner_common"
+            app:layout_widthPercent="50%"
+            android:entries="@array/array_role"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp">
+        </chickenzero.ht.com.lienquan.customize.CustomSpinner>
+
+    </android.support.percent.PercentRelativeLayout>
 
     <RelativeLayout
        style="@style/Layout.FillWidthHeight"

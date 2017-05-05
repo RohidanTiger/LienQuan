@@ -82,7 +82,12 @@ public class HeroCarouselAdapter extends PagerAdapter{
             PicassoLoader.getInstance(mContext).with(mContext).load(skillUrl).into((ImageView)skillView.findViewById(R.id.skill_img));
             skillsHolder.addView(skillView);
         }
-
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                listener.onClick(hero);
+            }
+        });
         container.addView(view);
         return view;
     }

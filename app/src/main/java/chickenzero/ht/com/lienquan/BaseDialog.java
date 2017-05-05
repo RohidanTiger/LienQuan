@@ -50,6 +50,8 @@ public abstract class BaseDialog extends Dialog {
 
 
 
+
+
     protected Handler getMainHandler() {
         return mHandler;
     }

@@ -17,12 +17,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="left|start">
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/navList"
-            android:layout_width="250dp"
-            android:layout_height="match_parent"
-            android:layout_marginTop="?attr/actionBarSize"
-            android:background="@color/list_row_start_color"/>
 
         <TextView
             android:id="@+id/btnRateApp"
@@ -32,6 +26,15 @@
             android:text="~ Đánh giá ứng dụng ~"
             android:gravity="center"
             android:background="#ffeeeeee"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/navList"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_above="@id/btnRateApp"
+            android:background="@color/list_row_start_color"/>
+
     </RelativeLayout>
 
 </android.support.v4.widget.DrawerLayout>

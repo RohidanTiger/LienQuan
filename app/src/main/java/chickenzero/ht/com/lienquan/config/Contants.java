@@ -46,7 +46,7 @@ public class Contants {
         String role = "";
         switch (r){
             case 1:{
-                role = "Đấu sĩ";
+                role = "Đấu Sĩ";
                 break;
             }
             case 2:{

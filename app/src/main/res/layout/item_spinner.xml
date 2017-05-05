@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--<com.andexert.library.RippleView--><!--xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:id="@+id/ripple"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--rv_centered="true">-->
+
+<CheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lbl_spinner_text"
+    style="?android:attr/spinnerDropDownItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:ellipsize="marquee"
+    android:maxLines="1"
+    android:layout_marginTop="@dimen/padding_small"
+    android:layout_marginBottom="@dimen/padding_small"
+    android:textColor="@color/cmn_white"
+    android:background="@drawable/spinner_selector"
+    app:mrl_rippleAlpha="0.8"
+    app:mrl_rippleBackground="#FFFFFF"
+    app:mrl_rippleColor="@color/cmn_text"
+    app:mrl_rippleDelayClick="true"
+    app:mrl_rippleDuration="150"
+    app:mrl_rippleInAdapter="true"
+    app:mrl_rippleOverlay="true" />

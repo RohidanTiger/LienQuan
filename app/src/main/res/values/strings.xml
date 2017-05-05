@@ -65,8 +65,25 @@
         <item>Ilumia</item>
     </string-array>
 
+    <string-array name="array_role">
+        <item>Tất cả</item>
+        <item>Đấu Sĩ</item>
+        <item>Pháp Sư</item>
+        <item>Trợ Thủ</item>
+        <item>Đỡ Đòn</item>
+        <item>Sát Thủ</item>
+        <item>Xạ Thủ</item>
+    </string-array>
+
     <string name="str_information">Thông tin</string>
     <string name="str_skills">Kỹ năng</string>
     <string name="str_guide">Hướng dẫn</string>
+    <string name="str_hero">Danh sách tướng</string>
+    <string name="str_item">Trang bị</string>
+    <string name="str_support_skill">Bổ trợ</string>
+    <string name="str_news">Tin tức</string>
+    <string name="str_league">Giải đấu</string>
+    <string name="str_challenger">Kênh cao thủ</string>
+
 
 </resources>
