@@ -145,7 +145,6 @@ public class HeroFragment extends BaseFragment {
         mSpinner.setAdapter(mAdapter);
         mSpinner.setSelection(mHeroSelectedPos);
         mSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 mAdapter.setSelection(position);

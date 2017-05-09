@@ -60,9 +60,8 @@ public class HeroDetailGuideFragment extends BaseFragment {
         recyclerViewItem.setAdapter(itemAdapter);
         itemAdapter.setOnItemClickListener(new ItemAdapter.OnItemClickListener() {
             @Override
-            public void onClick(int position) {
-                Item item = listItem.get(position);
-                ItemDetailDialog dialog = new ItemDetailDialog(context,item);
+            public void onClick(Item position) {
+                ItemDetailDialog dialog = new ItemDetailDialog(context,position);
                 dialog.show();
             }
         });

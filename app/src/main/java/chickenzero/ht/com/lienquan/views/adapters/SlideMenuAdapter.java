@@ -43,7 +43,7 @@ public class SlideMenuAdapter extends RecyclerView.Adapter<SlideMenuAdapter.Simp
     public void onBindViewHolder(SimpleViewHolder holder, final int position) {
         holder.title.setText(mTitle[position]);
         holder.image.setImageResource(mImage[position]);
-        holder.title.setOnClickListener(new View.OnClickListener() {
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 listener.onClick(position, mTitle[position]);

@@ -1,15 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/app_bg">
 
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/layout_filter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary">
+
+        <!--<chickenzero.ht.com.lienquan.customize.CustomSpinner-->
+            <!--android:id="@+id/spinner_item_level"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--style="@style/spinner_common"-->
+            <!--app:layout_widthPercent="40%"-->
+            <!--android:entries="@array/array_level_item"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginStart="15dp">-->
+        <!--</chickenzero.ht.com.lienquan.customize.CustomSpinner>-->
+
+        <chickenzero.ht.com.lienquan.customize.CustomSpinner
+            android:id="@+id/spinner_item_type"
+            android:layout_marginLeft="15dp"
+            style="@style/spinner_common"
+            app:layout_widthPercent="55%"
+            android:entries="@array/array_item_type"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true">
+        </chickenzero.ht.com.lienquan.customize.CustomSpinner>
+
+    </android.support.percent.PercentRelativeLayout>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycleItem"
-        style="@style/Layout.FillWidth"
+        style="@style/Layout.FillWidthHeight"
+        android:layout_above="@id/layout_filter"
         android:background="@color/transparent">
     </android.support.v7.widget.RecyclerView>
 
-</LinearLayout>
+</RelativeLayout>

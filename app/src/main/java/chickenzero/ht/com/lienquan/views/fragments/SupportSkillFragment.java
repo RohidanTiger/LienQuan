@@ -43,7 +43,7 @@ public class SupportSkillFragment extends BaseFragment {
         mAdapter = new SupportSkillAdapter(skillList,context);
         mLayoutManager = new GridLayoutManager(context,3);
         recyclerView.setLayoutManager(mLayoutManager);
-        SpacesItemDecoration itemDecoration = new SpacesItemDecoration(getContext(), R.dimen.padding_smaller);
+        SpacesItemDecoration itemDecoration = new SpacesItemDecoration(getContext(), R.dimen.padding_small_bigger);
         recyclerView.addItemDecoration(itemDecoration);
         recyclerView.setAdapter(mAdapter);
         mAdapter.setmListener(new SupportSkillAdapter.OnItemClickListener() {

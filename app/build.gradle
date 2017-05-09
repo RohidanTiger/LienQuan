@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "chickenzero.ht.com.lienquan"
+        applicationId "com.ht.chickenzero.lienquan"
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 1

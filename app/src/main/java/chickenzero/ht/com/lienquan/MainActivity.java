@@ -33,6 +33,7 @@ import chickenzero.ht.com.lienquan.views.adapters.SectionedMenuAdapter;
 import chickenzero.ht.com.lienquan.views.adapters.SlideMenuAdapter;
 import chickenzero.ht.com.lienquan.views.fragments.HeroFragment;
 import chickenzero.ht.com.lienquan.views.fragments.ItemFragment;
+import chickenzero.ht.com.lienquan.views.fragments.LeagueListFragment;
 import chickenzero.ht.com.lienquan.views.fragments.NewsFrament;
 import chickenzero.ht.com.lienquan.views.fragments.SupportSkillFragment;
 import chickenzero.ht.com.lienquan.views.fragments.VideoListFragment;
@@ -228,7 +229,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         break;
                     }
                     case 4:{
-                        pushFragments(new HeroFragment(), false, true);
+                        pushFragments(new LeagueListFragment(), false, true);
                         break;
                     }
                     case 5:{
@@ -350,6 +351,24 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(MenuItem item) {
         drawer.closeDrawer(GravityCompat.START);
         return false;
+    }
+
+    public void showLoading(final int message) {
+        try {
+            this.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        pDialog.show();
+                        pDialog.setMessage(getString(message));
+                    } catch (Exception error) {
+                        error.printStackTrace();
+                    }
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void showLoading(final String message) {

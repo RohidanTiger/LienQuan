@@ -52,6 +52,7 @@ public class NewsFrament extends BaseFragment{
                 context.pushFragments(new NewsDetailFragment(),bundle,true,true);
             }
         });
+        context.showLoading(R.string.cmn_loading);
         getListNews();
     }
 
@@ -61,11 +62,13 @@ public class NewsFrament extends BaseFragment{
             @Override
             public void onResponse(Call<NewsList> call, Response<NewsList> response) {
                 mAdapter.setmDataSet(response.body().getChannel().getItem());
+                context.hideLoading();
             }
 
             @Override
             public void onFailure(Call<NewsList> call, Throwable t) {
                 Log.d("Data",t.toString());
+                context.hideLoading();
             }
         });
 

@@ -21,8 +21,10 @@ public class ServiceGenerator {
 
     public static RssNewService newsService = newsRetrofit.create(RssNewService.class);
 
-//    public void loadAllUrlFromPlayList(String playID, String keyID, int maxResults, Call<List<VideoYoutube>> callback){
-//        callback = youtubeService.loadQuestions(playID,keyID,maxResults);
-//    }
+    private static Retrofit leagueRetrofit = new Retrofit.Builder()
+            .baseUrl(LeagueAPI.BASE_URL)
+            .addConverterFactory(GsonConverterFactory.create()).build();
+
+    public static LeagueAPI leagueService = leagueRetrofit.create(LeagueAPI.class);
 
 }

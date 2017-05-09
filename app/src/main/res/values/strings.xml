@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Liên Quân</string>
+    <string name="app_name">Cẩm Nang Liên Quân</string>
 
     <string name="navigation_drawer_open"></string>
     <string name="navigation_drawer_close"></string>
@@ -17,6 +17,7 @@
     <string name="cmn_timeout">Timeout </string>
     <string name="cmn_role">Vai trò</string>
     <string name="cmn_no_response">Không có dữ liệu hồi đáp</string>
+    <string name="cmn_loading">Đang tải dữ liệu</string>
     <string name="msg_confirm_quit_app">Bạn có muốn thoát khỏi ứng dụng？</string>
     <string name="youtube_key">AIzaSyD-47Uhd_ssBQqjRe3jIhTjBY9MkPmAOfM</string>
     <string name="year_ago"> năm trước</string>
@@ -75,6 +76,22 @@
         <item>Xạ Thủ</item>
     </string-array>
 
+    <string-array name="array_level_item">
+        <item>Cấp độ trang bị</item>
+        <item>Trang bị câp 1</item>
+        <item>Trang bị câp 2</item>
+        <item>Trang bị câp 3</item>
+    </string-array>
+
+    <string-array name="array_item_type">
+        <item>Thuộc tính trang bị</item>
+        <item>Công vật lý</item>
+        <item>Công phép</item>
+        <item>Phòng thủ</item>
+        <item>Giày</item>
+        <item>Đi rừng</item>
+    </string-array>
+
     <string name="str_information">Thông tin</string>
     <string name="str_skills">Kỹ năng</string>
     <string name="str_guide">Hướng dẫn</string>
@@ -85,5 +102,9 @@
     <string name="str_league">Giải đấu</string>
     <string name="str_challenger">Kênh cao thủ</string>
 
+    <!--API-->
+    <string name="str_list_league">https://raw.githubusercontent.com/RohidanTiger/LienQuanLeague/master/LeagueAPI.json</string>
+    <string name="unit_ad_unit_id">ca-app-pub-2910568088893309~8466305676</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2910568088893309/3756904476</string>
 
 </resources>

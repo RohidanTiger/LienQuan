@@ -73,7 +73,7 @@ public class VideoPreviewDialog extends BaseDialog {
         try {
             Method method = android.webkit.WebView.class.getMethod("destroy");
             method.invoke(webViewVideo);
-        } catch (Exception _) {
+        } catch (Exception e) {
         }
     }
 }
