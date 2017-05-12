@@ -1,172 +1,197 @@
 [
-{
-"id":"valhein",
-"name":"Valhein",
-"role":"6"
-},
-{
-"id":"thane",
-"name":"Thane",
-"role":"4"
-},
-{
-"id":"veera",
-"name":"Veera",
-"role":"2"
-},
-{
-"id":"lubo",
-"name":"Lữ Bố",
-"role":"1"
-},
-{
-"id":"mina",
-"name":"Mina",
-"role":"4"
-},
-{
-"id":"krixi",
-"name":"Krixi",
-"role":"2"
-},
-{
-"id":"mganga",
-"name":"Mganga",
-"role":"2"
-},
-{
-"id":"trieuvan",
-"name":"Triệu Vân",
-"role":"1"
-},
-{
-"id":"omega",
-"name":"Omega",
-"role":"4"
-},
-{
-"id":"kahlii",
-"name":"Kahlii",
-"role":"2"
-},
-{
-"id":"zephys",
-"name":"Zephys",
-"role":"1"
-},
-{
-"id":"dieuthuyen",
-"name":"Điêu Thuyền",
-"role":"2"
-},
-{
-"id":"chaugnar",
-"name":"Chaugnar",
-"role":"4"
-},
-{
-"id":"violet",
-"name":"Violet",
-"role":"6"
-},
-{
-"id":"butterfly",
-"name":"Butterfly",
-"role":"5"
-},
-{
-"id":"ormarr",
-"name":"Ormarr",
-"role":"1"
-},
-{
-"id":"azzenka",
-"name":"Azzen\u0027Ka",
-"role":"2"
-},
-{
-"id":"alice",
-"name":"Alice",
-"role":"3"
-},
-{
-"id":"gildur",
-"name":"Gildur",
-"role":"4"
-},
-{
-"id":"yorn",
-"name":"Yorn",
-"role":"6"
-},
-{
-"id":"toro",
-"name":"Toro",
-"role":"4"
-},
-{
-"id":"taara",
-"name":"Taara",
-"role":"4"
-},
-{
-"id":"nakroth",
-"name":"Nakroth",
-"role":"5"
-},
-{
-"id":"grakk",
-"name":"Grakk",
-"role":"4"
-},
-{
-"id":"aleister",
-"name":"Aleister",
-"role":"2"
-},
-{
-"id":"fennik",
-"name":"Fennik",
-"role":"6"
-},
-{
-"id":"lumburr",
-"name":"Lumburr",
-"role":"4"
-},
-{
-"id":"natalya",
-"name":"Natalya",
-"role":"2"
-},
-{
-"id":"cresht",
-"name":"Cresht",
-"role":"4"
-},
-{
-"id":"jinna",
-"name":"Jinna",
-"role":"2"
-},
-{
-"id":"payna",
-"name":"Payna",
-"role":"3"
-},
-{
-"id":"maloch",
-"name":"Maloch",
-"role":"1"
-},
-{
-"id":"ngokhong",
-"name":"Ngộ Không",
-"role":"1"
-},
-{
-"id":"kriknak",
-"name":"Kriknak",
-"role":"5"
-}
+  {
+    "id":"valhein",
+    "name":"Valhein",
+    "role":"6"
+  },
+  {
+    "id":"thane",
+    "name":"Thane",
+    "role":"4"
+  },
+  {
+    "id":"veera",
+    "name":"Veera",
+    "role":"2"
+  },
+  {
+    "id":"lubo",
+    "name":"Lữ Bố",
+    "role":"1"
+  },
+  {
+    "id":"mina",
+    "name":"Mina",
+    "role":"4"
+  },
+  {
+    "id":"krixi",
+    "name":"Krixi",
+    "role":"2"
+  },
+  {
+    "id":"mganga",
+    "name":"Mganga",
+    "role":"2"
+  },
+  {
+    "id":"trieuvan",
+    "name":"Triệu Vân",
+    "role":"1"
+  },
+  {
+    "id":"omega",
+    "name":"Omega",
+    "role":"4"
+  },
+  {
+    "id":"kahlii",
+    "name":"Kahlii",
+    "role":"2"
+  },
+  {
+    "id":"zephys",
+    "name":"Zephys",
+    "role":"1"
+  },
+  {
+    "id":"dieuthuyen",
+    "name":"Điêu Thuyền",
+    "role":"2"
+  },
+  {
+    "id":"chaugnar",
+    "name":"Chaugnar",
+    "role":"4"
+  },
+  {
+    "id":"violet",
+    "name":"Violet",
+    "role":"6"
+  },
+  {
+    "id":"butterfly",
+    "name":"Butterfly",
+    "role":"5"
+  },
+  {
+    "id":"ormarr",
+    "name":"Ormarr",
+    "role":"1"
+  },
+  {
+    "id":"azzenka",
+    "name":"Azzen\u0027Ka",
+    "role":"2"
+  },
+  {
+    "id":"alice",
+    "name":"Alice",
+    "role":"3"
+  },
+  {
+    "id":"gildur",
+    "name":"Gildur",
+    "role":"4"
+  },
+  {
+    "id":"yorn",
+    "name":"Yorn",
+    "role":"6"
+  },
+  {
+    "id":"toro",
+    "name":"Toro",
+    "role":"4"
+  },
+  {
+    "id":"taara",
+    "name":"Taara",
+    "role":"4"
+  },
+  {
+    "id":"nakroth",
+    "name":"Nakroth",
+    "role":"5"
+  },
+  {
+    "id":"grakk",
+    "name":"Grakk",
+    "role":"4"
+  },
+  {
+    "id":"aleister",
+    "name":"Aleister",
+    "role":"2"
+  },
+  {
+    "id":"fennik",
+    "name":"Fennik",
+    "role":"6"
+  },
+  {
+    "id":"lumburr",
+    "name":"Lumburr",
+    "role":"4"
+  },
+  {
+    "id":"natalya",
+    "name":"Natalya",
+    "role":"2"
+  },
+  {
+    "id":"cresht",
+    "name":"Cresht",
+    "role":"4"
+  },
+  {
+    "id":"jinna",
+    "name":"Jinna",
+    "role":"2"
+  },
+  {
+    "id":"payna",
+    "name":"Payna",
+    "role":"3"
+  },
+  {
+    "id":"maloch",
+    "name":"Maloch",
+    "role":"1"
+  },
+  {
+    "id":"ngokhong",
+    "name":"Ngộ Không",
+    "role":"1"
+  },
+  {
+    "id":"kriknak",
+    "name":"Kriknak",
+    "role":"5"
+  },
+  {
+    "id":"mortos",
+    "name":"Mortos",
+    "role":"1"
+  },
+  {
+    "id":"slimz",
+    "name":"Slimz",
+    "role":"6"
+  },
+  {
+    "id":"ilumia",
+    "name":"Ilumia",
+    "role":"2"
+  },
+  {
+    "id":"preyta",
+    "name":"Preyta",
+    "role":"2"
+  },
+  {
+    "id":"skud",
+    "name":"Skud",
+    "role":"1"
+  }
 ]

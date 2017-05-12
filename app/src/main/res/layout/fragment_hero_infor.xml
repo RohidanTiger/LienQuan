@@ -48,7 +48,7 @@
                     android:layout_height="1dp"
                     android:layout_below="@id/txtHeroName"
                     android:layout_toRightOf="@id/img_hero"
-                    android:background="@color/cmn_gray" />
+                    android:background="@color/genre" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -63,6 +63,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dip"
                         android:paddingTop="@dimen/padding_small"
+                        android:paddingLeft="@dimen/padding_smaller"
                         android:text="@string/cmn_role"
                         android:textColor="@color/cmn_white"
                         android:textSize="@dimen/text_normal" />
@@ -160,7 +161,7 @@
                 style="@style/Layout.WrapWidthHeight"
                 android:textSize="@dimen/text_header"
                 android:layout_below="@id/txt_lore_value"
-                android:layout_marginTop="@dimen/text_normal"
+                android:layout_marginTop="@dimen/padding_small"
                 android:layout_marginBottom="@dimen/padding_big"
                 android:textColor="@color/red_dark"
                 android:textStyle="italic"

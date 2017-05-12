@@ -85,7 +85,6 @@ public class HeroDetailInfoFragment extends BaseFragment {
         mLayoutManager = new LinearLayoutManager(context);
         recyclerViewInfo.setLayoutManager(mLayoutManager);
         recyclerViewInfo.setAdapter(mAdapter);
-
     }
 
     @OnClick(R.id.txt_watch_video)

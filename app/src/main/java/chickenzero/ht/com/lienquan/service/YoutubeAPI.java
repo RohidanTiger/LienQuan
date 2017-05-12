@@ -2,6 +2,7 @@ package chickenzero.ht.com.lienquan.service;
 
 import java.util.List;
 
+import chickenzero.ht.com.lienquan.models.ChannelInfo;
 import chickenzero.ht.com.lienquan.models.PlayListYoutube;
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -17,5 +18,10 @@ public interface YoutubeAPI {
     @GET("youtube/v3/playlistItems?part=snippet")
     Call<PlayListYoutube> loadQuestions(@Query("playlistId") String playlistId,
                                         @Query("key") String apiKey,
-                                        @Query("maxResults")int maxResults);
+                                        @Query("maxResults")int maxResults,
+                                        @Query("pageToken") String pageToken);
+
+    @GET("youtube/v3/channels?part=snippet")
+    Call<ChannelInfo> loadChannelInfo(@Query("id") String id,
+                                      @Query("key") String apiKey);
 }

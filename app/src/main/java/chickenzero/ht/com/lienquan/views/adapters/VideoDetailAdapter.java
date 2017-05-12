@@ -8,6 +8,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdView;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -36,7 +38,7 @@ public class VideoDetailAdapter extends RecyclerView.Adapter{
     }
 
     public void setmDataSet(List<PlayListYoutube.Item> mDataSet) {
-        this.mDataSet = mDataSet;
+        this.mDataSet.addAll(mDataSet);
         notifyDataSetChanged();
     }
 
@@ -55,8 +57,10 @@ public class VideoDetailAdapter extends RecyclerView.Adapter{
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, final int position) {
         PlayListYoutube.Snippet snippet = mDataSet.get(position).getSnippet();
-        PicassoLoader.getInstance(mContext).load(snippet.getThumbnails().getHigh().getUrl()).placeholder(R.drawable.default_video).
-                error(R.drawable.default_video).into((((VideoDetailAdapter.ViewHolder) holder).imgVideo));
+        if(snippet.getThumbnails() != null){
+            PicassoLoader.getInstance(mContext).load(snippet.getThumbnails().getHigh().getUrl()).placeholder(R.drawable.default_video).
+                    error(R.drawable.default_video).into((((VideoDetailAdapter.ViewHolder) holder).imgVideo));
+        }
         ((ViewHolder) holder).textViewName.setText(snippet.getTitle());
 
         Calendar currentTime = Calendar.getInstance();
@@ -72,9 +76,16 @@ public class VideoDetailAdapter extends RecyclerView.Adapter{
         ((ViewHolder) holder).layoutContent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                listener.onClick(position);
+                listener.onClick(mDataSet.get(position));
             }
         });
+
+        if(position > 0 && position %10 == 0){
+            ((ViewHolder) holder).layoutAd.setVisibility(View.VISIBLE);
+            ((ViewHolder) holder).mAdView.loadAd(mContext.adRequest);
+        }else{
+            ((ViewHolder) holder).layoutAd.setVisibility(View.GONE);
+        }
     }
 
     @Override
@@ -87,9 +98,8 @@ public class VideoDetailAdapter extends RecyclerView.Adapter{
         public ImageView imgVideo;
         public TextView textViewName;
         public TextView textViewTime;
-
-//        public RelativeLayout layoutAd;
-//        public AdView mAdView;
+        public RelativeLayout layoutAd;
+        public AdView mAdView;
 
         public ViewHolder(View v) {
             super(v);
@@ -97,12 +107,12 @@ public class VideoDetailAdapter extends RecyclerView.Adapter{
             imgVideo = (ImageView) v.findViewById(R.id.imgVideo);
             textViewName = (TextView) v.findViewById(R.id.txtName);
             textViewTime = (TextView) v.findViewById(R.id.txt_time);
-//            layoutAd = (RelativeLayout) v.findViewById(R.id.layout_ad);
-//            mAdView = (AdView) v.findViewById(R.id.adView);
+            layoutAd = (RelativeLayout) v.findViewById(R.id.layout_ad);
+            mAdView = (AdView) v.findViewById(R.id.adView);
         }
     }
 
     public interface OnItemClickListener {
-        void onClick(int position);
+        void onClick(PlayListYoutube.Item position);
     }
 }

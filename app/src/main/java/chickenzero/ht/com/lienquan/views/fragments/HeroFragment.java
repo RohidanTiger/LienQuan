@@ -69,7 +69,7 @@ public class HeroFragment extends BaseFragment {
     @Override
     protected void initUI() {
         requestHeroes(context.realm);
-
+        context.getSupportActionBar().setTitle(R.string.str_hero);
         pager = mContainer.getViewPager();
         heroGridAdapterAdapter = new HeroGridAdapter(listHero,context);
         mLayoutManager = new GridLayoutManager(context,3);
@@ -134,11 +134,6 @@ public class HeroFragment extends BaseFragment {
         });
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        context.getSupportActionBar().setTitle(R.string.str_hero);
-    }
 
     private void setUpSpinner(final List<String> data){
         final BaseSpinerAdapter mAdapter = new BaseSpinerAdapter(getContext(), R.layout.item_spinner, data);

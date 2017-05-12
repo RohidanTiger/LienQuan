@@ -1,10 +1,12 @@
 package chickenzero.ht.com.lienquan.views.fragments;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
 
@@ -63,6 +65,8 @@ public class HeroDetailFragment extends BaseFragment{
         viewPager.setAdapter(adapter);
 
         tabLayout.setupWithViewPager(viewPager);
+
+        tabLayout.setSelectedTabIndicatorColor(ContextCompat.getColor(context, R.color.cmn_price2));
         viewPager.setOffscreenPageLimit(3);
     }
 
@@ -116,5 +120,11 @@ public class HeroDetailFragment extends BaseFragment{
     public void onResume() {
         super.onResume();
         setHasOptionsMenu(true);
+    }
+
+    @Override
+    public void onDestroy() {
+        context.getSupportActionBar().setTitle(R.string.str_hero);
+        super.onDestroy();
     }
 }

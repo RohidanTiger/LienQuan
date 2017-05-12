@@ -1,0 +1,30 @@
+[
+{
+"desc":"Sau mỗi 2 đòn đánh thường, đòn tiếp theo của Slimz sẽ xuyên thủng mục tiêu đầu sát thương lên cả các nạn nhân phía sau, gây 1.3 sát thương vật lý.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Xuyên thấu",
+"youtube":"https://www.youtube.com/embed/sMIN3LG0zl4"
+},
+{
+"desc":"Slimz phóng một mũi lao bay cực xa, nạn nhân đầu tiêu trúng chiêu sẽ bị làm choáng và chịu sát thương phép; thời gian choáng tỷ lệ thuận với khoảng cách mũi lao đã bay bao xa, tối đa choáng trong 2,5 giây. Mũi lao trúng đích giúp Slimz được tăng 25% tốc đánh (trúng tướng tăng gấp đôi) trong 5 giây.",
+"id":"1",
+"mana":"Tiêu hao: 65 năng lượng",
+"name":"Lao cơ khí",
+"youtube":"https://www.youtube.com/embed/Vu107reI1Wk"
+},
+{
+"desc":"Slimz sử dụng lò xo trong ba lo nhảy bật đến điểm đã chọn. Sau khi đáp xuống đất hắn được tăng 50 công vật lý trong 5 giây.",
+"id":"2",
+"mana":"Tiêu hao: 75 năng lượng",
+"name":"Lò xo cơ khí",
+"youtube":"https://www.youtube.com/embed/HDSjTwsbKAk"
+},
+{
+"desc":"Slimz sử dụng một loại thuốc cà rốt đặc chế giúp hắn được kích phát bản năng hoang dã, khiến các đòn đánh thường gây thêm 4% số máu tối đa của mục tiêu (tối đa 150 sát thương lên quái rừng). Đồng thời Slimz được tăng 20% tốc chạy trong 8 giây (hiệu ứng tăng thêm 3 giây với mỗi điểm hạ hoặc phụ).",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Thuốc cà rốt",
+"youtube":"https://www.youtube.com/embed/JrcyN3MxeFw"
+}
+]

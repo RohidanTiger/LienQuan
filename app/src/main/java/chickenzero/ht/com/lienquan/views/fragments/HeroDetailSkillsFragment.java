@@ -1,5 +1,6 @@
 package chickenzero.ht.com.lienquan.views.fragments;
 
+import android.content.Intent;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -14,9 +15,12 @@ import java.util.List;
 import butterknife.BindView;
 import chickenzero.ht.com.lienquan.BaseFragment;
 import chickenzero.ht.com.lienquan.R;
+import chickenzero.ht.com.lienquan.YoutubePlayerActivity;
 import chickenzero.ht.com.lienquan.models.Skill;
 import chickenzero.ht.com.lienquan.utils.Logger;
 import chickenzero.ht.com.lienquan.views.adapters.SkillDetailAdapter;
+
+import static chickenzero.ht.com.lienquan.YoutubePlayerActivity.YOUTUBE_ID;
 
 /**
  * Created by QuyDV on 4/25/17.
@@ -44,6 +48,14 @@ public class HeroDetailSkillsFragment extends BaseFragment {
         mLayoutManager = new LinearLayoutManager(context);
         recyclerViewSkill.setLayoutManager(mLayoutManager);
         recyclerViewSkill.setAdapter(mAdapter);
+        mAdapter.setListener(new SkillDetailAdapter.OnItemClickListener() {
+            @Override
+            public void onClick(String position) {
+                Intent intent = new Intent(context,YoutubePlayerActivity.class);
+                intent.putExtra(YOUTUBE_ID,position);
+                startActivity(intent);
+            }
+        });
     }
 
     private void loadAllSkillDetailFromFile(){

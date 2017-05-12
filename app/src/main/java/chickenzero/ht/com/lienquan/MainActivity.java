@@ -22,6 +22,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,6 +38,7 @@ import chickenzero.ht.com.lienquan.views.adapters.SlideMenuAdapter;
 import chickenzero.ht.com.lienquan.views.fragments.HeroFragment;
 import chickenzero.ht.com.lienquan.views.fragments.ItemFragment;
 import chickenzero.ht.com.lienquan.views.fragments.LeagueListFragment;
+import chickenzero.ht.com.lienquan.views.fragments.ListProPlayerFragment;
 import chickenzero.ht.com.lienquan.views.fragments.NewsFrament;
 import chickenzero.ht.com.lienquan.views.fragments.SupportSkillFragment;
 import chickenzero.ht.com.lienquan.views.fragments.VideoListFragment;
@@ -55,6 +60,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private int currentStackSize = 0;
     public BaseFragment currentFragment;
     public PrefConfig mPrefConfig = PrefConfig.getInstance();
+    public AdRequest adRequest;
+    public InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +73,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         pDialog.setCancelable(false);
         mApplication = (SCApplication) getApplication();
         realm = Realm.getDefaultInstance();
+
+        // init ad
+        MobileAds.initialize(getApplicationContext(), getResources().getString(R.string.unit_ad_unit_id));
+        adRequest = new AdRequest.Builder().addTestDevice("867826023574924").build();
+        requestNewInterstitial();
+
         setUpDrawer();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
@@ -165,7 +178,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
             case 3:{
                 setActionBarTitle(R.string.str_challenger);
-                pushFragments(new VideoListFragment(), false, true);
+                pushFragments(new ListProPlayerFragment(), false, true);
                 break;
             }
             case 4:{
@@ -225,7 +238,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         break;
                     }
                     case 3:{
-                        pushFragments(new VideoListFragment(), false, true);
+                        pushFragments(new ListProPlayerFragment(), false, true);
                         break;
                     }
                     case 4:{
@@ -435,4 +448,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         realm.close();
     }
 
+    public void requestNewInterstitial(){
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_unit_id));
+        mInterstitialAd.loadAd(adRequest);
+    }
 }

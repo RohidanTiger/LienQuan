@@ -1,0 +1,30 @@
+[
+{
+"desc":"Quả cầu ánh sáng sẽ lập tức được làm mới thời gian hồi, đồng thời được cường hóa trong vòng 3 giây tiếp theo sau mỗi khi Ilumia tung 2 chiêu bất kỳ.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Thần lực",
+"youtube":"https://www.youtube.com/embed/iw3DpV2rAiI"
+},
+{
+"desc":"Ilumia tung quả cầu năng lượng theo hướng chỉ định, thứ sẽ phát nổ khi bay hết tầm hoặc trúng phải mục tiêu, gây sát thương phép. Khi được cường hóa bởi nội tại, Quả cầu ánh sáng sẽ gây sát thương gấp đôi sát thương và đẩy lùi nạn nhân.",
+"id":"1",
+"mana":"Tiêu hao: 45 năng lượng",
+"name":"Quả cầu ánh sáng",
+"youtube":"https://www.youtube.com/embed/iw3DpV2rAiI"
+},
+{
+"desc":"Ilumia đẩy lùi mọi kẻ địch lân cận, gây sát thương phép.",
+"id":"2",
+"mana":"Tiêu hao: 120 năng lượng",
+"name":"Trục xuất",
+"youtube":"https://www.youtube.com/embed/ql3rDUhdrEg"
+},
+{
+"desc":"Ilumia triệu hồi pháp trận chứa đầy sức mạnh thần thánh ngay vị trí hiện tại của tất cả tướng địch, gây sát thương phép, đồng thời làm choáng các nạn nhân.",
+"id":"3",
+"mana":"Tiêu hao: 90 năng lượng",
+"name":"Thần trận",
+"youtube":"https://www.youtube.com/embed/U2HyNKBJEGY"
+}
+]

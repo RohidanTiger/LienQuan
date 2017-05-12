@@ -34,6 +34,8 @@ public class LeagueListFragment extends BaseFragment{
 
     private List<LeagueItem> leagueItems = new ArrayList<>();
 
+    private String nextPageToken = "";
+
     LeagueAdapter mAdapter;
 
     @Override
@@ -79,7 +81,7 @@ public class LeagueListFragment extends BaseFragment{
                 for(int i = 0; i < leagueItems.size(); i++){
                     final LeagueItem item = leagueItems.get(i);
                     Call<PlayListYoutube> callListVideo = ServiceGenerator.youtubeService.
-                            loadQuestions(item.getYoutube(),"AIzaSyD-47Uhd_ssBQqjRe3jIhTjBY9MkPmAOfM",50);
+                            loadQuestions(item.getYoutube(),"AIzaSyD-47Uhd_ssBQqjRe3jIhTjBY9MkPmAOfM",50,nextPageToken);
                     callListVideo.enqueue(new Callback<PlayListYoutube>() {
                         @Override
                         public void onResponse(Call<PlayListYoutube> call, Response<PlayListYoutube> response) {

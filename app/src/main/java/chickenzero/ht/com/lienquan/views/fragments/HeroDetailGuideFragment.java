@@ -14,7 +14,7 @@ import chickenzero.ht.com.lienquan.customize.SpacesItemDecoration;
 import chickenzero.ht.com.lienquan.models.HeroDetail;
 import chickenzero.ht.com.lienquan.models.Item;
 import chickenzero.ht.com.lienquan.utils.PicassoLoader;
-import chickenzero.ht.com.lienquan.views.adapters.ItemAdapter;
+import chickenzero.ht.com.lienquan.views.adapters.RecommentItemAdapter;
 import chickenzero.ht.com.lienquan.views.dialog.ItemDetailDialog;
 
 /**
@@ -32,7 +32,7 @@ public class HeroDetailGuideFragment extends BaseFragment {
     RecyclerView recyclerViewItem;
 
     private String heroID;
-    private ItemAdapter itemAdapter;
+    private RecommentItemAdapter itemAdapter;
     private List<Item> listItem;
     private RecyclerView.LayoutManager mLayoutManager;
 
@@ -52,13 +52,13 @@ public class HeroDetailGuideFragment extends BaseFragment {
         String imgUrl = "file:///android_asset/LienQuan/Heroes/".concat(heroID).concat("/pearl").concat(".jpg");
         PicassoLoader.getInstance(context).with(context).load(imgUrl).into(imgRune);
 
-        itemAdapter = new ItemAdapter(listItem,context);
+        itemAdapter = new RecommentItemAdapter(listItem,context);
         mLayoutManager = new GridLayoutManager(context,3);
         recyclerViewItem.setLayoutManager(mLayoutManager);
         SpacesItemDecoration itemDecoration = new SpacesItemDecoration(getContext(), R.dimen.padding_small);
         recyclerViewItem.addItemDecoration(itemDecoration);
         recyclerViewItem.setAdapter(itemAdapter);
-        itemAdapter.setOnItemClickListener(new ItemAdapter.OnItemClickListener() {
+        itemAdapter.setOnItemClickListener(new RecommentItemAdapter.OnItemClickListener() {
             @Override
             public void onClick(Item position) {
                 ItemDetailDialog dialog = new ItemDetailDialog(context,position);

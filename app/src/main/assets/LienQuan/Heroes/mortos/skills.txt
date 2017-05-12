@@ -1,0 +1,30 @@
+[
+{
+"desc":"Mortos sở hữu một bộ xương cứng rắn bền chắc vô bì, khiến hắn được gia tăng giáp (tăng theo cấp tướng).",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Bất hoại",
+"youtube":"https://www.youtube.com/embed/aTcuY-TA4Qc"
+},
+{
+"desc":"Mortos cường hóa thanh kiếm với sức mạnh của cái chết, khiến hắn nhảy xổ đến kẻ địch trong đòn đánh thường kế tiếp, gây sát thuơng vật lý đồng thời giảm 90% tốc chạy của mục tiêu trong 1 giây. Chưa hết, nạn nhân tướng địch còn phải gánh chịu lời nguyền khiến các đòn đánh thường và chiêu thức của Mortos gây thêm sát thương phép tương đương 1% chỉ số máu tối đa của mục tiêu, đồng thời tăng tốc chạy của đồng minh xung quanh. Hiệu ứng kéo dài 5 giây.",
+"id":"1",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Lời Nguyền Tử Vong",
+"youtube":"https://www.youtube.com/embed/v0yM2mZ9n48"
+},
+{
+"desc":"Mortos triệu hồi quỷ hồn bao bọc lấy bản thân tấn công kẻ địch lân cận trong tối đa 5 giây, gây sát thương phép.",
+"id":"2",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Quỷ Hồn Trận",
+"youtube":"https://www.youtube.com/embed/5p6_fEuL1ZY"
+},
+{
+"desc":"Mortos phóng đến tấn công kẻ địch gây sát thương vật lý, đồng thời hất văng cả mục tiêu lẫn những nạn nhân xấu số lân cận. Chưa dừng lại ở đó, thanh gươm tà ác còn triệu hồi một phần của pháp trận nguyền rủa khiến những nạn nhân bên trong phải gánh chịu sát thương vật lý mỗi giây.",
+"id":"3",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Tuyệt Mệnh Kiếm",
+"youtube":"https://www.youtube.com/embed/Pi0va1kFmvg?list"
+}
+]

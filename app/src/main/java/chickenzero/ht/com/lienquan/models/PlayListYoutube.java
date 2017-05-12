@@ -16,6 +16,9 @@ public class PlayListYoutube{
     @SerializedName("etag")
     private String etag;
 
+    @SerializedName("nextPageToken")
+    private String nextPageToken;
+
     @SerializedName("items")
     private List<Item> items;
 
@@ -33,6 +36,14 @@ public class PlayListYoutube{
 
     public void setEtag(String etag) {
         this.etag = etag;
+    }
+
+    public String getNextPageToken() {
+        return nextPageToken;
+    }
+
+    public void setNextPageToken(String nextPageToken) {
+        this.nextPageToken = nextPageToken;
     }
 
     public List<Item> getItems() {

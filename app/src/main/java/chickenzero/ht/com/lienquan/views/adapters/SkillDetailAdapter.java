@@ -25,11 +25,16 @@ public class SkillDetailAdapter extends RecyclerView.Adapter{
     private List<Skill> mDataSet;
     private MainActivity mContext;
     private String heroID;
+    private OnItemClickListener listener;
 
     public SkillDetailAdapter(MainActivity context, List<Skill> listItems, String heroID) {
         this.mContext = context;
         this.mDataSet = listItems;
         this.heroID = heroID;
+    }
+
+    public void setListener(OnItemClickListener listener) {
+        this.listener = listener;
     }
 
     @Override
@@ -41,7 +46,7 @@ public class SkillDetailAdapter extends RecyclerView.Adapter{
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
-        Skill skill = mDataSet.get(position);
+        final Skill skill = mDataSet.get(position);
         String imgUrl = "file:///android_asset/LienQuan/Heroes/".concat(heroID).concat("/"+heroID).concat("_a").
                 concat(String.valueOf(position)).concat(".png");
         PicassoLoader.getInstance(mContext).with(mContext).load(imgUrl).into(((ViewHolder)holder).imgSkill);
@@ -57,6 +62,14 @@ public class SkillDetailAdapter extends RecyclerView.Adapter{
             ((ViewHolder)holder).textSkillVideo.setText(Html.fromHtml("<a href=\"" + skill.getYoutube() + "\">"
                     + "Watch video" + "</a> "));
         }
+        ((ViewHolder)holder).textSkillVideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String id = skill.getYoutube();
+                id = id.replace("https://www.youtube.com/embed/","");
+                listener.onClick(id);
+            }
+        });
     }
 
     @Override
@@ -79,5 +92,9 @@ public class SkillDetailAdapter extends RecyclerView.Adapter{
             textSkillDesc = (TextView) v.findViewById(R.id.txt_description);
             textSkillVideo = (TextView) v.findViewById(R.id.txt_watch_video);
         }
+    }
+
+    public interface OnItemClickListener {
+        void onClick(String position);
     }
 }
