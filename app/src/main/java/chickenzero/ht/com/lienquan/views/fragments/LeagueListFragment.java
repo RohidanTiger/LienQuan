@@ -3,6 +3,9 @@ package chickenzero.ht.com.lienquan.views.fragments;
 import android.content.Intent;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.Toast;
+
+import com.google.android.gms.ads.AdListener;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,16 +20,19 @@ import chickenzero.ht.com.lienquan.customize.SpacesItemDecoration;
 import chickenzero.ht.com.lienquan.models.LeagueItem;
 import chickenzero.ht.com.lienquan.models.PlayListYoutube;
 import chickenzero.ht.com.lienquan.service.ServiceGenerator;
+import chickenzero.ht.com.lienquan.utils.ConnectivityReceiver;
 import chickenzero.ht.com.lienquan.views.adapters.LeagueAdapter;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+import static chickenzero.ht.com.lienquan.YoutubePlayerActivity.YOUTUBE_ID;
+
 /**
  * Created by QuyDV on 5/8/17.
  */
 
-public class LeagueListFragment extends BaseFragment{
+public class LeagueListFragment extends BaseFragment implements ConnectivityReceiver.ConnectivityReceiverListener{
     @BindView(R.id.recycleNews)
     RecyclerView recyclerViewLeague;
 
@@ -106,7 +112,60 @@ public class LeagueListFragment extends BaseFragment{
         });
     }
 
+    @Override
+    public void onNetworkConnectionChanged(boolean isConnected) {
+        if(isConnected){
+            getLeagueList(new FinishListenner() {
+                @Override
+                public void onFinish() {
+                    context.hideLoading();
+                    mAdapter = new LeagueAdapter(context,mapLeague);
+                    GridLayoutManager manager = new GridLayoutManager(getActivity(), 2);
+                    recyclerViewLeague.setLayoutManager(manager);
+                    mAdapter.setLayoutManager(manager);
+                    SpacesItemDecoration itemDecoration = new SpacesItemDecoration(getContext(), R.dimen.padding_small);
+                    recyclerViewLeague.addItemDecoration(itemDecoration);
+                    mAdapter.shouldShowHeadersForEmptySections(false);
+                    recyclerViewLeague.setAdapter(mAdapter);
+                    mAdapter.setListener(new LeagueAdapter.OnItemClickListener() {
+                        @Override
+                        public void onClick(final String videoID) {
+                            if (context.mInterstitialAd.isLoaded()) {
+                                context.mInterstitialAd.show();
+                            } else {
+                                Intent intent = new Intent(context,YoutubePlayerActivity.class);
+                                intent.putExtra(YoutubePlayerActivity.YOUTUBE_ID,videoID);
+                                startActivity(intent);
+                            }
+                            context.mInterstitialAd.setAdListener(new AdListener() {
+                                @Override
+                                public void onAdClosed() {
+                                    context.requestNewInterstitial();
+                                    Intent intent = new Intent(context,YoutubePlayerActivity.class);
+                                    intent.putExtra(YoutubePlayerActivity.YOUTUBE_ID,videoID);
+                                    startActivity(intent);
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+        }else{
+            Toast.makeText(context,context.getResources().getString(R.string.cmn_no_internet_access),Toast.LENGTH_LONG).show();
+        }
+    }
+
     private interface FinishListenner{
         public void onFinish();
+    }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        setHasOptionsMenu(true);
+        context.setConnectivityListener(this);
+        if(!ConnectivityReceiver.isConnected()){
+            Toast.makeText(context,context.getResources().getString(R.string.cmn_no_internet_access),Toast.LENGTH_LONG).show();
+        }
     }
 }

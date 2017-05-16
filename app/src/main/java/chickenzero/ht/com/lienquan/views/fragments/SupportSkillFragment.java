@@ -31,6 +31,8 @@ public class SupportSkillFragment extends BaseFragment {
     List<SupportSkill> skillList = new ArrayList<>();
 
     private SupportSkillAdapter mAdapter;
+
+    private VideoPreviewDialog dialog;
     @Override
     protected int getViewContent() {
         return R.layout.fragment_support_skill;
@@ -49,7 +51,7 @@ public class SupportSkillFragment extends BaseFragment {
         mAdapter.setmListener(new SupportSkillAdapter.OnItemClickListener() {
             @Override
             public void onClick(SupportSkill supportSkill) {
-                VideoPreviewDialog dialog = new VideoPreviewDialog(context,supportSkill);
+                dialog = new VideoPreviewDialog(context,supportSkill);
                 dialog.show();
             }
         });
@@ -69,6 +71,22 @@ public class SupportSkillFragment extends BaseFragment {
             ex.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        if(dialog != null){
+            dialog.onPause();
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if(dialog != null){
+            dialog.onResume();
         }
     }
 }

@@ -55,13 +55,18 @@ public class SkillDetailAdapter extends RecyclerView.Adapter{
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N){
             ((ViewHolder)holder).textSkillDesc.setText(Html.fromHtml(skill.getDesc(),Html.FROM_HTML_MODE_COMPACT));
+            if(skill.getYoutube() != null){
+                ((ViewHolder)holder).textSkillVideo.setText(Html.fromHtml("<a href=\"" + skill.getYoutube() + "\">"
+                        + "Watch video" + "</a> ",Html.FROM_HTML_MODE_COMPACT));
+            }
         }else{
             ((ViewHolder)holder).textSkillDesc.setText(Html.fromHtml(skill.getDesc()));
+            if(skill.getYoutube() != null){
+                ((ViewHolder)holder).textSkillVideo.setText(Html.fromHtml("<a href=\"" + skill.getYoutube() + "\">"
+                        + "Watch video" + "</a> "));
+            }
         }
-        if(skill.getYoutube() != null){
-            ((ViewHolder)holder).textSkillVideo.setText(Html.fromHtml("<a href=\"" + skill.getYoutube() + "\">"
-                    + "Watch video" + "</a> "));
-        }
+
         ((ViewHolder)holder).textSkillVideo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

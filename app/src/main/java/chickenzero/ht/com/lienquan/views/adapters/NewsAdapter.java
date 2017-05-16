@@ -1,16 +1,20 @@
 package chickenzero.ht.com.lienquan.views.adapters;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdView;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Locale;
 
 import chickenzero.ht.com.lienquan.MainActivity;
 import chickenzero.ht.com.lienquan.R;
@@ -57,13 +61,20 @@ public class NewsAdapter extends RecyclerView.Adapter{
 
         Calendar currentTime = Calendar.getInstance();
         Calendar publsihTime = Calendar.getInstance();
-        SimpleDateFormat sdf = new SimpleDateFormat(DateTimeUtil.DATE_TIME_FORMAT2);
+        SimpleDateFormat sdf = new SimpleDateFormat(DateTimeUtil.DATE_TIME_FORMAT2, Locale.getDefault());
         try {
-            publsihTime.setTime(sdf.parse(item.getPubDate()));
+            publsihTime.setTime(sdf.parse(item.getPubDate().replace("([+-])(\\d\\d):(\\d\\d)$", "$1$2$3")));
         } catch (ParseException e) {
-            e.printStackTrace();
+            Log.i("Error",e.toString());
         }
         ((ViewHolder) holder).textViewTime.setText(DateTimeUtil.findTimeAgo(currentTime,publsihTime));
+
+        if(position > 0 && (position+1) %10 == 0){
+            ((ViewHolder) holder).layoutAd.setVisibility(View.VISIBLE);
+            ((ViewHolder) holder).mAdView.loadAd(mContext.adRequest);
+        }else{
+            ((ViewHolder) holder).layoutAd.setVisibility(View.GONE);
+        }
 
         ((ViewHolder) holder).layoutContent.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,16 +94,16 @@ public class NewsAdapter extends RecyclerView.Adapter{
         public TextView textViewName;
         public TextView textViewTime;
 
-//        public RelativeLayout layoutAd;
-//        public AdView mAdView;
+        public RelativeLayout layoutAd;
+        public AdView mAdView;
 
         public ViewHolder(View v) {
             super(v);
             layoutContent = (RelativeLayout) v.findViewById(R.id.layout_content);
             textViewName = (TextView) v.findViewById(R.id.txt_title);
             textViewTime = (TextView) v.findViewById(R.id.txt_time);
-//            layoutAd = (RelativeLayout) v.findViewById(R.id.layout_ad);
-//            mAdView = (AdView) v.findViewById(R.id.adView);
+            layoutAd = (RelativeLayout) v.findViewById(R.id.layout_ad);
+            mAdView = (AdView) v.findViewById(R.id.adView);
         }
     }
 

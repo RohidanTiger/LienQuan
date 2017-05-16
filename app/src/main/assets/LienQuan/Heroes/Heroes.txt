@@ -757,7 +757,7 @@
  "name":"Preyta",
  "range":"Xa",
  "role":"Pháp Sư",
- "youtube":""
+ "youtube":"P4nqTGkfTvA"
  },
  {
  "abilityArmor":"50",
@@ -777,6 +777,6 @@
  "name":"Skud",
  "range":"Gần",
  "role":"Đấu Sĩ",
- "youtube":""
+ "youtube":"1Z01KJU-CGU"
  }
 ]

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "94727502554",
+    "firebase_url": "https://cam-nang-lien-quan.firebaseio.com",
+    "project_id": "cam-nang-lien-quan",
+    "storage_bucket": "cam-nang-lien-quan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94727502554:android:f7aa163e4526a44e",
+        "android_client_info": {
+          "package_name": "com.ht.chickenzero.lienquan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94727502554-on3ai2mgoelhke4d10podudlqrvdkb8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_F1b2Ii_BhfAWFFJhUgx5BxSPdeo03AA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

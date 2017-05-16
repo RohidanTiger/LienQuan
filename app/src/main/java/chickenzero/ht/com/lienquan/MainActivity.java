@@ -2,7 +2,9 @@ package chickenzero.ht.com.lienquan;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.design.widget.FloatingActionButton;
@@ -21,16 +23,20 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import chickenzero.ht.com.lienquan.config.Contants;
 import chickenzero.ht.com.lienquan.service.FragmentStackManager;
+import chickenzero.ht.com.lienquan.utils.ConnectivityReceiver;
 import chickenzero.ht.com.lienquan.utils.DialogUtil;
 import chickenzero.ht.com.lienquan.utils.PrefConfig;
 import chickenzero.ht.com.lienquan.views.adapters.SectionedMenuAdapter;
@@ -51,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private ActionBarDrawerToggle mDrawerToggle;
     private SlideMenuAdapter menuAdapter;
     private Toolbar toolbar;
+    private TextView btnRateApp;
     private ProgressDialog pDialog;
     private RecyclerView slideMenu;
     public Realm realm;
@@ -68,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        btnRateApp = (TextView) findViewById(R.id.btnRateApp);
         setSupportActionBar(toolbar);
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
@@ -86,6 +94,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         initFragmentStackManager();
         enableNetworkOnMainThread();
         initFirstScreen();
+        btnRateApp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openApp("com.ht.chickenzero.lienquan");
+            }
+        });
+        FirebaseMessaging.getInstance().subscribeToTopic("CamNangLienQuan");
     }
 
     private void setUpDrawer(){
@@ -448,9 +463,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         realm.close();
     }
 
+    public void setConnectivityListener(ConnectivityReceiver.ConnectivityReceiverListener listener) {
+        ConnectivityReceiver.connectivityReceiverListener = listener;
+    }
+
     public void requestNewInterstitial(){
         mInterstitialAd = new InterstitialAd(this);
         mInterstitialAd.setAdUnitId(getString(R.string.interstitial_unit_id));
         mInterstitialAd.loadAd(adRequest);
+    }
+
+    void openApp(String applicationId) {
+        Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=".concat(applicationId)));
+        startActivity(myIntent);
     }
 }

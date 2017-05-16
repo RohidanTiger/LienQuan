@@ -4,6 +4,8 @@ import android.content.Context;
 import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
 
+import com.google.firebase.FirebaseApp;
+
 import io.realm.Realm;
 
 
@@ -19,6 +21,7 @@ public class SCApplication extends MultiDexApplication {
     public void onCreate() {
         super.onCreate();
         Realm.init(this);
+        FirebaseApp.initializeApp(this);
     }
 
     public static SCApplication getContext(){

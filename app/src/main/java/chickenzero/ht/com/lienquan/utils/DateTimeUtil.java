@@ -12,7 +12,7 @@ import chickenzero.ht.com.lienquan.SCApplication;
 
 public class DateTimeUtil {
     public static String DATE_TIME_FORMAT1 = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'";
-    public static String DATE_TIME_FORMAT2 = "EEE, d MMM yyyy HH:mm:ss Z";
+    public static String DATE_TIME_FORMAT2 = "EEE, d MMM yyyy HH:mm:ss Z ";
 
     public static String findTimeAgo(Date d1, Date d2) {
         if (d1.getYear() != d2.getYear())

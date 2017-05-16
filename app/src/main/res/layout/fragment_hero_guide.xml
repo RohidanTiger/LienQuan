@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,7 +23,8 @@
             <ImageView
                 android:id="@+id/img_skill_upgrade"
                 style="@style/Layout.FillWidth"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
                 android:layout_margin="@dimen/padding_normal" />
 
             <TextView
@@ -35,6 +38,8 @@
             <ImageView
                 android:id="@+id/img_rune"
                 style="@style/Layout.FillWidth"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
                 android:layout_margin="@dimen/padding_normal" />
 
             <TextView
@@ -51,6 +56,16 @@
                 style="@style/Layout.FillWidth"
                 android:layout_marginBottom="@dimen/padding_normal">
             </android.support.v7.widget.RecyclerView>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/padding_normal"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
 
         </LinearLayout>
     </ScrollView>

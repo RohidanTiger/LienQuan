@@ -5,6 +5,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.util.Log;
+
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import chickenzero.ht.com.lienquan.SCApplication;
 
@@ -30,6 +33,10 @@ public class ConnectivityReceiver extends BroadcastReceiver {
 
         if (connectivityReceiverListener != null) {
             connectivityReceiverListener.onNetworkConnectionChanged(isConnected);
+            if(isConnected) {
+                FirebaseMessaging.getInstance().subscribeToTopic("CamNangLienQuan");
+
+            }
         }
     }
 

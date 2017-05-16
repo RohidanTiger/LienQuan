@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +16,7 @@ import chickenzero.ht.com.lienquan.BaseFragment;
 import chickenzero.ht.com.lienquan.R;
 import chickenzero.ht.com.lienquan.models.NewsList;
 import chickenzero.ht.com.lienquan.service.ServiceGenerator;
+import chickenzero.ht.com.lienquan.utils.ConnectivityReceiver;
 import chickenzero.ht.com.lienquan.views.adapters.NewsAdapter;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -24,7 +26,7 @@ import retrofit2.Response;
  * Created by QuyDV on 4/20/17.
  */
 
-public class NewsFrament extends BaseFragment{
+public class NewsFrament extends BaseFragment implements ConnectivityReceiver.ConnectivityReceiverListener{
 
     @BindView(R.id.listVideo)
     RecyclerView mRecyclerView;
@@ -74,5 +76,22 @@ public class NewsFrament extends BaseFragment{
 
     }
 
+    @Override
+    public void onResume(){
+        super.onResume();
+        setHasOptionsMenu(true);
+        context.setConnectivityListener(this);
+        if(!ConnectivityReceiver.isConnected()){
+            Toast.makeText(context,context.getResources().getString(R.string.cmn_no_internet_access),Toast.LENGTH_LONG).show();
+        }
+    }
 
+    @Override
+    public void onNetworkConnectionChanged(boolean isConnected) {
+        if(isConnected){
+            getListNews();
+        }else{
+            Toast.makeText(context,context.getResources().getString(R.string.cmn_no_internet_access),Toast.LENGTH_LONG).show();
+        }
+    }
 }

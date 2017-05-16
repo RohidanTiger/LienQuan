@@ -35,5 +35,6 @@ public class CarouselPageTransformer implements TransformableViewPager.PageTrans
         //page.setRotationY(position * -5);
 
     }
+
 }
 

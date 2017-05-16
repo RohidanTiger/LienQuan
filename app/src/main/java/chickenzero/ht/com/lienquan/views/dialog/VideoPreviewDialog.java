@@ -76,4 +76,24 @@ public class VideoPreviewDialog extends BaseDialog {
         } catch (Exception e) {
         }
     }
+
+
+
+    @Override
+    protected void onStop() {
+        webViewVideo.onPause();
+        super.onStop();
+    }
+
+    public void onPause(){
+        try {
+            Method method = WebView.class.getMethod("onPause");
+            method.invoke(webViewVideo);
+        } catch (Exception e) {
+        }
+    }
+
+    public void onResume() {
+        webViewVideo.onResume();
+    }
 }

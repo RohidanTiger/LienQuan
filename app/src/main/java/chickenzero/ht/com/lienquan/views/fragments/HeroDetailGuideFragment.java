@@ -4,6 +4,8 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,6 +32,9 @@ public class HeroDetailGuideFragment extends BaseFragment {
 
     @BindView(R.id.recycleItem)
     RecyclerView recyclerViewItem;
+
+    @BindView(R.id.adView)
+    public AdView mAdView;
 
     private String heroID;
     private RecommentItemAdapter itemAdapter;
@@ -65,6 +70,7 @@ public class HeroDetailGuideFragment extends BaseFragment {
                 dialog.show();
             }
         });
+        mAdView.loadAd(context.adRequest);
     }
 
     private void getListItem(){
