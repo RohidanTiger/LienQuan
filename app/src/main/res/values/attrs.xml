@@ -12,4 +12,6 @@
         <attr name="ratio" format="float"/>
         <attr name="suffix_length" format="integer"/>
     </declare-styleable>
+
+    <attr name="clickableItemBackground" format="reference" />
 </resources>

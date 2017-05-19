@@ -18,13 +18,19 @@ package chickenzero.ht.com.lienquan.firebase;
 
 import android.util.Log;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
+
+import chickenzero.ht.com.lienquan.utils.ConnectivityReceiver;
 
 
 public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
 
     private static final String TAG = "MyFirebaseIIDService";
+    public DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
+
 
     /**
      * Called if InstanceID token is updated. This may occur if the security of
@@ -55,5 +61,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
      */
     private void sendRegistrationToServer(String token) {
         // TODO: Implement this method to send token to your app server.
+        mDatabase.child("tokens").child(ConnectivityReceiver.getMacAdress()).setValue(token);
+        Log.d("MacID",ConnectivityReceiver.getMacAdress());
     }
 }

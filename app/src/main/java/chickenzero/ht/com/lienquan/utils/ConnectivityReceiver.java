@@ -9,6 +9,10 @@ import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 
+import java.net.NetworkInterface;
+import java.util.Collections;
+import java.util.List;
+
 import chickenzero.ht.com.lienquan.SCApplication;
 
 /**
@@ -50,5 +54,32 @@ public class ConnectivityReceiver extends BroadcastReceiver {
 
     public interface ConnectivityReceiverListener {
         void onNetworkConnectionChanged(boolean isConnected);
+    }
+
+    public static String getMacAdress() {
+        try {
+            List<NetworkInterface> all = Collections.list(NetworkInterface.getNetworkInterfaces());
+            for (NetworkInterface nif : all) {
+                if (!nif.getName().equalsIgnoreCase("wlan0")) continue;
+
+                byte[] macBytes = nif.getHardwareAddress();
+                if (macBytes == null) {
+                    return "";
+                }
+
+                StringBuilder res1 = new StringBuilder();
+                for (byte b : macBytes) {
+                    res1.append(Integer.toHexString(b & 0xFF) + ":");
+                }
+
+                if (res1.length() > 0) {
+                    res1.deleteCharAt(res1.length() - 1);
+                }
+                return res1.toString();
+            }
+        } catch (Exception ex) {
+            Log.e("Error","can not get mac address");
+        }
+        return "02:00:00:00:00:00";
     }
 }

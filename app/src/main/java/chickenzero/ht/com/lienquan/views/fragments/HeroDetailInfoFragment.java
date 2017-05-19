@@ -5,8 +5,11 @@ import android.os.Build;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.google.android.gms.ads.AdView;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -53,6 +56,9 @@ public class HeroDetailInfoFragment extends BaseFragment {
     @BindView(R.id.txt_watch_video)
     TextView txtWatchVideo;
 
+    @BindView(R.id.adView)
+    public AdView mAdView;
+
     @Override
     protected int getViewContent() {
         return R.layout.fragment_hero_infor;
@@ -77,8 +83,12 @@ public class HeroDetailInfoFragment extends BaseFragment {
             txtLore.setText(Html.fromHtml(heroDetail.getLore()));
         }
 
+        mAdView.loadAd(context.adRequest);
         if(heroDetail.getYoutube() != null && heroDetail.getYoutube().length()>0){
             txtWatchVideo.setText(Html.fromHtml("<a href=\"" + heroDetail.getYoutube() + "\">" + "Watch video" + "</a> "));
+            mAdView.setVisibility(View.GONE);
+        }else{
+            mAdView.setVisibility(View.VISIBLE);
         }
 
         mAdapter = new HeroInfoAdapter(context,heroDetail);

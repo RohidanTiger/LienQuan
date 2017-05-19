@@ -1,5 +1,6 @@
 package chickenzero.ht.com.lienquan.views.fragments;
 
+import android.content.Intent;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
@@ -14,6 +15,7 @@ import java.util.List;
 import butterknife.BindView;
 import chickenzero.ht.com.lienquan.BaseFragment;
 import chickenzero.ht.com.lienquan.R;
+import chickenzero.ht.com.lienquan.SupportSkillActivity;
 import chickenzero.ht.com.lienquan.customize.SpacesItemDecoration;
 import chickenzero.ht.com.lienquan.models.SupportSkill;
 import chickenzero.ht.com.lienquan.views.adapters.SupportSkillAdapter;
@@ -51,8 +53,11 @@ public class SupportSkillFragment extends BaseFragment {
         mAdapter.setmListener(new SupportSkillAdapter.OnItemClickListener() {
             @Override
             public void onClick(SupportSkill supportSkill) {
-                dialog = new VideoPreviewDialog(context,supportSkill);
-                dialog.show();
+//                dialog = new VideoPreviewDialog(context,supportSkill);
+//                dialog.show();
+                Intent intent = new Intent(context,SupportSkillActivity.class);
+                intent.putExtra(SupportSkillActivity.SUPPORT_SKILL,supportSkill);
+                startActivity(intent);
             }
         });
     }

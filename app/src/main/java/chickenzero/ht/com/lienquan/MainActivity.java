@@ -35,6 +35,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import chickenzero.ht.com.lienquan.config.Contants;
+import chickenzero.ht.com.lienquan.customize.CustomSpinner;
 import chickenzero.ht.com.lienquan.service.FragmentStackManager;
 import chickenzero.ht.com.lienquan.utils.ConnectivityReceiver;
 import chickenzero.ht.com.lienquan.utils.DialogUtil;
@@ -69,6 +70,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public PrefConfig mPrefConfig = PrefConfig.getInstance();
     public AdRequest adRequest;
     public InterstitialAd mInterstitialAd;
+    public CustomSpinner mSpinner;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,6 +103,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 openApp("com.ht.chickenzero.lienquan");
             }
         });
+        mSpinner = (CustomSpinner) findViewById(R.id.filter_spinner);
         FirebaseMessaging.getInstance().subscribeToTopic("CamNangLienQuan");
     }
 

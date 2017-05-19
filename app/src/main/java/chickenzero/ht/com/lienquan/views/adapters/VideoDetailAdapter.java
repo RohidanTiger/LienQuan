@@ -80,7 +80,7 @@ public class VideoDetailAdapter extends RecyclerView.Adapter{
             }
         });
 
-        if(position > 0 && position %10 == 0){
+        if(position > 0 && (position+1) %10 == 0){
             ((ViewHolder) holder).layoutAd.setVisibility(View.VISIBLE);
             ((ViewHolder) holder).mAdView.loadAd(mContext.adRequest);
         }else{

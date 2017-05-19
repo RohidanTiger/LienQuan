@@ -1,10 +1,12 @@
 package chickenzero.ht.com.lienquan.models;
 
+import java.io.Serializable;
+
 /**
  * Created by QuyDV on 4/28/17.
  */
 
-public class SupportSkill {
+public class SupportSkill implements Serializable{
     private String id;
     private String name;
     private String description;
