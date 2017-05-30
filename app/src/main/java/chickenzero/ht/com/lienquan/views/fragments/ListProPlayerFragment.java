@@ -87,10 +87,12 @@ public class ListProPlayerFragment extends BaseFragment implements ConnectivityR
 
     @Override
     public void onNetworkConnectionChanged(boolean isConnected) {
-        if(isConnected){
-            getLeagueList();
-        }else{
-            Toast.makeText(context,context.getResources().getString(R.string.cmn_no_internet_access),Toast.LENGTH_LONG).show();
+        if(isAdded()){
+            if(isConnected){
+                getLeagueList();
+            }else{
+                Toast.makeText(context,context.getResources().getString(R.string.cmn_no_internet_access),Toast.LENGTH_LONG).show();
+            }
         }
     }
 }

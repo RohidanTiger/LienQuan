@@ -101,6 +101,7 @@
     <string name="str_news">Tin tức</string>
     <string name="str_league">Giải đấu</string>
     <string name="str_challenger">Kênh cao thủ</string>
+    <string name="str_free_hero">Tướng miễn phí tuần</string>
 
     <!--API-->
     <string name="str_base_list_league">https://raw.githubusercontent.com/RohidanTiger/LienQuanLeague/master/LeagueAPI.json</string>

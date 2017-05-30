@@ -62,6 +62,7 @@ public class VideoListFragment extends BaseFragment {
                 if (context.mInterstitialAd.isLoaded()) {
                     context.mInterstitialAd.show();
                 } else {
+                    context.requestNewInterstitial();
                     Intent intent = new Intent(context,YoutubePlayerActivity.class);
                     intent.putExtra(YOUTUBE_ID,item.getSnippet().getResourceId().getVideoId());
                     startActivity(intent);

@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import io.realm.Realm;
 
 /**
  * Created by QuyDV on 3/29/17.
@@ -25,6 +26,7 @@ public abstract class BaseFragment extends Fragment {
     public String TAG = null;
     protected View rootView;
     protected Unbinder mUnbinder;
+    protected Realm realm;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,7 @@ public abstract class BaseFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = inflater.inflate(getViewContent(), container, false);
         mUnbinder = ButterKnife.bind(this, rootView);
+        realm = Realm.getDefaultInstance();
         initUI();
         return rootView;
     }
@@ -121,4 +124,9 @@ public abstract class BaseFragment extends Fragment {
     //Main layout Id for Fragment
     protected abstract void initUI();
 
+    @Override
+    public void onDestroy() {
+        realm.close();
+        super.onDestroy();
+    }
 }

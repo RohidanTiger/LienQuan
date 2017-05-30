@@ -67,7 +67,7 @@ public class HeroDetailInfoFragment extends BaseFragment {
     @Override
     protected void initUI() {
         heroID = getArguments().getString(HeroDetailFragment.HERO_DETAIL);
-        heroDetail = context.realm.where(HeroDetail.class).equalTo("id",heroID).findFirst();
+        heroDetail = realm.where(HeroDetail.class).equalTo("id",heroID).findFirst();
         if(heroDetail == null) return;
         context.setActionBarTitle(heroDetail.getName());
         String imgUrl = "file:///android_asset/LienQuan/Heroes/".concat(heroID).concat("/"+heroID).concat("_avata").concat(".png");

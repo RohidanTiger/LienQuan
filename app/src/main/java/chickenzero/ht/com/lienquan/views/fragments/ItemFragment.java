@@ -45,7 +45,7 @@ public class ItemFragment extends BaseFragment{
 
     @Override
     protected void initUI() {
-        requestItems(context.realm);
+        requestItems(realm);
         itemAdapter = new ItemAdapter(listItem,context);
         mLayoutManager = new GridLayoutManager(context,4);
         recyclerViewItems.setLayoutManager(mLayoutManager);

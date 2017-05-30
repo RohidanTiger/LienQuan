@@ -778,5 +778,25 @@
  "range":"Gần",
  "role":"Đấu Sĩ",
  "youtube":"1Z01KJU-CGU"
+ },
+ {
+ "abilityArmor":"50",
+ "abilityArmorIncrease":"8",
+ "abilityDame":"0",
+ "abilityIncreaseDame":"0",
+ "armor":"89",
+ "armorIncrease":"17",
+ "attackDame":"170",
+ "attackIncreaseDame":"8",
+ "hitPoint":"3235",
+ "hitPointIncrease":"198",
+ "id":"raz",
+ "items":"47--78--66--51--25--64",
+ "lore":"\u003cp\u003e\"Raz từng là một tên nô lệ bị bán cho lực lượng Sa đọa, nhưng thật ra anh chính là một điệp viên được Thane bí mật cài vào nhằm tìm hiểu sâu hơn về lực lượng này.\u003c/p\u003e \n\u003cp\u003eTài năng nổi bật của Raz với nắm đấm nhanh chóng được Preyta, Kỵ sĩ tai ương nhận ra và cất nhắc làm đội trưởng của một nhóm nô lệ nho nhỏ. Nhanh chóng với sự khéo léo chẳng kém cạnh nắm đấm của mình là bao, Raz đã giành được sự ủng hộ của các nô lệ khác giúp tiểu đội của họ ngày càng bành trướng góp phần không nhỏ vào công cuộc ngấm ngầm kềm hãm sức mạnh của lực lượng Sa đọa.\u003c/p\u003e \n\u003cp\u003eBất hạnh thay, Preyta quỷ quyệt nhanh chóng phát hiện vấn đề. Hắn liền lập tức âm thầm sắp đặt một cái bẫy chết người hòng tóm gọn quân phản kháng một lần và mãi mãi. Chẳng ngờ rằng cả đội đã bị lộ, Raz cùng đồng bọn rơi vào bẫy và buộc phải chiến đấu với vô vàn kẻ địch hung hãn khát máu. Nhưng kể cả trong thời khắc tuyệt vọng nhất, Raz vẫn kiên quyết không lùi bước.\u003c/p\u003e \n\u003cp\u003ePhẫn nộ trước sự bất khuất của Raz, Preyta tung lời nguyền độc địa bao phủ lấy cả toán quân phản kháng. Trước hiểm họa khôn cùng, Raz bộc phát toàn bộ sức bình sinh tung vô số những cú đấm bùng nổ đẩy lùi kẻ địch, thành công phá vây giúp bản thân và những đồng bọn còn sót lại rút lui trước khi quá muộn. Trớ trêu thay lời nguyền của Preyta vẫn kịp bám vào hai bàn tay của Raz và dần dần hủy hoại cả cơ thể lẫn linh hồn của anh.\u003c/p\u003e \n\u003cp\u003eSau khi đón được Raz, Thane tức tốc tìm đến Đền ánh sáng khẩn cầu Thánh nữ Lauriel cứu giúp cả thể xác lẫn linh hồn của người chiến sĩ quả cảm này. Lauriel đồng ý, nhưng với điều kiện Raz phải vượt qua được khảo nghiệm linh hồn của Suối sinh mệnh. Chỉ những ai bất khuất nhất, quả cảm nhất, và chính trực nhất mới xứng đáng nhận được sự chúc phúc thần thánh của Suối sinh mệnh.\u003c/p\u003e \n\u003cp\u003eRaz lần nữa chứng minh sức mạnh ý chí của bản thân, anh vượt qua được thử thách và nhận được sự chúc phúc của Suối sinh mệnh giúp cả cơ thể lẫn linh hồn được hoàn toàn bình phục. Chưa dừng lại ở đó, Raz thậm chí còn nhận được một quyền năng mới đầy hùng mạnh. Sau khi thoát khỏi thần chết, Raz đã trở lại và lợi hại hơn nghìn lần!\"\u003c/p\u003e",
+ "movementSpeed":"390",
+ "name":"Raz",
+ "range":"Gần",
+ "role":"Sát Thủ",
+ "youtube":"3WlTr_TFI9Y"
  }
 ]
