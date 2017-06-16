@@ -198,5 +198,10 @@
     "id":"raz",
     "name":"Raz",
     "role":"5"
+  },
+  {
+    "id":"lauriel",
+    "name":"Lauriel",
+    "role":"2"
   }
 ]
