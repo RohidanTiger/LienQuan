@@ -1,0 +1,30 @@
+[
+{
+"desc":"Nội tại: Tiến đến gần tướng địch sẽ giúp tăng 20% tốc chạy.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Truy Nã",
+"youtube":"https://www.youtube.com/embed/iYNZfGnXrAU?list\u003dPLi_DTGAQKPrspcfN8XZXu1QssdmWOPUMz"
+},
+{
+"desc":"Batman vung tay tấn công kẻ địch bằng móng vuốt chân không, gây sát thương vật lý. Một nạn nhân xấu số bên cạnh sẽ bị tấn công ngẫu nhiên và chịu lượng sát thương tương tự.",
+"id":"1",
+"mana":"Tiêu hao: 50 năng lượng",
+"name":"Vuốt Chân Không",
+"youtube":"https://www.youtube.com/embed/OTPdM3Kt6RY?list\u003dPLi_DTGAQKPrspcfN8XZXu1QssdmWOPUMz"
+},
+{
+"desc":"Batman phóng chiếc phi tiêu dơi trứ danh của mình, gây sát thương vật lý đồng thời làm chậm tốc chạy của mục tiêu. Sau 3 giây gây thêm 24% máu đã mất thành sát thương vật lý. Trong thời gian chiêu còn hiệu lực nếu Batman tấn công nạn nhân đủ số lần khiến mục tiêu bị choáng, và bản thân được hồi lại máu.",
+"id":"2",
+"mana":"Tiêu hao: 80 năng lượng",
+"name":"Phi Tiêu Dơi",
+"youtube":"https://www.youtube.com/embed/Hi6kKxsdDjY?list\u003dPLi_DTGAQKPrspcfN8XZXu1QssdmWOPUMz"
+},
+{
+"desc":"Sau 1.5 giây Batman ẩn mình vào bóng đêm và trở thành tàng hình trong tối đa 30 giây. Khi tiến lại gần phạm vi 6 mét cạnh kẻ địch quá 3 giây, trạng thái tàng hình sẽ tự động chấm dứt. Trong thời gian hiệu lực nếu Batman tái kích hoạt chiêu sẽ lướt bay đến tấn công kẻ địch, gây sát thương vật lý. Sau khi rời khỏi trạng thái tàng hình Batman sẽ được tăng 50% tốc đánh trong 5 giây.",
+"id":"3",
+"mana":"Tiêu hao: 120 năng lượng",
+"name":"Dơi Đêm",
+"youtube":"https://www.youtube.com/embed/QXCVgm8vITA?list\u003dPLi_DTGAQKPrspcfN8XZXu1QssdmWOPUMz"
+}
+]

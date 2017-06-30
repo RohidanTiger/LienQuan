@@ -38,7 +38,7 @@ public class FreeHeroFragment extends BaseFragment implements ConnectivityReceiv
 
     private List<FreeHero> heroList;
 
-    private String url = "https://lienquan.garena.vn/";
+    private String url = "https://lienquan.garena.vn";
 
     String str1 = "<html><head><style>.title{color:red;} .type{color:#038000;}a{color:#285afd; text-decoration:" +
             "none;pointer-events: none;cursor: default;}</style></head><body>";
@@ -56,7 +56,10 @@ public class FreeHeroFragment extends BaseFragment implements ConnectivityReceiv
             context.hideLoading();
             if(heroList != null) heroList.clear();
             heroList = data;
-            if(heroList == null || heroList.size() == 0) return;
+            if(heroList == null || heroList.size() == 0) {
+                Toast.makeText(context,context.getResources().getString(R.string.cmn_no_response),Toast.LENGTH_LONG).show();
+                return;
+            }
             context.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {

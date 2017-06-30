@@ -203,5 +203,11 @@
     "id":"lauriel",
     "name":"Lauriel",
     "role":"2"
+  },
+  {
+    "id":"batman",
+    "name":"Batman",
+    "role":"1"
   }
+
 ]

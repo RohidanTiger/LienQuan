@@ -45,6 +45,7 @@ public class FreeHeroRequest extends AsyncTaskLoader<List<FreeHero>> {
 
         try {
             doc = Jsoup.connect(mUrl).userAgent("Mozilla").ignoreContentType(true).timeout(10000).get();
+            Log.i("DataData",doc.toString());
             Elements heroIcon = doc.getElementsByClass("tabs-champ").first().getElementsByAttribute("src");
             Elements heroContent = doc.getElementsByClass("cont-heros").first().getElementsByAttribute("srcset");
 
@@ -58,7 +59,7 @@ public class FreeHeroRequest extends AsyncTaskLoader<List<FreeHero>> {
                 listHero.add(freeHero);
             }
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
