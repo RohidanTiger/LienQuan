@@ -208,6 +208,11 @@
     "id":"batman",
     "name":"Batman",
     "role":"1"
+  },
+  {
+    "id":"airi",
+    "name":"Airi",
+    "role":"5"
   }
 
 ]

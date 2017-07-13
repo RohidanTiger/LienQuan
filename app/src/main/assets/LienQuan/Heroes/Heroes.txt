@@ -838,5 +838,25 @@
  "range":"Gần",
  "role":"Đấu Sĩ",
  "youtube":"wuWAcyQP52g"
+ },
+ {
+ "abilityArmor":"0",
+ "abilityArmorIncrease":"8",
+ "abilityDame":"0",
+ "abilityIncreaseDame":"0",
+ "armor":"105",
+ "armorIncrease":"18",
+ "attackDame":"159",
+ "attackIncreaseDame":"13",
+ "hitPoint":"3243",
+ "hitPointIncrease":"211",
+ "id":"airi",
+ "items":"85--81--12--61--66--64",
+ "lore":"\u003cp\u003e\"Dòng máu thuần khiết của họ nhà rồng cuồn cuộn tuôn chảy trong huyết quản của Airi Thượng nhẫn, truyền nhân mới nhất của một dòng tộc Ninja cổ xưa có tên là Rồng phương đông. Họ có một và chỉ một sứ mệnh đó chính là duy trì sự hòa bình và an toàn của cả lục địa bằng thứ sức mạnh họ sở hữu từ họ nhà rồng. Bản thân gánh vác trọng trách của cả dòng tộc Ninja thế hệ mới, Airi không chỉ xuất sắc đạt được danh hiệu cao quý \"\"Thượng nhẫn\"\", mà còn được chính loài Rồng huyền bí phương đông chứng nhận tài năng của cô bằng Dấu ấn Rồng ngài ban tặng.\u003c/p\u003e \n\u003cp\u003eKhi lực lượng hắc ám xâm lăng thế giới, các đội Ninja thượng đẳng dẫn đầu bởi Airi, lập tức tiến vế Đền ánh sáng để cứu viện. Bằng các nhẫn thuật thượng thừa của bản thân, Airi vượt qua vô số những ma quái ác quỷ với đầy rẫy những ma pháp hắc ám nhất. Để tăng tốc, Airi hóa thân thành một cơn lốc sắc bén vô bì, cắt xuyên tất cả mọi trở ngại trên đường đến Maloch, kẻ thống lãnh của quân đoàn ác quỷ.\u003c/p\u003e \n\u003cp\u003eCàng tiến đến gần Maloch, thương tích trên người Airi càng tích tụ nhiều hơn. Biết rõ bản thân nếu chiến đấu càng kéo dài, tình hình sẽ càng chỉ bất lợi hơn, Airi quyết định đánh cuộc tất cả bằng một và chỉ một đòn duy nhất. Cô dùng hết sức tàn còn lại để kích hoạt Dấu ấn Rồng rồi vung kiếm - vốn đã nhuộm vô số dòng máu hắc ám của bầy ác quỷ cô hạ gục trước đó - chém một đường tuyệt mỹ vào Maloch. Ngay tại khoảnh khắc ấy Maloch thậm chí không thể rút nổi thanh gươm quỷ của hắn để đón đỡ, tất cả những gì hắn có thể làm bao trùm bản thân bằng đôi cánh ác quỷ. Mọi nỗ lực chống cự trước sức mạnh thần thánh của loài rồng dường như đều vô ích.\u003c/p\u003e \n\u003cp\u003eMáu tuôn ra như suối từ vết thương trên ngực Maloch, đôi cánh của hắn chỉ có thể giúp hắn thoát chết trong đường tơ kẽ tóc. Chỉ một đường kiếm duy nhất từ Airi đã khiến kẻ thống lãnh đầy hùng mạnh Maloch trở nên vô vọng hơn bao giờ. Chẳng còn cách nào khác, Maloch buộc phải rút lui ngay lập tức để bảo toàn tính mạng, để lại một đoàn quân ác quỷ hỗn loạn như rắn mất đầu.\u003c/p\u003e \n\u003cp\u003eSự quyết tâm của Airi thể hiện trên chiến trường này đã khiến tất cả ngưỡng mộ cô. Ngay cả bè lũ xấu xa nhất cũng đều phải run sợ khi nghe đến tên của Airi.\"\u003c/p\u003e",
+ "movementSpeed":"380",
+ "name":"Airi",
+ "range":"Gần",
+ "role":"Sát Thủ",
+ "youtube":"4CVdz-wX4To"
  }
 ]

@@ -175,7 +175,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/txt_lore_value"
                 android:visibility="gone"
-                ads:adSize="BANNER"
+                ads:adSize="SMART_BANNER"
                 ads:adUnitId="@string/banner_ad_unit_id">
             </com.google.android.gms.ads.AdView>
 
