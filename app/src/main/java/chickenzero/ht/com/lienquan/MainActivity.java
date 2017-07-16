@@ -28,7 +28,6 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.util.ArrayList;
@@ -42,14 +41,13 @@ import chickenzero.ht.com.lienquan.utils.DialogUtil;
 import chickenzero.ht.com.lienquan.utils.PrefConfig;
 import chickenzero.ht.com.lienquan.views.adapters.SectionedMenuAdapter;
 import chickenzero.ht.com.lienquan.views.adapters.SlideMenuAdapter;
+import chickenzero.ht.com.lienquan.views.fragments.FreeHeroFragment;
 import chickenzero.ht.com.lienquan.views.fragments.HeroFragment;
 import chickenzero.ht.com.lienquan.views.fragments.ItemFragment;
 import chickenzero.ht.com.lienquan.views.fragments.LeagueListFragment;
 import chickenzero.ht.com.lienquan.views.fragments.ListProPlayerFragment;
 import chickenzero.ht.com.lienquan.views.fragments.NewsFrament;
 import chickenzero.ht.com.lienquan.views.fragments.SupportSkillFragment;
-import chickenzero.ht.com.lienquan.views.fragments.VideoListFragment;
-import io.realm.Realm;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     public SCApplication mApplication;
@@ -61,7 +59,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private TextView btnRateApp;
     private ProgressDialog pDialog;
     private RecyclerView slideMenu;
-    public Realm realm;
     private int mCurrentPosition = 0;
 
     // Number Fragment In Stack
@@ -83,7 +80,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
         mApplication = (SCApplication) getApplication();
-        realm = Realm.getDefaultInstance();
 
         // init ad
         MobileAds.initialize(getApplicationContext(), getResources().getString(R.string.unit_ad_unit_id));
@@ -104,7 +100,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
         mSpinner = (CustomSpinner) findViewById(R.id.filter_spinner);
-        FirebaseMessaging.getInstance().subscribeToTopic("CamNangLienQuan");
     }
 
     private void setUpDrawer(){
@@ -210,6 +205,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 pushFragments(new NewsFrament(), false, true);
                 break;
             }
+            case 6:{
+                setActionBarTitle(R.string.str_free_hero);
+                pushFragments(new FreeHeroFragment(), false, true);
+                break;
+            }
         }
     }
 
@@ -266,6 +266,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     }
                     case 5:{
                         pushFragments(new NewsFrament(), false, true);
+                        break;
+                    }
+                    case 6:{
+                        pushFragments(new FreeHeroFragment(), false, true);
                         break;
                     }
                 }
@@ -464,7 +468,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onDestroy() {
         super.onDestroy();
         mPrefConfig.setRememberMenuPosition(this,mCurrentPosition);
-        realm.close();
     }
 
     public void setConnectivityListener(ConnectivityReceiver.ConnectivityReceiverListener listener) {

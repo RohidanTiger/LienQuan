@@ -193,5 +193,26 @@
     "id":"skud",
     "name":"Skud",
     "role":"1"
+  },
+  {
+    "id":"raz",
+    "name":"Raz",
+    "role":"5"
+  },
+  {
+    "id":"lauriel",
+    "name":"Lauriel",
+    "role":"2"
+  },
+  {
+    "id":"batman",
+    "name":"Batman",
+    "role":"1"
+  },
+  {
+    "id":"airi",
+    "name":"Airi",
+    "role":"5"
   }
+
 ]

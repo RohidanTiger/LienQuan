@@ -60,16 +60,30 @@ public class LeagueListFragment extends BaseFragment implements ConnectivityRece
                 GridLayoutManager manager = new GridLayoutManager(getActivity(), 2);
                 recyclerViewLeague.setLayoutManager(manager);
                 mAdapter.setLayoutManager(manager);
-                SpacesItemDecoration itemDecoration = new SpacesItemDecoration(getContext(), R.dimen.padding_small);
+                SpacesItemDecoration itemDecoration = new SpacesItemDecoration(context, R.dimen.padding_small);
                 recyclerViewLeague.addItemDecoration(itemDecoration);
                 mAdapter.shouldShowHeadersForEmptySections(false);
                 recyclerViewLeague.setAdapter(mAdapter);
                 mAdapter.setListener(new LeagueAdapter.OnItemClickListener() {
                     @Override
-                    public void onClick(String videoID) {
-                        Intent intent = new Intent(context,YoutubePlayerActivity.class);
-                        intent.putExtra(YoutubePlayerActivity.YOUTUBE_ID,videoID);
-                        startActivity(intent);
+                    public void onClick(final String videoID) {
+                        if (context.mInterstitialAd.isLoaded()) {
+                            context.mInterstitialAd.show();
+                        } else {
+                            context.requestNewInterstitial();
+                            Intent intent = new Intent(context,YoutubePlayerActivity.class);
+                            intent.putExtra(YoutubePlayerActivity.YOUTUBE_ID,videoID);
+                            startActivity(intent);
+                        }
+                        context.mInterstitialAd.setAdListener(new AdListener() {
+                            @Override
+                            public void onAdClosed() {
+                                context.requestNewInterstitial();
+                                Intent intent = new Intent(context,YoutubePlayerActivity.class);
+                                intent.putExtra(YoutubePlayerActivity.YOUTUBE_ID,videoID);
+                                startActivity(intent);
+                            }
+                        });
                     }
                 });
             }
@@ -133,6 +147,7 @@ public class LeagueListFragment extends BaseFragment implements ConnectivityRece
                             if (context.mInterstitialAd.isLoaded()) {
                                 context.mInterstitialAd.show();
                             } else {
+                                context.requestNewInterstitial();
                                 Intent intent = new Intent(context,YoutubePlayerActivity.class);
                                 intent.putExtra(YoutubePlayerActivity.YOUTUBE_ID,videoID);
                                 startActivity(intent);

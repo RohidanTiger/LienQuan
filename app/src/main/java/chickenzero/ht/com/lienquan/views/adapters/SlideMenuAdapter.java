@@ -29,9 +29,10 @@ public class SlideMenuAdapter extends RecyclerView.Adapter<SlideMenuAdapter.Simp
     public SlideMenuAdapter(MainActivity context) {
         mContext = context;
         mTitle = new int[]{R.string.str_hero,R.string.str_item, R.string.str_support_skill
-                ,R.string.str_challenger,R.string.str_league, R.string.str_news};
+                ,R.string.str_challenger,R.string.str_league, R.string.str_news,R.string.str_free_hero};
         mImage = new int[]{R.drawable.icon_hero, R.drawable.icon_item, R.drawable.icon_support_skill,
-                android.R.drawable.ic_menu_compass, android.R.drawable.ic_menu_slideshow, android.R.drawable.ic_menu_recent_history};
+                android.R.drawable.ic_menu_compass, android.R.drawable.ic_menu_slideshow,
+                android.R.drawable.ic_menu_recent_history,android.R.drawable.ic_menu_rotate};
     }
 
     public SimpleViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {

@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdView;
 
 import butterknife.BindView;
@@ -67,7 +68,7 @@ public class HeroDetailInfoFragment extends BaseFragment {
     @Override
     protected void initUI() {
         heroID = getArguments().getString(HeroDetailFragment.HERO_DETAIL);
-        heroDetail = context.realm.where(HeroDetail.class).equalTo("id",heroID).findFirst();
+        heroDetail = realm.where(HeroDetail.class).equalTo("id",heroID).findFirst();
         if(heroDetail == null) return;
         context.setActionBarTitle(heroDetail.getName());
         String imgUrl = "file:///android_asset/LienQuan/Heroes/".concat(heroID).concat("/"+heroID).concat("_avata").concat(".png");
@@ -99,8 +100,22 @@ public class HeroDetailInfoFragment extends BaseFragment {
 
     @OnClick(R.id.txt_watch_video)
     void watchVideo(){
-        Intent intent = new Intent(context,YoutubePlayerActivity.class);
-        intent.putExtra(YoutubePlayerActivity.YOUTUBE_ID,heroDetail.getYoutube());
-        startActivity(intent);
+        if (context.mInterstitialAd.isLoaded()) {
+            context.mInterstitialAd.show();
+        } else {
+            context.requestNewInterstitial();
+            Intent intent = new Intent(context,YoutubePlayerActivity.class);
+            intent.putExtra(YoutubePlayerActivity.YOUTUBE_ID,heroDetail.getYoutube());
+            startActivity(intent);
+        }
+        context.mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                context.requestNewInterstitial();
+                Intent intent = new Intent(context,YoutubePlayerActivity.class);
+                intent.putExtra(YoutubePlayerActivity.YOUTUBE_ID,heroDetail.getYoutube());
+                startActivity(intent);
+            }
+        });
     }
 }

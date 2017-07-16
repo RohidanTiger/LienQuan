@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cstrong\u003eNội tại:\u0026nbsp;\u003c/strong\u003eMỗi đòn đánh thường giúp giảm thời gian hồi của Kiếm khí đi 1 giây.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Sắc Lẻm",
+"youtube":"https://www.youtube.com/embed/MIXpOv4uYYA"
+},
+{
+"desc":"Airi rút kiếm chém thẳng về phía trước với tốc độ cực nhanh tạo ra một luồng kiếm khí gây sát thương vật lý đồng thời làm choáng các nạn nhân trúng đòn trong thoáng chốc.",
+"id":"1",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Kiếm Khí",
+"youtube":"https://www.youtube.com/embed/l40KG6cIp_A"
+},
+{
+"desc":"Airi múa kiếm lướt theo hướng chỉ định gây sát thương vật lý. Chiêu thức này có thể tung tối đa 3 lượt trước khi tiến vào thời gian hồi chiêu.",
+"id":"2",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Kiếm Vũ",
+"youtube":"https://www.youtube.com/embed/Z6GxcrEfv6g"
+},
+{
+"desc":"Airi tung Long kiếm, gây sát thương vật lý lên các mục tiêu và làm chậm chúng. Ngay sau đó Airi tiếp tục tung kiếm, gây lượng sát thương vật lý tương tự và làm choáng các nạn nhân. Mỗi tướng địch trúng chiêu giúp Airi nhận lá chắn. Chưa hết, Airi còn được tăng 100% tốc chạy giảm dần trong 2.5 giây kèm 30% tốc đánh trong 8 giây.",
+"id":"3",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Long Kiếm",
+"youtube":"https://www.youtube.com/embed/qwjqxowpeyE"
+}
+]

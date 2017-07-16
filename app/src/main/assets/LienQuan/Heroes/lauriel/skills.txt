@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cstrong\u003eNội tại:\u003c/strong\u003e Các chiêu thức trúng đích của Lauriel sẽ khắc dấu ấn Trời phạt lên mục tiêu. Khi đạt đủ 4 lần tích lũy, dấu ấn sẽ bùng nổ gây sát thương chuẩn diện rộng kèm hiệu ứng làm chậm tốc chạy giảm dần, kéo dài trong 1 giây.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Trời Phạt",
+"youtube":"https://www.youtube.com/embed/K3i3DNjF6cU"
+},
+{
+"desc":"Lauriel vẽ ra một con đường ánh sáng gây sát thương phép. Trong thoáng chốc sau đó con đường sẽ bùng nổ gây lượng sát thương tương tự lần nữa lên những nạn nhân còn trong vùng hiệu lực.",
+"id":"1",
+"mana":"Tiêu hao: 50 năng lượng",
+"name":"Con Đường Sám Hối",
+"youtube":"https://www.youtube.com/embed/p9ovp_OMmrg"
+},
+{
+"desc":"Lauriel tung cánh lướt đến hướng chỉ định. Khi đến nơi nàng vỗ cánh tạo ra 3 luồng ánh sáng tấn công kẻ địch gây sát thương phép theo mỗi luồng; Kẻ địch trúng chiêu giúp giảm thời gian hồi đi 4 giây.",
+"id":"2",
+"mana":"Tiêu hao: 50 năng lượng",
+"name":"Đôi Cánh Thuẩn Khiết",
+"youtube":"https://www.youtube.com/embed/b_-hLyhI624"
+},
+{
+"desc":"Lauriel triệu hồi sức mạnh thần thánh tạo ra một pháp trận hùng mạnh, gây sát thương phép lúc xuất hiện và biến mất. Trong vùng hiệu lực Lauriel sẽ được giúp giảm mạnh thời gian hồi hai chiêu thức đầu.",
+"id":"3",
+"mana":"Tiêu hao: 80 năng lượng",
+"name":"Phán Xét",
+"youtube":"https://www.youtube.com/embed/F8p0hicm1Fg"
+}
+]

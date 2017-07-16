@@ -74,11 +74,11 @@ public class HeroDetailGuideFragment extends BaseFragment {
     }
 
     private void getListItem(){
-        HeroDetail heroDetail = context.realm.where(HeroDetail.class).equalTo("id",heroID).findFirst();
+        HeroDetail heroDetail = realm.where(HeroDetail.class).equalTo("id",heroID).findFirst();
         if(heroDetail == null) return;
         String[] items = heroDetail.getItems().split("--");
         for(int i = 0; i < items.length; i++){
-            Item item = context.realm.where(Item.class).equalTo("id",Integer.parseInt(items[i])).findFirst();
+            Item item = realm.where(Item.class).equalTo("id",Integer.parseInt(items[i])).findFirst();
             listItem.add(item);
         }
     }

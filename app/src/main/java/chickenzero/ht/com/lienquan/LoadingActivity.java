@@ -29,7 +29,8 @@ public class LoadingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_loading);
 
         RealmConfiguration realmConfiguration = new RealmConfiguration.Builder().build();
-        Realm.deleteRealm(realmConfiguration);
+        if(realmConfiguration != null) Realm.deleteRealm(realmConfiguration);
+
         realm = Realm.getInstance(realmConfiguration);
         loadAllHeroFromFile();
         loadAllItemFromFile();
@@ -44,7 +45,7 @@ public class LoadingActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        },3000);
+        },2000);
     }
 
     @Override

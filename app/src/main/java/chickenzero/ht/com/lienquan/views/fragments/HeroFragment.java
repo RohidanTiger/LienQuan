@@ -69,7 +69,7 @@ public class HeroFragment extends BaseFragment {
 
     @Override
     protected void initUI() {
-        requestHeroes(context.realm);
+        requestHeroes(realm);
         context.getSupportActionBar().setTitle(R.string.str_hero);
         pager = mContainer.getViewPager();
         heroGridAdapterAdapter = new HeroGridAdapter(listHero,context);
