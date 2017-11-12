@@ -1,0 +1,30 @@
+[
+{
+"desc":"Nội tại: Đòn đánh thứ 4 liên tục trong vòng 3 giây giúp Murad tăng 5% \n\u003cspan style\u003d\"color:#FF8C00\"\u003ecông vật lý\u003c/span\u003e (không hữu hiệu với Trụ), đồng thời tạm phá phong ấn của Ảo Ảnh Trảm.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Ảnh Hồn",
+"youtube":"https://www.youtube.com/embed/b8RYOJLyDo0"
+},
+{
+"desc":"Murad lướt đi gây 120/144/168/192/216/240 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e lên những nạn nhân trúng chiêu và làm choáng chúng. Chiêu thức có thể tung ra 3 lần, đặc biệt ở lần thứ ba Murad sẽ quay trở về vị trí ban đầu của bản thân.",
+"id":"1",
+"mana":"Tiêu hao: 80 năng lượng",
+"name":"Tàn Ảnh Đao",
+"youtube":"https://www.youtube.com/embed/XFLVpyxyna0"
+},
+{
+"desc":"Murad tạo ra một vùng không gian gây 110/142/174/206/238/270 (\n\u003cspan style\u003d\"color:#FF8C00\"\u003e+0.55 Công vật lý\u003c/span\u003e) \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e lên tất cả nạn nhân bên trong phạm vi ảnh hưởng. Những kẻ địch dại dột chạm phải biên giới vùng không gian này sẽ phải chịu 234 (\n\u003cspan style\u003d\"color:#FF8C00\"\u003e+0.9 Công vật lý\u003c/span\u003e) \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, và bị làm chậm 90% tốc chạy trong 2 giây, kèm chịu giảm 100/175/250/325/400/475 giáp trong 3 giây. Ngay thời điểm kích hoạt chiêu thức Murad sẽ trở nên không thể bị tấn công hoặc chọn làm mục tiêu.",
+"id":"2",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Vô Ảnh Vực",
+"youtube":"https://www.youtube.com/embed/50qrldTWPUs"
+},
+{
+"desc":"Murad giải phóng sức mạnh của bản thân, tạo ra vô số ảo ảnh tấn công liên tục 5 đòn đánh lên mọi kẻ địch trong vùng ảnh hưởng, gây 150/215/280 (\n\u003cspan style\u003d\"color:#FF8C00\"\u003e+0.68 Công vật lý\u003c/span\u003e) \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e mỗi đợt. Suốt thời gian tung chiêu, Murad không thể bị tấn công hoặc chọn làm mục tiêu. Ngoài ra Ảo Ảnh Trảm chỉ có thể được tung sau khi phong ấn được phá giải, và lập tức bị phong ấn trở lại sau khi vừa tung chiêu.",
+"id":"3",
+"mana":"Tiêu hao: 120 năng lượng",
+"name":"Ảo Ảnh Trảm",
+"youtube":"https://www.youtube.com/embed/0oKrNOQOYc8"
+}
+]

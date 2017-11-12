@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id":"valhein",
     "name":"Valhein",
@@ -170,8 +170,8 @@
     "role":"5"
   },
   {
-    "id":"mortos",
-    "name":"Mortos",
+    "id":"arthur",
+    "name":"Arthur",
     "role":"1"
   },
   {
@@ -213,6 +213,55 @@
     "id":"airi",
     "name":"Airi",
     "role":"5"
+  },
+  {
+    "id":"zuka",
+    "name":"Zuka",
+    "role":"1"
+  },
+  {
+    "id":"ignis",
+    "name":"Ignis",
+    "role":"2"
+  },
+  {
+    "id":"murad",
+    "name":"Murad",
+    "role":"5"
+  },
+  {
+    "id":"zill",
+    "name":"Zill",
+    "role":"2"
+  },
+  {
+    "id":"arduin",
+    "name":"Arduin",
+    "role":"4"
+  },
+  {
+    "id":"joker",
+    "name":"Joker",
+    "role":"6"
+  },
+  {
+    "id":"ryoma",
+    "name":"Ryoma",
+    "role":"2"
+  },
+  {
+    "id":"astrid",
+    "name":"Astrid",
+    "role":"2"
+  },
+  {
+    "id":"telannas",
+    "name":"Tel’Annas",
+    "role":"6"
+  },
+  {
+    "id":"superman",
+    "name":"Superman",
+    "role":"2"
   }
-
 ]

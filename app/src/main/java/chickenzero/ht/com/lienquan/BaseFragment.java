@@ -44,6 +44,12 @@ public abstract class BaseFragment extends Fragment {
         return rootView;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        realm = Realm.getDefaultInstance();
+    }
+
     // ========Common functions========//
 
     public void openUrl(String url) {
@@ -125,8 +131,13 @@ public abstract class BaseFragment extends Fragment {
     protected abstract void initUI();
 
     @Override
-    public void onDestroy() {
+    public void onPause() {
         realm.close();
+        super.onPause();
+    }
+
+    @Override
+    public void onDestroy() {
         super.onDestroy();
     }
 }

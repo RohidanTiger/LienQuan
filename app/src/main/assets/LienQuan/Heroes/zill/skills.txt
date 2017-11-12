@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cstrong\u003eNội tại:\u003c/strong\u003e Các chiêu thức trúng đích của Zill khiến mục tiêu phải chịu thêm dấu ấn giông tố. Khi đạt đủ 3 cộng dồn, dấu ấn tiến hóa thành bão tố kéo dài 5 giây đồng thời giảm 80% tốc chạy của mục tiêu trong 0.25 giây. Các đòn đánh thường của Zill lên nạn nhân đang chịu ấn bão tố sẽ lập tức hoàn tất hồi chiêu của Phong độn, và gây thêm 120(+20*cấp tướng)\n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.35 Công phép)\u003c/span\u003e (+8% máu tổn thất) (sát thương tối đa lên quái: 120) \n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Bão Tố",
+"youtube":"https://www.youtube.com/embed/DXqKUYOT-OA"
+},
+{
+"desc":"Zill ném cặp song đao gây 180/220/260/300/340/380 \n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.35 Công phép) \u003c/span\u003e\n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e lên tất cả kẻ địch trúng phải trên đường bay đi, và làm chậm 50% tốc chạy của chúng trong 1.5 giây. Sau đó lưỡi liềm quay ngược lại, gây 250/300/350/400/450/500\n\u003cspan style\u003d\"color:#00FFFF\"\u003e (+0.55 Công phép)\u003c/span\u003e \n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e lên những nạn nhân trúng chiêu trên đường bay về.",
+"id":"1",
+"mana":"Tiêu hao: 65 năng lượng",
+"name":"Phong Đao",
+"youtube":"https://www.youtube.com/embed/mtVFYD-C0AQ"
+},
+{
+"desc":"Zill dịch chuyển đến điểm đã chọn, gây 260/300/340/380/420/460 \n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.45Công phép)\u003c/span\u003e \n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e lên tất cả kẻ địch quanh vùng ảnh hưởng.",
+"id":"2",
+"mana":"Tiêu hao: 12.5 năng lượng",
+"name":"Phong Độn",
+"youtube":"https://www.youtube.com/embed/nqEPKg7vriM"
+},
+{
+"desc":"Zill hóa thân thành một luồng phong ba bão tố trong 1.5 giây, tấn công liên tục 5 lần lên những kẻ địch lân cận, gây 250/450/650\n\u003cspan style\u003d\"color:#00FFFF\"\u003e (+0.45 Công phép)\u003c/span\u003e\n\u003cspan style\u003d\"color:#0000FF\"\u003e sát thương phép\u003c/span\u003e mỗi đợt. Kẻ địch trúng nhiều đòn sẽ chỉ phải chịu 40% sát thương từ đòn thứ hai trở đi. Suốt khoảng thời gian này Zill không thể bị công kích hoặc chọn làm mục tiêu.",
+"id":"3",
+"mana":"Tiêu hao: 120 năng lượng",
+"name":"Phong Ba",
+"youtube":"https://www.youtube.com/embed/npI4Xe5FEis"
+}
+]

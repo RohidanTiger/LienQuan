@@ -1,1 +1,30 @@
-[{"desc":"\u003cspan style\u003d\"font-family:arial,helvetica,sans-serif\"\u003eNội tại: Mỗi đòn đánh thường thứ ba bắn một đoản kiếm ngẫu nhiên\u003c/span\u003e","id":"0","mana":"Tiêu hao: 0 năng lượng","name":"Ám khí","youtube":"https://www.youtube.com/embed/WNcboiQTnAU"},{"desc":"Vanhein\n\u003cspan style\u003d\"font-family:arial,helvetica,sans-serif\"\u003e ném một đoản kiếm đỏ vào những kẻ thù trong phạm vi, gây \u003c/span\u003e190/215/240/265/290/315 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.91 công vật lý)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"color:#0000FF\"\u003e\u003cspan style\u003d\"font-family:arial,helvetica,sans-serif\"\u003esát thương phép\u003c/span\u003e\u003c/span\u003e","id":"1","mana":"Tiêu hao: 80 năng lượng","name":"Chuyến săn mạo hiểm","youtube":"https://www.youtube.com/embed/cphOmnW5CVE"},{"desc":"\u003cspan style\u003d\"font-family:arial,helvetica,sans-serif\"\u003eVanhein ném một đoản kiếm vàng vào mục tiêu, gây \u003c/span\u003e150/170/190/210/230/250 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.58 công vật lý)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"font-family:arial,helvetica,sans-serif\"\u003e\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e và làm choáng mục tiêu.\u003c/span\u003e","id":"2","mana":"Tiêu hao: 80 năng lượng","name":"Trừ tà","youtube":"https://www.youtube.com/embed/JkeHUC0vcEw"},{"desc":"Vanhein\n\u003cspan style\u003d\"font-family:arial,helvetica,sans-serif\"\u003e bắn sáu viên đạn bạc gây \u003c/span\u003e100/125/150 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.50 công vật lý)\u0026nbsp;\u003c/span\u003e\n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.50 công phép)\u003c/span\u003e\n\u003cspan style\u003d\"font-family:arial,helvetica,sans-serif\"\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e lên những kẻ thù.\u003c/span\u003e","id":"3","mana":"Tiêu hao: 100 năng lượng","name":"Bão đạn","youtube":"https://www.youtube.com/embed/nbIcaeXovnM"}]
+﻿[
+{
+"desc":"\u003cstrong\u003eNội tại:\u0026nbsp;\u003c/strong\u003eMỗi đòn đánh thường thứ ba bắn một đoản kiếm ngẫu nhiên kèm hiệu ứng đặc biệt.\u0026nbsp;Valhein nhận một điểm cộng dồn \"Thợ săn\" giúp tăng 8% tốc chạy trong 2 giây, cộng dồn tối đa 5 lần.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Ám khí",
+"youtube":"https://www.youtube.com/embed/WNcboiQTnAU"
+},
+{
+"desc":"Valhein ném một phi tiêu đặc biệt vào kẻ thù trong phạm vi, gây 190/215/240/265/280/305 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.91 Công vật lý)\u003c/span\u003e\n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.8 Công phép)\u003c/span\u003e\n\u003cspan style\u003d\"color:#0000FF\"\u003e sát thương phép\u003c/span\u003e,\u0026nbsp;đồng thời giúp tăng một điểm hiệu ứng \"Thợ săn\".",
+"id":"1",
+"mana":"Tiêu hao: 80 năng lượng",
+"name":"Chuyến săn mạo hiểm",
+"youtube":"https://www.youtube.com/embed/cphOmnW5CVE"
+},
+{
+"desc":"Valhein ném một phi tiêu hoàng kim vào mục tiêu, gây 150/170/190/210/230/250 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.58 Công vật lý)\u003c/span\u003e\n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.6 Công phép)\u003c/span\u003e\n\u003cspan style\u003d\"color:#0000FF\"\u003e sát thương phép\u003c/span\u003e, và làm choáng mục tiêu,\u0026nbsp;đồng thời giúp tăng một điểm hiệu ứng \"Thợ săn\".",
+"id":"2",
+"mana":"Tiêu hao: 80 năng lượng",
+"name":"Trừ tà",
+"youtube":"https://www.youtube.com/embed/JkeHUC0vcEw"
+},
+{
+"desc":"Valhein bắn sáu viên đạn bạc gây 100/125/150 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.5 Công vật lý)\u003c/span\u003e\n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.5 Công phép)\u003c/span\u003e \n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e lên kẻ địch.\u0026nbsp;Mỗi phát đạn trúng đích giúp tăng 10% tốc chạy (tối đa 60%), và 8% tốc đánh (tối đa 48%), kéo dài 3 giây.",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Bão đạn",
+"youtube":"https://www.youtube.com/embed/nbIcaeXovnM"
+}
+]

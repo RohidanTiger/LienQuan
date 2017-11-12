@@ -1,0 +1,30 @@
+﻿[
+{
+"desc":"\u003cstrong\u003eNội tại:\u003c/strong\u003e Khi máu của Arduin còn thấp hơn 50% máu, hắn sẽ tiến vào trạng thái Hồn huyết trong 9 giây. Suốt thời gian này, Arduin được hồi lại 2% máu tối đa mỗi khi đòn đánh thường hoặc chiêu thức của hắn gây sát thương lên kẻ địch. Nội tại này có thời gian hồi 60 giây.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Hồn huyết",
+"youtube":"https://www.youtube.com/embed/14YKr7z2fhM"
+},
+{
+"desc":"Arduin vung rìu chém ra một vòng cung năng lượng gây 200/240/280/320/360/400 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.8 Công vật lý)\u003c/span\u003e\n\u003cspan style\u003d\"color:#FF0000\"\u003e sát thương vật lý\u003c/span\u003e, và làm chậm tốc chạy của nạn nhân trúng chiêu đi 40% trong 2 giây. Nếu có tướng địch trúng chiêu, Arduin có thể tiếp tục nện rìu xuống đất gây 200/240/280/320/360/400 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.8 Công vật lý)\u003c/span\u003e\n\u003cspan style\u003d\"color:#FF0000\"\u003e sát thương vật lý\u003c/span\u003e và hất văng kẻ địch lên không trung trong 1 giây.",
+"id":"1",
+"mana":"Tiêu hao: 50 năng lượng",
+"name":"Hồn trảm",
+"youtube":"https://www.youtube.com/embed/Db1Kwgte8fg"
+},
+{
+"desc":"Arduin tạo ra một lá chắn trị giá 10% máu tối đa trong 5 giây. Ngay khi kích hoạt lá chắn gây 200/225/250/275/300/325 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.75 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép \u003c/span\u003elên những kẻ địch lân cận. Trong vòng 8 giây sau khi tạo lá chắn, 3 đòn đánh thường kế của Arduin gây thêm 100/125/150/175/200/225 \n\u003cspan style\u003d\"color:#FFD700\"\u003esát thương chuẩn\u003c/span\u003e, đồng thời mỗi đòn trúng đích giảm thời gian hồi của Lôi kéo đi 1 giây.",
+"id":"2",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Hồn giáp",
+"youtube":"https://www.youtube.com/embed/2QgHn8CRxL4"
+},
+{
+"desc":"Arduin phóng rìu lên phía trước gây 300/425/550\n\u003cspan style\u003d\"color:#FF8C00\"\u003e (+0.83 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e diện rộng và làm choáng kẻ địch trúng chiêu đầu tiên 1,5 giây. Sau đó, hắn phóng đến vị trí chiếc rìu, gây 300/425/550\u0026nbsp;\n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.83 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e lên các kẻ địch lân cận. Khi Câu hồn rìu được kích hoạt, các trạng thái khống chế sẽ không thể cản Arduin hoàn tất chiêu.",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Câu hồn rìu",
+"youtube":"https://www.youtube.com/embed/YKuH5xKJIDQ"
+}
+]

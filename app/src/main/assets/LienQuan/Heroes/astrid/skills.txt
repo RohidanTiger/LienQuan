@@ -1,0 +1,30 @@
+﻿[
+{
+"desc":"\u003cstrong\u003eNội tại: \u003c/strong\u003eKhi máu còn thấp hơn 80%, Astrid sẽ tự tạo lá chắn hấp thụ 450 (+75 mỗi cấp) sát thương trong 4 giây (thời gian hồi 24 giây). Suốt thời gian tồn tại lá chắn gây 125 \n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e lên những kẻ địch lân cận. Mỗi đòn đánh thường hoặc chiêu thức trúng địch giúp giảm 3 giây hồi lá chắn (quái và lính giảm nửa thời gian).",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Kiếm Tâm",
+"youtube":"gr-qLFAoups"
+},
+{
+"desc":"Astrid vung thanh kiếm cực đại gây 160/200/240/280/320/360\n\u003cspan style\u003d\"color:#FF8C00\"\u003e (+0.6 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e lên những kẻ địch lân cận. Kẻ địch trúng chiêu giúp Astrid tăng 20% tốc đánh, và thêm 5% theo mỗi nạn nhân là tướng địch lên đến tối đa 25%; hiệu ứng kéo dài 3 giây.",
+"id":"1",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Bạt Kiếm",
+"youtube":"PMqfWh6uiuY"
+},
+{
+"desc":"Astrid lướt theo hướng chỉ định, khiến đòn đánh kế gây thêm 60/90/120/150/180/210 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.5 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, và làm chậm 50% tốc chạy của kẻ địch trúng chiêu trong 1.5 giây, đồng thời giảm 30% giáp của nạn nhân trong 4 giây. Đòn đánh thường lên tướng giúp giảm 1 giây hồi chiêu Qủa cảm (trúng nhiều tướng không cộng dồn).",
+"id":"2",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Quả Cảm",
+"youtube":"5wVF2-dgOMc"
+},
+{
+"desc":"Astrid tập trung sức mạnh trong 2 giây giúp miễn nhiễm mọi sát thương. Sau 1.5 giây cô vung kiếm gây 500/750/1000 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.83 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e và làm chậm 50% tốc chạy của kẻ địch trúng chiêu trong 1.5 giây. Theo mỗi 2% máu Astrid tổn thất, cô sẽ gây thêm 1% sát thương (tối đa thêm 50%) . Nếu máu mục tiêu cao hơn Astrid, nạn nhân sẽ bị choáng trong 1.5 giây.",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Cự Kiếm",
+"youtube":"2Qr0nVjJRRM"
+}
+]

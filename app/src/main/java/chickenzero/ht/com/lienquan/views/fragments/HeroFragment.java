@@ -145,9 +145,9 @@ public class HeroFragment extends BaseFragment {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 mAdapter.setSelection(position);
                 mHeroSelectedPos = position;
+                heros = new ArrayList<Hero>();
                 if(position != 0){
                     final String role = data.get(position);
-                    heros = new ArrayList<Hero>();
                     for(Hero hero : listHero){
                         if(Contants.getRole(Integer.parseInt(hero.getRole())).toLowerCase()
                                 .equals(role.toLowerCase())) heros.add(hero);
@@ -155,8 +155,9 @@ public class HeroFragment extends BaseFragment {
                     heroGridAdapterAdapter.setmNumberData(heros);
                     loadHeroesForPage(heros);
                 }else{
-                    heroGridAdapterAdapter.setmNumberData(listHero);
-                    loadHeroesForPage(listHero);
+                    heros.addAll(listHero);
+                    heroGridAdapterAdapter.setmNumberData(heros);
+                    loadHeroesForPage(heros);
                 }
             }
             @Override

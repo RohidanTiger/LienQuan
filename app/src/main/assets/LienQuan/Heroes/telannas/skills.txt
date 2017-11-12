@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eNội tại:\u0026nbsp;\u003c/strong\u003eTăng 10%\u003cspan style\u003d\"color:#FF8C00\"\u003e\u0026nbsp;công vật lý\u0026nbsp;\u003c/span\u003ekhi có tướng đồng minh xung quanh.\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Sao trời",
+"youtube":"PKIqXbBjznk"
+},
+{
+"desc":"\u003cp\u003eNội tại: Các đòn đánh thường được cường hóa bởi tinh thần lực, khiến nạn nhân trúng đòn bị giảm 6% tốc chạy, cộng dồn tối đa 5 lần.\u003c/p\u003e \n\u003cp\u003eKích hoạt: Tăng mạnh tầm đánh, và 20/23/26/29/32/35% tốc đánh. Các đòn đánh thường được cường hóa bởi sức mạnh bóng tối, gây thêm 50/75/100/125/150/175\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.4 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e. Đặc biệt các đòn đánh trong thời gian hiệu lực.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 65 năng lượng",
+"name":"Ưng nhãn",
+"youtube":"4__iV2vg4sE"
+},
+{
+"desc":"Tel’Annas bắn một lúc 3 mũi tên gây 180/210/240/270/300/330\u0026nbsp;\n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.0 Công vật lý)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;lên tất cả kẻ địch trúng chiêu, đồng thời giảm 30% tốc chạy của chúng trong 2 giây. Mũi tên gây 20% sát thương giảm dần theo mỗi kẻ địch trúng chiêu, tối đa giảm 40% sát thương.",
+"id":"2",
+"mana":"Tiêu hao: 70 năng lượng",
+"name":"Ám tiễn",
+"youtube":"c9fF7eZlkaw"
+},
+{
+"desc":"Sau thoáng chốc niệm chú, Tel’Annas kết hợp sức mạnh của sao trời và bóng tối để bắn ra một mũi tên hỗn mang, gây 300/400/500\u0026nbsp;\n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.0 Công vật lý)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;. Kẻ địch cách càng xa càng chịu nhiều sát thương, lên đến 600/800/1000\u0026nbsp;\n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.4 Công vật lý)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e. Những nạn nhân trên đường bay của mũi tên bị đẩy lùi và choáng trong 1 giây. Tel’Annas được tăng 20% tốc chạy trong 2 giây sau đó.",
+"id":"3",
+"mana":"Tiêu hao: 130 năng lượng",
+"name":"Hỗn mang tiễn",
+"youtube":"lEWxdqtOd6s"
+}
+]

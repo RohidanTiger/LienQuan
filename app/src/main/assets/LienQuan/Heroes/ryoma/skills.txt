@@ -1,0 +1,30 @@
+﻿[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eNội tại:\u003c/strong\u003e\u0026nbsp;Sau mỗi 5 giây, đòn đánh kế của Ryoma sẽ phóng ra kiếm khí gây\u003cspan style\u003d\"color:#FF8C00\"\u003e\u0026nbsp;(+1.2 công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;đồng thời giàm 50% tốc chạy của những kẻ địch trúng chiêu trong 2 giây. Nạn nhân trúng rìa chiêu sẽ phải chịu thêm 50%\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e.\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Kiếm Quyết",
+"youtube":"ByCOxcVC51Q"
+},
+{
+"desc":"\u003cp\u003eRyoma nhảy lùi lại để tung một đường kiếm cực mạnh, gây 250/300/350/400/450/500\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.25 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;lên kẻ địch lân cận. Nếu chiêu thức sát thương tướng địch sẽ khiến thời gian hồi chiêu của Thần hành bách biến được giảm 3 giây. Hiệu ứng không cộng dồn.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Thần Hành Bách Biến",
+"youtube":"SMf2T4okspc"
+},
+{
+"desc":"\u003cp\u003eRyoma rút kiếm chớp nhoáng gây 330/375/420/465/510/555\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+2.12 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;lên kẻ địch đầu tiên trúng phải, và 50% lượng sát thương đó lên các mục tiêu sau. Các nạn nhân trúng rìa chiêu sẽ bị choàng 1 giây.\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Nhất Kích Tất Sát",
+"youtube":"YvS74bPHWws"
+},
+{
+"desc":"\u003cp\u003eRyoma đâm kiếm liên tục 4 lần, mỗi đợt gây 140/200/260\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.7 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e. Mỗi cú đâm trúng tướng địch giúp Ryoma hồi 70/100/130\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.35 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Loạn Trảm",
+"youtube":"up5_syk-quc"
+}
+]

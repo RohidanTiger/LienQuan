@@ -63,7 +63,8 @@ public class LeagueAdapter extends SectionedRecyclerViewAdapter<SectionedViewHol
     public void onBindViewHolder(SectionedViewHolder holder, int section, final int relativePosition, int absolutePosition) {
         final String key = (String) mapLeague.keySet().toArray()[section];
         PlayListYoutube.Snippet snippet = mapLeague.get(key).getItems().get(relativePosition).getSnippet();
-        PicassoLoader.getInstance(mContext).load(snippet.getThumbnails().getHigh().getUrl()).placeholder(R.drawable.default_video).
+        if(snippet.getThumbnails()!=null)PicassoLoader.getInstance(mContext).
+                load(snippet.getThumbnails().getHigh().getUrl()).placeholder(R.drawable.default_video).
                 error(R.drawable.default_video).into((((LeagueAdapter.ViewHolder) holder).imgVideo));
         ((LeagueAdapter.ViewHolder) holder).textViewName.setText(snippet.getTitle());
 

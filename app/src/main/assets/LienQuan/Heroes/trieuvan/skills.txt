@@ -1,1 +1,30 @@
-[{"desc":"Nội tại: Mỗi điểm hạ hoặc phụ tăng cho Triệu Vân 12 công vật lý. Cộng dồn 20 lần","id":"0","mana":"Tiêu hao: 0 năng lượng","name":"Đại tướng","youtube":"https://www.youtube.com/embed/_dOncJe_5Pk"},{"desc":"Triệu Vân cường hóa bản thân giúp tăng tốc đánh và tốc chạy. Đòn đánh thường tung ra sau khi kích hoạt chiêu sẽ gây 280/330/380/430/480/520 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1 công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u0026nbsp;\u003c/span\u003eđồng thời tự hóa giải mọi hiệu ứng khống chế hiện tại.","id":"1","mana":"Tiêu hao: 60 năng lượng","name":"Long huyết","youtube":"https://www.youtube.com/embed/Z26-ojhOkUc"},{"desc":"Triệu Vân quét thương, gây lên kẻ địch 210/240/270/300/330/360 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1 công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e sát thương vật lý và làm chậm tốc chạy của chúng trong 3 giây.","id":"2","mana":"Tiêu hao: 70 năng lượng","name":"Gầm thét","youtube":"https://www.youtube.com/embed/Kr_04FNsdPU"},{"desc":"Triệu Vân tấn công kẻ thù, gây 300/375/450 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.4 công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FFD700\"\u003esát thương chuẩn\u003c/span\u003e, và làm chậm tốc chạy của chúng. Sau đó, anh được cường hóa các đòn đánh thường trong 5s. (Mỗi cú đánh gây 3% máu tối đa của mục tiêu thành sát thương chuẩn","id":"3","mana":"Tiêu hao: 130 năng lượng","name":"Long kích","youtube":"https://www.youtube.com/embed/Sbxxn4i8aCI"}]
+﻿[
+{
+"desc":"Nội tại: Mỗi điểm hạ hoặc phụ tăng cho Triệu Vân 12 công vật lý. Cộng dồn 20 lần",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Đại tướng",
+"youtube":"https://www.youtube.com/embed/_dOncJe_5Pk"
+},
+{
+"desc":"Triệu Vân cường hóa bản thân giúp loại bỏ mọi trạng thái bất lợi đang gánh chịu,\u0026nbsp;đồng thời tăng 80% tốc chạy trong 1.5 giây. Đòn đánh thường kế tiếp sẽ được cường hóa, gây thêm 200/225/250/275/300/325 \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e lên những kẻ địch lân cận,\u0026nbsp;khiến chúng bị làm chậm 50% tốc chạy trong 2.5 giây.",
+"id":"1",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Long huyết",
+"youtube":"https://www.youtube.com/embed/Z26-ojhOkUc"
+},
+{
+"desc":"Triệu Vân quét thương, gây 180/210/240/270/300/330 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.7 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e lên những kẻ địch lân cận,\u0026nbsp;đồng thời giúp tăng cho bản thân 40% tốc đánh trong 4 giây.",
+"id":"2",
+"mana":"Tiêu hao: 70 năng lượng",
+"name":"Gầm thét",
+"youtube":"https://www.youtube.com/embed/Kr_04FNsdPU"
+},
+{
+"desc":"Triệu Vân nện thương lên mục tiêu, gây 300/375/450 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.4 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FFD700\"\u003esát thương chuẩn\u003c/span\u003e\n\u003cstrong\u003e\u0026nbsp;\u003c/strong\u003ekèm hiệu ứng hất văng thoáng chốc (0.5 giây).\u0026nbsp;Ngoài ra Triệu Vân còn tự cường hóa giúp bản thân giảm sát thương gánh chịu đi 20%, đặc biệt các đòn đánh thường gây thêm 80/130/180 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.4 Công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FFD700\"\u003esát thương chuẩn\u003c/span\u003e. Hiệu ứng kéo dài 5 giây.",
+"id":"3",
+"mana":"Tiêu hao: 130 năng lượng",
+"name":"Long kích",
+"youtube":"https://www.youtube.com/embed/Sbxxn4i8aCI"
+}
+]

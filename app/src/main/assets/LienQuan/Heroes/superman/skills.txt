@@ -1,0 +1,30 @@
+﻿[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eNội tại:\u003c/strong\u003e\u0026nbsp;Superman có hai cơ chế di chuyển : Phi hành và Bộ hành. Anh tích tụ siêu năng và được tăng 2% tốc chạy theo mỗi 100 đơn vị khoảng cách bước đi , rồi chuyển sang phi hành khi tích đủ siêu năng. Superman được tăng 20% tốc chạy khi bay về phía kẻ địch, ngoài ra đòn đánh thường đầu tiên trong trạng thái này sẽ gây thêm 12% máu tối đa của nạn nhân thành \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý.\u003c/span\u003e Trạng thái phi hành sẽ biến mất khi Superman trúng phải những hiệu ứng khống chế, hoặc giảm tốc khiến tốc chạy của anh còn 375 trở xuống.\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Siêu Phàm",
+"youtube":"https://www.youtube.com/embed/e2EDZtoEVfE"
+},
+{
+"desc":"\u003cp\u003eSuperman thổi hơi cực lạnh gây 250/500/750/1000/1250/1500\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.5 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;lên những kẻ địch trúng chiêu, và làm chậm 50% tốc chạy của chúng trong 1 giây. Nếu tung chiêu trong trạng thái phi hành, anh lướt đến gây 170 (+398) (12% máu tối đa)\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, đồng thời bắn tia laze gây 250\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.5 Công vật lý)\u0026nbsp;\u003c/span\u003e\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý.\u003c/span\u003e\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Siêu Năng Lực",
+"youtube":"https://www.youtube.com/embed/-dCAABa-la8"
+},
+{
+"desc":"Lập tức loại bỏ mọi trạng thái khống chế, đồng thời giúp tăng mạnh tốc chạy. Nếu tung chiêu trong trạng thái phi hành, Superman lướt đến nện tay xuống đất gây 335/470/605/740/875/1010\u0026nbsp;\n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.12 Công vật lý)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, đồng thời hóa giải mọi trạng thái khống chế và giúp tăng tốc chạy.",
+"id":"2",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Người đàn ông thép",
+"youtube":"https://www.youtube.com/embed/kHFlbvdI7-g"
+},
+{
+"desc":"\u003cp\u003eSuperman hấp thu năng lượng mặt trời , giúp tăng 100% tốc độ nạp siêu năng trong 10 giây. Nếu tung chiêu trong trạng thái phi hành, anh bay đến đẩy lùi nạn nhân, gây 170 (+398) (12% máu tối đa)\u003cspan style\u003d\"color:#FF0000\"\u003e\u0026nbsp;sát thương vật lý\u0026nbsp;\u003c/span\u003evà tăng 100% tốc độ nạp siêu năng trong 10 giây.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Superman",
+"youtube":"https://www.youtube.com/embed/KCrRtgo1HmA"
+}
+]

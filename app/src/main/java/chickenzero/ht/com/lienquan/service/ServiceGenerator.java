@@ -1,5 +1,6 @@
 package chickenzero.ht.com.lienquan.service;
 
+import chickenzero.ht.com.lienquan.BuildConfig;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.simplexml.SimpleXmlConverterFactory;
@@ -22,7 +23,7 @@ public class ServiceGenerator {
     public static RssNewService newsService = newsRetrofit.create(RssNewService.class);
 
     private static Retrofit leagueRetrofit = new Retrofit.Builder()
-            .baseUrl(LeagueAPI.BASE_URL)
+            .baseUrl(BuildConfig.BASE_URL)
             .addConverterFactory(GsonConverterFactory.create()).build();
 
     public static LeagueAPI leagueService = leagueRetrofit.create(LeagueAPI.class);

@@ -1,0 +1,30 @@
+﻿[
+{
+"desc":"\u003cstrong\u003eNội tại:\u003c/strong\u003e Mỗi 20 giây khi gây sát thương lên tướng địch giúp kích hoạt nội lực Zuka, khiến công vật lý được cường hóa khi tung đòn đánh kế trong vòng 8 giây.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Võ Hồn",
+"youtube":"https://www.youtube.com/embed/xfo4I65iU-w"
+},
+{
+"desc":"Zuka lướt tới trước vung gậy phỉ thúy tấn công kẻ địch, gây sát thương vật lý lên những nạn nhân lân cận. Chiêu thức này có thể tái sử dụng trong vòng 5 giây kế, đồng thời mỗi lần tung chiêu cường hóa đòn đánh thường kế tiếp của Zuka giúp gây thêm sát thương vật lý và làm choáng các kẻ địch lân cận trong 1 giây.",
+"id":"1",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Loạn Đả Bổng",
+"youtube":"https://www.youtube.com/embed/39wwJaBybjc"
+},
+{
+"desc":"Zuka lộn nhào về phía trước, gây sát thương vật lý lên những nạn nhân trúng chiêu dọc đường bay. Tung chiêu trúng đích giúp Zuka nhận lớp lá chắn trong 2.5 giây, đồng thời cường hóa đòn đánh thường kế tiếp gây thêm sát thương vật lý và làm choáng các kẻ địch lân cận trong 0.75 giây.",
+"id":"2",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Phi Thân Kích",
+"youtube":"https://www.youtube.com/embed/ZQCWaOwy8KE"
+},
+{
+"desc":"Zuka phóng vút lên không rồi nện xuống mặt đất, gây sát thương vật lý lên các nạn nhân trong vùng ảnh hưởng, đồng thời làm choáng trúng trong 1 giây. Đòn đánh thường kế tiếp của Zuka được cường hóa, gây thêm sát thương vật lý lên những kẻ địch lân cận.",
+"id":"3",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Trầm Trọng Lực",
+"youtube":"https://www.youtube.com/embed/yD9iwfk3Kys"
+}
+]

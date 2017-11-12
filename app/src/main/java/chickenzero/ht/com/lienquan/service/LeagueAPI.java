@@ -12,10 +12,9 @@ import retrofit2.http.GET;
  */
 
 public interface LeagueAPI {
-    String BASE_URL = "https://raw.githubusercontent.com/RohidanTiger/";
-    @GET("LienQuanLeague/master/LeagueAPI.json")
+    @GET("master/LeagueAPI.json")
     Call<List<LeagueItem>> loadLeagueList();
 
-    @GET("LienQuanLeague/master/pro_player.json")
+    @GET("master/pro_player.json")
     Call<List<ProPlayer>> loadProPlayerList();
 }

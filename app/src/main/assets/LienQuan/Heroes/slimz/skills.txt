@@ -1,20 +1,20 @@
 [
 {
-"desc":"Sau mỗi 2 đòn đánh thường, đòn tiếp theo của Slimz sẽ xuyên thủng mục tiêu đầu sát thương lên cả các nạn nhân phía sau, gây 1.3 sát thương vật lý.",
+"desc":"Sau mỗi 2 đòn đánh thường, đòn tiếp theo của Slimz sẽ xuyên thủng mục tiêu đầu sát thương lên cả các nạn nhân phía sau, gây 1.3 \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e.",
 "id":"0",
 "mana":"Tiêu hao: 0 năng lượng",
 "name":"Xuyên thấu",
 "youtube":"https://www.youtube.com/embed/sMIN3LG0zl4"
 },
 {
-"desc":"Slimz phóng một mũi lao bay cực xa, nạn nhân đầu tiêu trúng chiêu sẽ bị làm choáng và chịu sát thương phép; thời gian choáng tỷ lệ thuận với khoảng cách mũi lao đã bay bao xa, tối đa choáng trong 2,5 giây. Mũi lao trúng đích giúp Slimz được tăng 25% tốc đánh (trúng tướng tăng gấp đôi) trong 5 giây.",
+"desc":"Slimz phóng một mũi lao bay cực xa, nạn nhân đầu tiêu trúng chiêu sẽ bị làm choáng và chịu \n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e; thời gian choáng tỷ lệ thuận với khoảng cách mũi lao đã bay bao xa, tối đa choáng trong 2,5 giây. Mũi lao trúng đích giúp Slimz được tăng 25% tốc đánh (trúng tướng tăng gấp đôi) trong 5 giây.",
 "id":"1",
 "mana":"Tiêu hao: 65 năng lượng",
 "name":"Lao cơ khí",
 "youtube":"https://www.youtube.com/embed/Vu107reI1Wk"
 },
 {
-"desc":"Slimz sử dụng lò xo trong ba lo nhảy bật đến điểm đã chọn. Sau khi đáp xuống đất hắn được tăng 50 công vật lý trong 5 giây.",
+"desc":"Slimz sử dụng lò xo trong ba lo nhảy bật đến điểm đã chọn. Sau khi đáp xuống đất hắn được tăng 50 \n\u003cspan style\u003d\"color:#FF0000\"\u003ecông vật lý \u003c/span\u003etrong 5 giây.",
 "id":"2",
 "mana":"Tiêu hao: 75 năng lượng",
 "name":"Lò xo cơ khí",

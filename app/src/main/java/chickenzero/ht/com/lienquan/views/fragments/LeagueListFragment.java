@@ -101,19 +101,19 @@ public class LeagueListFragment extends BaseFragment implements ConnectivityRece
                 for(int i = 0; i < leagueItems.size(); i++){
                     final LeagueItem item = leagueItems.get(i);
                     Call<PlayListYoutube> callListVideo = ServiceGenerator.youtubeService.
-                            loadQuestions(item.getYoutube(),"AIzaSyD-47Uhd_ssBQqjRe3jIhTjBY9MkPmAOfM",50,nextPageToken);
+                            loadQuestions(leagueItems.get(i).getYoutube(),"AIzaSyD-47Uhd_ssBQqjRe3jIhTjBY9MkPmAOfM",50,nextPageToken);
                     callListVideo.enqueue(new Callback<PlayListYoutube>() {
                         @Override
                         public void onResponse(Call<PlayListYoutube> call, Response<PlayListYoutube> response) {
-                            index[0]++;
                             mapLeague.put(item.getName(),response.body());
+                            index[0]++;
                             if(index[0] == leagueItems.size()) listenner.onFinish();
                         }
 
                         @Override
                         public void onFailure(Call<PlayListYoutube> call, Throwable t) {
-                            index[0]++;
                             mapLeague.put(item.getName(),new PlayListYoutube());
+                            index[0]++;
                             if(index[0] == leagueItems.size()) listenner.onFinish();
                         }
                     });

@@ -1,0 +1,30 @@
+﻿[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eNội tại:\u0026nbsp;\u003c/strong\u003eSau khi rời khỏi giao tranh, Joker nạp đạn cường hóa khiến đòn đánh thường kế tiếp có tầm công kích vượt trội, gây 200\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1 Công vật lý)\u003c/span\u003e\u003cspan style\u003d\"color:#FF0000\"\u003e\u0026nbsp;sát thương vật lý\u003c/span\u003e. Nạn nhân trúng phát đạn đặc biệt này sẽ bị giảm 90% tốc chạy và rơi vào trạng thái suy yếu giảm dần trong 1.5 giây.\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Đùa dai",
+"youtube":"roKQ09KJrO0"
+},
+{
+"desc":"\u003cp\u003eJoker khai hỏa khẩu súng phóng lựu gây 365/475/585/695/805/915\u003cstrong\u003e\u0026nbsp;\u003c/strong\u003e\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.8 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;lên mọi kẻ địch trúng chiêu. Những nạn nhân trúng sau sẽ chịu sát thương giảm dần từ 10% đến 60%.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 50 năng lượng",
+"name":"Đùa sốc",
+"youtube":"TNb2r06ECYI"
+},
+{
+"desc":"\u003cp\u003eJoker loại bỏ mọi trạng thái làm chậm trên bản thân, đồng thời tự tăng 30/36/42/48/54/60% tốc chạy kèm hiệu ứng miễn nhiễm sát thương vật lý trong 2 giây.\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 80 năng lượng",
+"name":"Bịp bợm",
+"youtube":"btQXdq7NH9Y"
+},
+{
+"desc":"\u003cp\u003eJoker phóng chớp nhoáng đến làm choáng mục tiêu, rồi trước khi bật ngược trở về vị trí cũ hắn nhanh tay cài vào nạn nhân một quả bom khí gas cười, thứ sẽ phát nổ thoáng chốc sau đó gây 440/560/680\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+2.4 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, đồng thời làm chậm 90% tốc chạy kèm hiệu ứng suy yếu trong 1.5 giây. Suốt thời gian thực hiện chuỗi động tác này, Joker không thể bị chọn làm mục tiêu.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Bom cười",
+"youtube":"A7E1rJvk0b8"
+}
+]
