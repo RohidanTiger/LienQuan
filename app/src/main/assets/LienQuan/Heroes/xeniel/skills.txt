@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eNội tại:\u0026nbsp;\u003c/strong\u003eMỗi đòn đánh thường thứ ba gây thêm 4-8% máu tối đa (tăng 1% theo mỗi mốc cấp 4/7/10/13)\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e.\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Sách Thánh Tích",
+"youtube":"kXOXqg2_xBk"
+},
+{
+"desc":"\u003cp\u003eXeniel tự phủ một lớp bản hộ lên bản thân, giúp chặn 400/520/640/760/880/1000\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+ 0.4 Công phép)\u003c/span\u003e\u0026nbsp;(4/5/6/7/8/9% máu tối đa của bản thân) sát thương. Sau 2,5 giây Xeniel có thể tự hủy khiên, gây 400/520/640/760/880/1000\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.4 Công phép)\u003c/span\u003e(4/5/6/7/8/9% máu tối đa của bản thân)\u003cspan style\u003d\"color:#0000FF\"\u003e\u0026nbsp;sát thương phép\u003c/span\u003e\u0026nbsp;lên những kẻ địch lân cận, và làm chậm nạn nhân trúng chiêu trong 1 giây. Nếu lớp bảo hộ bị phá sẽ không thể gây sát thương.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 75 năng lượng",
+"name":"Thần Hộ Thể",
+"youtube":"LTPZtaolRpY"
+},
+{
+"desc":"\u003cp\u003eXeniel nhảy đến một vùng chỉ định gây 280/340/400/460/520/580\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+0.54 Công phép)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e, và làm choáng những kẻ địch trúng chiêu trong 1,25 giây.\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 70 năng lượng",
+"name":"Chùy Thần Lực",
+"youtube":"fT7lNwVsfIk"
+},
+{
+"desc":"\u003cp\u003eXeniel chọn một tướng đồng minh rồi phòng lên trời bay đến mục tiêu. Sau 2.2 giây Xeniel giáng trần, gây 300/450/600\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.8 Công phép)\u003c/span\u003e\u003cspan style\u003d\"color:#0000FF\"\u003e\u0026nbsp;sát thương phép\u003c/span\u003e, đồng thời giúp đồng mình được chọn hồi 15% máu tối đa, và bản thân tăng 40% tốc chạy trong 3 giây, đặc biệt cả hai được tăng 40% miễn thương trong 3 giây.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Sứ Mệnh Cứu Thể",
+"youtube":"qIjDIC9Jju0"
+}
+]

@@ -28,6 +28,8 @@
 -keep public class * extends android.app.Fragment
 -keep class android.support.v7.widget.** { *; }
 
+-keep class chickenzero.ht.com.lienquan.service.** { *; }
+
 -keep class com.parse.*{ *; }
 -dontwarn com.parse.**
 -dontwarn com.squareup.picasso.**

@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003eMỗi đòn đánh thường giúp tăng 4 - 8% tốc đánh (tăng theo cấp tướng), tối đa cộng dồn 8 lần. Đặc biệt các đòn thứ ba có phạm vi công kích rộng hơn.\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Áp suất biển sâu",
+"youtube":"https://www.youtube.com/watch?v\u003dX-Cps7l6kps"
+},
+{
+"desc":"\u003cp\u003eKil\u0027Groth lướt tới trước đâm mâu vào kẻ địch, gây 100 \u003cspan style\u003d\"color:#FF8C00\"\u003e(+109)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, kèm hiệu ứng làm giảm 25% tốc chạy trong 1,5 giây. Đâm trúng tướng giúp giảm 4 giây hồi chiêu.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Sóng tử vong",
+"youtube":"https://www.youtube.com/watch?v\u003d-atEVjphPzg"
+},
+{
+"desc":"\u003cp\u003e(Nội tại): Mỗi đòn đánh thứ ba gây thêm 20 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+33)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e.\u003c/p\u003e \n\u003cp\u003e(Kích hoạt): Kil\u0027Groth cường hóa vũ khí trong 4 giây, khiến các đòn đánh thường gây thêm sát thương phép theo nội tại của chiêu. Mỗi đòn đánh trúng một mục tiêu giúp hồi 20 (+16)\u0026nbsp;máu; giá trị hồi phục không vượt quá 3 lần. Khi máu bản thân còn dưới 50%, giá trị hồi máu được tăng 150%\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 70 năng lượng",
+"name":"Mâu thần lực",
+"youtube":"https://www.youtube.com/watch?v\u003djepRPlvnu1Y"
+},
+{
+"desc":"\u003cp\u003eKil’Groth kích phát bản năng chiến đấu khiến hắn lập tức nhận 4\u0026nbsp;điểm cộng dồn nội tại Áp suất biển sâu, loại bỏ mọi trạng thái khống chế, đồng thời được tăng 80%\u0026nbsp;tốc chạy giảm dần. Chưa hết, trong 6\u0026nbsp;giây kế tiếp, hắn được miễn nhiễm hoàn toàn khỏi mọi trạng thái khống chế. \u0026nbsp;\u0026nbsp;\u0026nbsp;\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 120 năng lượng",
+"name":"Ác mộng biển khơi",
+"youtube":"https://www.youtube.com/watch?v\u003dug9dws9IdPk"
+}
+]

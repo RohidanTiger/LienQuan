@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eNội tại:\u0026nbsp;\u003c/strong\u003eSau mỗi 2 đòn đánh thường liên tiếp, Wonder Woman sẽ phóng khiên tấn công những kẻ địch phía trước trong đòn thứ ba , gây thêm 96\u0026nbsp;\u003cspan style\u003d\"color:#FFD700\"\u003esát thương chuẩn\u003c/span\u003e, và giảm 50 % tốc chạy của kẻ địch trúng chiêu trong 0.5 giây, đồng thời Wonder Woman được hồi 5\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.1 Công vật lý\u003c/span\u003e)\u0026nbsp;máu (gấp ba hiệu lực nếu trúng tướng địch)\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Khiên thần lực",
+"youtube":"kCVluNyjgl0"
+},
+{
+"desc":"\u003cp\u003eWonder Woman lướt đi tấn công kẻ địch bằng khiên gây 40/80/120/160/200/240\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.6 Công vật lý)\u003c/span\u003e\u0026nbsp;(+5% máu tối đa của mục tiêu )\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, và làm chậm 20 % tốc chạy các nạn nhân trúng đòn trong 3 giây, trúng tướng địch giúp tăng bản thân 15/16/17/18/19/20% miễn thương trong 3 giây. Wonder Woman có thể tiếp tục vung gươm tấn công kẻ địch phía trước, gây sát thương vật lý tương đương đòn tấn công bằng khiên. Nạn nhân trúng mũi kiếm chịu 2 lần sát thương.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Khiên kiếm liên kích",
+"youtube":"WW2YJ8JpGWQ"
+},
+{
+"desc":"\u003cp\u003eWonder Woman phóng dây thừng về phía trước, nếu trúng kẻ địch với máu cao hơn 50% sẽ kéo bản thân về phía mục tiêu, gây 250/300/350/400/450/500\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, nếu trúng mục tiêu máu thấp hơn 50% sẽ kéo mục tiêu về bản thân, gây 250/300/350/400/450/500\u0026nbsp;\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1 Công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, giảm 3 giây hồi chiêu khi trúng đích.\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Dây thừng chân thật",
+"youtube":"E4Sjpv_RMc8"
+},
+{
+"desc":"\u003cp\u003eWonder Woman chắp tay phóng sóng năng lượng gây 400/550/700\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003e(+1 Công vật lý)\u003c/span\u003e \u003cspan style\u003d\"color:#FF8C00\"\u003esát thương vật lý\u003c/span\u003e, và làm choáng những kẻ địch trước mặt 1 giây, đồng thời khiến bản thân và đồng minh phía sau nhận lá chắn chặn 600/800/1000 (+12% máu tối đa của Wonder Woman) sát thương, tất cả các mục tiêu trong vùng hiệu lực được tăng 80% tốc chạy trong 1 giây. Suốt thời gian tung chiêu Wonder Woman được tăng mạnh miễn thương.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Giáp tay thần kì",
+"youtube":"gV_SRBTir18"
+}
+]

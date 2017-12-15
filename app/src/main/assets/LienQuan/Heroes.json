@@ -247,12 +247,12 @@
   {
     "id":"ryoma",
     "name":"Ryoma",
-    "role":"2"
+    "role":"1"
   },
   {
     "id":"astrid",
     "name":"Astrid",
-    "role":"2"
+    "role":"1"
   },
   {
     "id":"telannas",
@@ -262,6 +262,21 @@
   {
     "id":"superman",
     "name":"Superman",
-    "role":"2"
+    "role":"1"
+  },
+  {
+    "id":"wonderwoman",
+    "name":"Wonder Woman",
+    "role":"1"
+  },
+  {
+    "id":"xeniel",
+    "name":"Xeniel",
+    "role":"3"
+  },
+  {
+    "id":"kilgroth",
+    "name":"Kil\u0027Groth",
+    "role":"1"
   }
 ]

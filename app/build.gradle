@@ -7,19 +7,20 @@ android {
         applicationId "com.ht.chickenzero.lienquan"
         minSdkVersion 14
         targetSdkVersion 25
-        versionCode 20
-        versionName "2.0"
+        versionCode 51
+        versionName "5.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
+        debug {
+            buildConfigField("String", "BASE_URL", "\"https://raw.githubusercontent.com/RohidanTiger/Findthe8/\"")
+        }
         release {
             shrinkResources false
             minifyEnabled false
+            buildConfigField("String", "BASE_URL", "\"https://raw.githubusercontent.com/RohidanTiger/Findthe8/\"")
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
-    }
-    dexOptions {
-        javaMaxHeapSize "2g"
     }
 }
 
@@ -27,12 +28,10 @@ buildscript {
     repositories {
         mavenCentral()
         jcenter()
-        maven { url 'https://maven.fabric.io/public' }
     }
     dependencies {
         // the latest version of the android-apt plugin
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
-        classpath 'io.fabric.tools:gradle:1.+'
 
         classpath 'com.google.gms:google-services:3.0.0'
 
