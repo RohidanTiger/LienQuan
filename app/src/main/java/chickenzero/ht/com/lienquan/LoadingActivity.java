@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,6 +12,7 @@ import java.io.InputStream;
 import chickenzero.ht.com.lienquan.models.Hero;
 import chickenzero.ht.com.lienquan.models.HeroDetail;
 import chickenzero.ht.com.lienquan.models.Item;
+import chickenzero.ht.com.lienquan.models.RecommentItem;
 import chickenzero.ht.com.lienquan.utils.Logger;
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
@@ -31,16 +33,21 @@ public class LoadingActivity extends AppCompatActivity {
         RealmConfiguration realmConfiguration = new RealmConfiguration.Builder().build();
         if(realmConfiguration != null) {
             try {
-                Realm.deleteRealm(realmConfiguration);
+                if(Realm.deleteRealm(realmConfiguration)){
+                    Log.d("LoadingActivity","Delete sucessfuly");
+                    realm = Realm.getInstance(realmConfiguration);
+                    loadAllHeroFromFile();
+                    loadAllItemFromFile();
+                    loadAllHeroDetailFromFile();
+                    loadAllRecommentFromFile();
+                }else{
+                    realm = Realm.getInstance(realmConfiguration);
+                    Log.d("LoadingActivity","Delete fail");
+                }
             }catch (Exception e){
             }
         }
 
-        realm = Realm.getInstance(realmConfiguration);
-        loadAllHeroFromFile();
-        loadAllItemFromFile();
-        loadAllHeroDetailFromFile();
-        Logger.d("LoadData","finish");
 
         // Start MainActivtiy
         new Handler().postDelayed(new Runnable() {
@@ -50,13 +57,14 @@ public class LoadingActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        },2000);
+        },2500);
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        realm.close();
+        if(realm != null) realm.close();
+
     }
 
     private void loadAllHeroFromFile(){
@@ -113,6 +121,28 @@ public class LoadingActivity extends AppCompatActivity {
             realm.beginTransaction();
             try {
                 realm.createAllFromJson(HeroDetail.class, stream);
+                realm.commitTransaction();
+            } catch (IOException e) {
+                // Remember to cancel the transaction if anything goes wrong.
+                realm.cancelTransaction();
+            } finally {
+                if (stream != null) {
+                    stream.close();
+                }
+            }
+        } catch (IOException e) {
+            Logger.d("Error","file not found");
+        }
+    }
+
+    private void loadAllRecommentFromFile(){
+        InputStream stream = null;
+        try {
+            stream = getAssets().open("LienQuan/Items/recomment.txt");
+            // Open a transaction to store items into the realm
+            realm.beginTransaction();
+            try {
+                realm.createAllFromJson(RecommentItem.class, stream);
                 realm.commitTransaction();
             } catch (IOException e) {
                 // Remember to cancel the transaction if anything goes wrong.

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chickenzero.ht.com.lienquan.customize.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        style="@style/Layout.FillWidth"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_wallpaper"
+            style="@style/Layout.FillWidthHeight"
+            android:scaleType="centerCrop"
+            android:transitionName="image_transition"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/Layout.Weight.WidthFillHeight"
+        android:clickable="true"
+        android:visibility="gone"
+        android:background="@drawable/hero_select">
+    </RelativeLayout>
+
+</chickenzero.ht.com.lienquan.customize.SquareLayout>

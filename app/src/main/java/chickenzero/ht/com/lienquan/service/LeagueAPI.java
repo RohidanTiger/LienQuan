@@ -4,6 +4,7 @@ import java.util.List;
 
 import chickenzero.ht.com.lienquan.models.LeagueItem;
 import chickenzero.ht.com.lienquan.models.ProPlayer;
+import chickenzero.ht.com.lienquan.models.Wallpaper;
 import retrofit2.Call;
 import retrofit2.http.GET;
 
@@ -17,4 +18,7 @@ public interface LeagueAPI {
 
     @GET("master/pro_player.json")
     Call<List<ProPlayer>> loadProPlayerList();
+
+    @GET("master/AoVWallpapers.json")
+    Call<List<Wallpaper>> loadWallpaperList();
 }

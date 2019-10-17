@@ -48,6 +48,7 @@ import chickenzero.ht.com.lienquan.views.fragments.LeagueListFragment;
 import chickenzero.ht.com.lienquan.views.fragments.ListProPlayerFragment;
 import chickenzero.ht.com.lienquan.views.fragments.NewsFrament;
 import chickenzero.ht.com.lienquan.views.fragments.SupportSkillFragment;
+import chickenzero.ht.com.lienquan.views.fragments.WallpaperFragment;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     public SCApplication mApplication;
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private SlideMenuAdapter menuAdapter;
     private Toolbar toolbar;
     private TextView btnRateApp;
+    private TextView btnOpenCamera;
     private ProgressDialog pDialog;
     private RecyclerView slideMenu;
     private int mCurrentPosition = 0;
@@ -76,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         btnRateApp = (TextView) findViewById(R.id.btnRateApp);
+        btnOpenCamera = (TextView) findViewById(R.id.btnOpenCamera);
         setSupportActionBar(toolbar);
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
@@ -93,6 +96,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         initFragmentStackManager();
         enableNetworkOnMainThread();
         initFirstScreen();
+        btnOpenCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openApp("ht.com.aov_camera");
+            }
+        });
         btnRateApp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -210,6 +219,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 pushFragments(new FreeHeroFragment(), false, true);
                 break;
             }
+            case 7:{
+                setActionBarTitle(R.string.str_wallpaper);
+                pushFragments(new WallpaperFragment(), false, true);
+                break;
+            }
         }
     }
 
@@ -240,36 +254,46 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         menuAdapter.setOnItemClickListener(new SlideMenuAdapter.OnItemClickListener() {
             @Override
             public void onClick(int index, int title) {
-                clearAllPreviousFragment();
                 setActionBarTitle(title);
                 mCurrentPosition = index;
                 switch (index){
                     case 0:{
+                        clearAllPreviousFragment();
                         pushFragments(new HeroFragment(), false, true);
                         break;
                     }
                     case 1:{
+                        clearAllPreviousFragment();
                         pushFragments(new ItemFragment(), false, true);
                         break;
                     }
                     case 2:{
+                        clearAllPreviousFragment();
                         pushFragments(new SupportSkillFragment(), false, true);
                         break;
                     }
                     case 3:{
+                        clearAllPreviousFragment();
                         pushFragments(new ListProPlayerFragment(), false, true);
                         break;
                     }
                     case 4:{
+                        clearAllPreviousFragment();
                         pushFragments(new LeagueListFragment(), false, true);
                         break;
                     }
                     case 5:{
+                        clearAllPreviousFragment();
                         pushFragments(new NewsFrament(), false, true);
                         break;
                     }
                     case 6:{
+                        clearAllPreviousFragment();
                         pushFragments(new FreeHeroFragment(), false, true);
+                        break;
+                    }case 7:{
+                        clearAllPreviousFragment();
+                        pushFragments(new WallpaperFragment(), false, true);
                         break;
                     }
                 }

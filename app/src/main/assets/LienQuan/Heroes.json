@@ -62,7 +62,7 @@
   {
     "id":"chaugnar",
     "name":"Chaugnar",
-    "role":"4"
+    "role":"3"
   },
   {
     "id":"violet",
@@ -162,7 +162,7 @@
   {
     "id":"ngokhong",
     "name":"Ngộ Không",
-    "role":"1"
+    "role":"5"
   },
   {
     "id":"kriknak",
@@ -170,7 +170,7 @@
     "role":"5"
   },
   {
-    "id":"arthur",
+    "id":"mortos",
     "name":"Arthur",
     "role":"1"
   },
@@ -197,7 +197,7 @@
   {
     "id":"raz",
     "name":"Raz",
-    "role":"5"
+    "role":"2"
   },
   {
     "id":"lauriel",
@@ -207,7 +207,7 @@
   {
     "id":"batman",
     "name":"Batman",
-    "role":"1"
+    "role":"5"
   },
   {
     "id":"airi",
@@ -237,7 +237,7 @@
   {
     "id":"arduin",
     "name":"Arduin",
-    "role":"4"
+    "role":"1"
   },
   {
     "id":"joker",
@@ -256,7 +256,7 @@
   },
   {
     "id":"telannas",
-    "name":"Tel’Annas",
+    "name":"Tel\u0027Annas",
     "role":"6"
   },
   {
@@ -277,6 +277,176 @@
   {
     "id":"kilgroth",
     "name":"Kil\u0027Groth",
+    "role":"1"
+  },
+  {
+    "id":"moren",
+    "name":"Moren",
+    "role":"6"
+  },
+  {
+    "id":"teemee",
+    "name":"TeeMee",
+    "role":"3"
+  },
+  {
+    "id":"lindis",
+    "name":"Lindis",
+    "role":"6"
+  },
+  {
+    "id":"omen",
+    "name":"Omen",
+    "role":"1"
+  },
+  {
+    "id":"tulen",
+    "name":"Tulen",
+    "role":"2"
+  },
+  {
+    "id":"liliana",
+    "name":"Liliana",
+    "role":"2"
+  },
+  {
+    "id":"max",
+    "name":"Max",
+    "role":"1"
+  },
+  {
+    "id":"flash",
+    "name":"The Flash",
+    "role":"2"
+  },
+  {
+    "id":"wisp",
+    "name":"Wisp",
+    "role":"6"
+  },
+  {
+    "id":"arum",
+    "name":"Arum",
+    "role":"4"
+  },
+  {
+    "id":"rourke",
+    "name":"Rourke",
+    "role":"1"
+  },
+  {
+    "id":"marja",
+    "name":"Marja",
+    "role":"2"
+  },
+  {
+    "id":"roxie",
+    "name":"Roxie",
+    "role":"1"
+  },
+  {
+    "id":"baldum",
+    "name":"Baldum",
+    "role":"4"
+  },
+  {
+    "id":"annette",
+    "name":"Annette",
+    "role":"3"
+  },
+  {
+    "id":"amily",
+    "name":"Amily",
+    "role":"1"
+  },
+  {
+    "id":"ybneth",
+    "name":"Y\u0027bneth",
+    "role":"4"
+  },
+  {
+    "id":"elsu",
+    "name":"Elsu",
+    "role":"6"
+  },
+  {
+    "id":"richter",
+    "name":"Richter",
+    "role":"1"
+  },
+  {
+    "id":"wiro",
+    "name":"Wiro ",
+    "role":"4"
+  },
+  {
+    "id":"quillen",
+    "name":"Quillen",
+    "role":"5"
+  },
+  {
+    "id":"sephera",
+    "name":"Sephera",
+    "role":"3"
+  },
+  {
+    "id":"florentino",
+    "name":"Florentino",
+    "role":"1"
+  },
+  {
+    "id":"veres",
+    "name":"Veres",
+    "role":"1"
+  },
+  {
+    "id":"darcy",
+    "name":"D\u0027arcy",
+    "role":"2"
+  },
+  {
+    "id":"hayate",
+    "name":"Hayate",
+    "role":"6"
+  },
+  {
+    "id":"capheny",
+    "name":"Capheny",
+    "role":"6"
+  },
+  {
+    "id":"errol",
+    "name":"Errol",
+    "role":"1"
+  },
+  {
+    "id":"yena",
+    "name":"Yena",
+    "role":"1"
+  },
+  {
+    "id":"enzo",
+    "name":"Enzo",
+    "role":"5"
+  },
+  {
+    "id":"zip",
+    "name":"Zip",
+    "role":"3"
+  },
+  {
+    "id":"qi",
+    "name":"Qi",
+    "role":"1"
+  },
+  {
+    "id":"celica",
+    "name":"Celica",
+    "role":"6"
+  },
+  {
+    "id":"volkath",
+    "name":"Volkath",
     "role":"1"
   }
 ]

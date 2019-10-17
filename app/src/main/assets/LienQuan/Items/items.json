@@ -1,611 +1,702 @@
 [
   {
     "desc":"Giá: 250\n\u003cbr\u003e +20 Công vật lý",
-    "name":"Kiếm ngắn",
-    "level":1,
     "id":0,
+    "level":1,
+    "name":"Kiếm ngắn",
     "type":0
   },
   {
     "desc":"Giá: 290\n\u003cbr\u003e +10% tốc độ đánh",
-    "name":"Dao găm",
-    "level":1,
     "id":1,
+    "level":1,
+    "name":"Dao găm",
     "type":0
   },
   {
     "desc":"Giá: 490\n\u003cbr\u003e +12% tỉ lệ chí mạng",
-    "name":"Găng tay",
-    "level":1,
     "id":2,
+    "level":1,
+    "name":"Găng tay",
     "type":0
   },
   {
     "desc":"Giá: 410\n\u003cbr\u003e \n\u003cp\u003e+10 Công vật lý\u003c/p\u003e \n\u003cp\u003e+8% Hút máu\u003c/p\u003e",
-    "name":"Chùy máu",
-    "level":1,
     "id":3,
+    "level":1,
+    "name":"Chùy máu",
     "type":0
   },
   {
     "desc":"Giá: 450\n\u003cbr\u003e +40 Công vật lý",
-    "name":"Chùy xích",
-    "level":1,
     "id":4,
+    "level":1,
+    "name":"Chùy xích",
     "type":0
   },
   {
     "desc":"Giá: 910\n\u003cbr\u003e +80 Công vật lý",
-    "name":"Kiếm dài",
-    "level":2,
     "id":5,
+    "level":2,
+    "name":"Kiếm dài",
     "type":0
   },
   {
     "desc":"Giá: 740\n\u003cbr\u003e \n\u003cp\u003e+25 Công vật lý\u003c/p\u003e \n\u003cp\u003e+15% Tốc đánh\u003c/p\u003e \n\u003cp\u003eCuồng bạo: Đòn đánh tay tăng 10% tốc chạy - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Chùy cổ",
-    "level":2,
     "id":6,
+    "level":2,
+    "name":"Chùy cổ",
     "type":0
   },
   {
     "desc":"Giá: 780\n\u003cbr\u003e \n\u003cp\u003e+25% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+5% Tốc chạy\u003c/p\u003e",
-    "name":"Song đao",
-    "level":2,
     "id":7,
+    "level":2,
+    "name":"Song đao",
     "type":0
   },
   {
-    "desc":"Giá: 830\n\u003cbr\u003e \n\u003cp\u003e+50 Công vật lý\u003c/p\u003e \n\u003cp\u003e(+60) xuyên giáp - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Thương đấu sĩ",
-    "level":2,
+    "desc":"Giá: 830\n\u003cbr\u003e \n\u003cp\u003e+50 Công vật lý\u003c/p\u003e \n\u003cp\u003e+60 xuyên giáp - Nội tại duy nhất\u003c/p\u003e",
     "id":8,
+    "level":2,
+    "name":"Thương đấu sĩ",
     "type":0
   },
   {
-    "desc":"Giá: 890\n\u003cbr\u003e \n\u003cp\u003e+25% tốc đánh\u003c/p\u003e \n\u003cp\u003eNhược điểm: Đòn đánh tay sẽ được tăng thêm 20-34 Công vật lý (tăng theo cấp)\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
-    "name":"Phi tiêu",
-    "level":2,
+    "desc":"Giá: 750\n\u003cbr\u003e \n\u003cp\u003e+20% tốc đánh\u003c/p\u003e \n\u003cp\u003eĐiểm yếu: Đòn đánh thường sẽ được tăng sát thương vật lý, thêm 20 (+1 mỗi cấp tướng) đối với tướng đánh gần hoặc gấp đôi\u0026nbsp;với tướng đánh xa - Nội tại duy nhất\u003c/p\u003e",
     "id":9,
+    "level":2,
+    "name":"Phi tiêu",
     "type":0
   },
   {
-    "desc":"Giá: 850\n\u003cbr\u003e \n\u003cp\u003e+50 Công vật lý\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e (+35%) Xuyên giáp\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
-    "name":"Thương trừ tà",
-    "level":2,
+    "desc":"Giá: 2020\n\u003cbr\u003e \n\u003cp\u003e+100 Công vật lý\u003c/p\u003e \n\u003cp\u003e+ 600 Máu\u003c/p\u003e \n\u003cp\u003e[Bảo hộ ma pháp] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eBảo hộ ma pháp: Khi Máu của tướng còn dưới 40%,\u0026nbsp;Phong Ấn Uriel giúp tăng 200 giáp phép, kèm theo\u0026nbsp;một lớp lá chắn trong 5 giây giúp chặn (500 + cấp tướng\u0026nbsp;* 100) sát thương phép; 75 giây hồi chiêu\u003c/p\u003e",
     "id":10,
-    "type":0
-  },
-  {
-    "desc":"Giá: 2020\n\u003cbr\u003e \n\u003cp\u003e+100 Công vật lý\u003c/p\u003e \n\u003cp\u003e+600 Máu\u003c/p\u003e \n\u003cp\u003e[Bảo hộ ma pháp] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eBảo hộ ma pháp: Khi Máu của tướng còn dưới 40%,\u0026nbsp;Phong Ấn Uriel sẽ tạo một lớp lá chắn trong 5 giây giúp chặn (500 * cấp tướng) sát thương, đồng thời tăng 200 Sát giáp phép; 75 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Gươm Uriel",
     "level":2,
+    "name":"Gươm Uriel",
+    "type":0
+  },
+  {
+    "desc":"Giá: 2080\n\u003cbr\u003e \n\u003cp\u003e+80 Công vật lý\u003c/p\u003e \n\u003cp\u003e+15% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+400 máu\u003c/p\u003e \n\u003cp\u003ePhá giáp: Gây sát thương sẽ trừ\u0026nbsp;50 Giáp\u0026nbsp;của nạn nhân, cộng dồn lên đến 5 lần, kéo dài 5 giây - Nội tại duy nhất\u003c/p\u003e",
     "id":11,
-    "type":0
-  },
-  {
-    "desc":"Giá: 2060\n\u003cbr\u003e \n\u003cp\u003e+80 Công vật lý\u003c/p\u003e \n\u003cp\u003e+15% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+150 Giáp\u003c/p\u003e \n\u003cp\u003ePhá giáp: Gây sát thương sẽ trừ\u0026nbsp;50 Giáp\u0026nbsp;của nạn nhân, cộng dồn lên đến 5 lần, kéo dài 5 giây - Nội tại duy nhất\u003c/p\u003e",
+    "level":3,
     "name":"Thương Longinus",
-    "level":3,
+    "type":0
+  },
+  {
+    "desc":"Giá: 2040\n\u003cbr\u003e \n\u003cp\u003e+60\u0026nbsp;Công vật lý\u003c/p\u003e \n\u003cp\u003e+30% tốc đánh\u003c/p\u003e \n\u003cp\u003e+10% Hút máu\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e Hơi thở rồng: Đòn đánh thường gây thêm sát thương vật lý tương đương\u0026nbsp;8% lượng máu hiện tại của mục tiêu\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
     "id":12,
-    "type":0
-  },
-  {
-    "desc":"Giá: 2040\n\u003cbr\u003e \n\u003cp\u003e+65 Công vật lý\u003c/p\u003e \n\u003cp\u003e+45% tốc đánh\u003cbr\u003e \u003cbr\u003e [Đổ Nát] 8% lượng máu hiện tại của mục tiêu sẽ được chuyển thành công vật lý trong các đòn đánh tay - Nội tại duy nhất\u003cbr\u003e \u0026nbsp;\u003c/p\u003e",
+    "level":3,
     "name":"Kiếm Fafnir",
-    "level":3,
+    "type":0
+  },
+  {
+    "desc":"Giá: 2000\n\u003cbr\u003e \n\u003cp\u003e+100 Công vật lý\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e+30% Tỷ lệ chí mạng - Nội tạ duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003eNội tại duy nhất – Thánh kiếm: Sau khi đánh\u0026nbsp;chí mạng giúp\u0026nbsp;tăng (cấp tướng * 3) tốc chạy trong 1.5 giây (chỉ có hiệu quả khi dùng với\u0026nbsp;tướng đánh xa)\u003c/p\u003e",
     "id":13,
-    "type":0
-  },
-  {
-    "desc":"Giá: 2000\n\u003cbr\u003e \n\u003cp\u003e+100 Công vật lý\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e+30% Tỷ lệ chí mạng\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003eNội tại duy nhất – Bứt phá: Sau khi chí mạng tăng (30+ cấp Tướng *2) tốc chạy của bản thân, kéo dài 2 giây (chỉ có hiệu quả ở tướng đánh xa)\u003c/p\u003e",
+    "level":3,
     "name":"Thánh kiếm",
-    "level":3,
-    "id":14,
     "type":0
   },
   {
-    "desc":"Giá: 2070\n\u003cbr\u003e \n\u003cp\u003e+80 Công vật lý\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[+45 Xuyên giáp] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e+45% Xuyên giáp - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Kiếm Muramasa",
+    "desc":"Giá: 2020\n\u003cbr\u003e \n\u003cp\u003e+75 Công vật lý\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[+45% Xuyên giáp] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+    "id":14,
     "level":3,
-    "id":15,
+    "name":"Kiếm Muramasa",
     "type":0
   },
   {
     "desc":"Giá: 1740\n\u003cbr\u003e \n\u003cp\u003e+100 Công vật lý\u003c/p\u003e \n\u003cp\u003e+25% Hút máu\u003c/p\u003e",
+    "id":15,
+    "level":3,
     "name":"Quỷ Kiếm",
-    "level":3,
+    "type":0
+  },
+  {
+    "desc":"Giá: 2150\n\u003cbr\u003e \n\u003cp\u003e+70 Công vật lý\u003c/p\u003e \n\u003cp\u003e+15% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+10% Hút máu\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+500 Máu tối đa\u003c/p\u003e \n\u003cp\u003eSức mạnh nguyên tố: Trong vòng 5 giây sau khi tung chiêu, đòn đánh thường tiếp theo của tướng gây thêm (\u003cspan style\u003d\"color:#FF8C00\"\u003e100% công vật lý\u003c/span\u003e)\u0026nbsp;sát thương vật lý , 2\u0026nbsp;giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
     "id":16,
-    "type":0
-  },
-  {
-    "desc":"Giá: 2400\n\u003cbr\u003e \n\u003cp\u003e+70 Công vật lý\u003c/p\u003e \n\u003cp\u003e+15% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+500 Máu\u003c/p\u003e \n\u003cp\u003eSức mạnh nguyên tố: Trong vòng 5 giây sau khi tung chiêu, đòn đánh thường tiếp theo của tướng gây thêm\u0026nbsp;100% sát thương vật lý, 2 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
+    "level":3,
     "name":"Phức hợp kiếm",
-    "level":3,
-    "id":17,
     "type":0
   },
   {
-    "desc":"Giá: 2020\n\u003cbr\u003e \n\u003cp\u003e+60 Công vật lý\u003c/p\u003e \n\u003cp\u003e+30% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+5% Tốc chạy\u003c/p\u003e \n\u003cp\u003e+10% Hút máu\u003c/p\u003e \n\u003cp\u003e[Chớp giật] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eChớp giật: Mỗi 8 giây sẽ kích hoạt hiệu ứng Chớp giật trong đòn đánh thường kế tiếp gây\u0026nbsp;150\u0026nbsp;(+20% Công vật lý)\u0026nbsp;sát thương vật lý (sát thương này cũng áp dụng với hút máu), mỗi đòn đánh thường giảm 1 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Gươm sấm sét",
+    "desc":"Giá: 1780\n\u003cbr\u003e \n\u003cp\u003e+50 Công vật lý\u003c/p\u003e \n\u003cp\u003e+35% Tốc đánh\u003c/p\u003e \n\u003cp\u003e[Chớp giật] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eChớp giật: Mỗi\u0026nbsp;4 giây\u0026nbsp;sẽ kích hoạt hiệu ứng Chớp giật trong đòn đánh thường kế tiếp gây\u0026nbsp;102 (+7 mỗi cấp)\u0026nbsp;sát thương phép thuật (sát thương gấp đôi khi người dùng là tướng đánh xa), mỗi đòn đánh thường giảm 1 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
+    "id":17,
     "level":3,
-    "id":18,
+    "name":"Gươm sấm sét",
     "type":0
   },
   {
     "desc":"Giá: 2190\n\u003cbr\u003e \n\u003cp\u003e+200 Công phép\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Sức mạnh nguyên tố] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eSức mạnh nguyên tố: Sau khi tung chiêu, đòn đánh kế tiếp gây thêm 30% Công vật lý\u0026nbsp;(+80% Công phép cộng thêm)\u0026nbsp;sát thương phép, 2 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Gươm tận thế",
+    "id":18,
     "level":3,
-    "id":19,
+    "name":"Gươm tận thế",
     "type":1
   },
   {
-    "desc":"Giá: 2050\n\u003cbr\u003e \n\u003cp\u003e+30% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+20% Tỷ lệ chí mạng\u003c/p\u003e \n\u003cp\u003e+5% Tốc chạy\u003c/p\u003e \n\u003cp\u003eCuồng phong: Tăng 50% sát thương chí mạng - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Song đao bão táp",
+    "desc":"Giá: 2000\n\u003cbr\u003e \n\u003cp\u003e+35% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+25% Tỷ lệ chí mạng\u003c/p\u003e \n\u003cp\u003e+7% Tốc chạy\u003c/p\u003e \n\u003cp\u003eCuồng phong: Tăng 35% Kháng hiệu ứng trong 2 giây sau khi chí mạng - Nội tại duy nhất\u003c/p\u003e",
+    "id":19,
     "level":3,
-    "id":20,
+    "name":"Song đao bão táp",
     "type":0
   },
   {
     "desc":"Giá: 2950\n\u003cbr\u003e \n\u003cp\u003e+200 Công vật lý\u003c/p\u003e \n\u003cp\u003eChinh phạt: Khi máu của mục tiêu xuống dưới 50% sẽ chịu thêm 30% sát thương - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Nanh Fenrir",
+    "id":20,
     "level":3,
-    "id":21,
+    "name":"Nanh Fenrir",
     "type":0
   },
   {
     "desc":"Giá: 2100\n\u003cbr\u003e \n\u003cp\u003e+140 Công phép\u003c/p\u003e \n\u003cp\u003e+1050 Máu\u003c/p\u003e \n\u003cp\u003e[Kết giới] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eKết giới: Giảm\u0026nbsp;(75 + Cấp tướng * 5) Giáp phép của kẻ địch trong phạm vi 800\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
-    "name":"Gươm hiền triết",
+    "id":21,
     "level":3,
-    "id":22,
+    "name":"Gươm hiền triết",
     "type":1
   },
   {
     "desc":"Giá: 300\n\u003cbr\u003e +40 Công phép",
-    "name":"Sách phép",
+    "id":22,
     "level":1,
-    "id":23,
+    "name":"Sách phép",
     "type":1
   },
   {
     "desc":"Giá: 220\n\u003cbr\u003e +300 Năng lượng tối đa",
-    "name":"Nhẫn Lapis",
+    "id":23,
     "level":1,
-    "id":24,
+    "name":"Nhẫn Lapis",
     "type":1
   },
   {
     "desc":"Giá: 2990\n\u003cbr\u003e \n\u003cp\u003e+ 400 Công phép\u003c/p\u003e \n\u003cp\u003eKhai sáng: Nhận 1400 máu - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Sách thánh",
+    "id":24,
     "level":3,
-    "id":25,
+    "name":"Sách thánh",
     "type":1
   },
   {
     "desc":"Giá: 120\n\u003cbr\u003e +10 Hồi năng lượng/5s",
-    "name":"Dây chuyền ma thuật",
+    "id":25,
     "level":1,
-    "id":26,
+    "name":"Dây chuyền ma thuật",
     "type":1
   },
   {
     "desc":"Giá: 300\n\u003cbr\u003e + 300 Máu tối đa",
-    "name":"Nhẫn hồng ngọc",
+    "id":26,
     "level":1,
-    "id":27,
+    "name":"Nhẫn hồng ngọc",
     "type":2
   },
   {
     "desc":"Giá: 540\n\u003cbr\u003e +80 Công phép",
-    "name":"Sách cổ",
+    "id":27,
     "level":1,
-    "id":28,
+    "name":"Sách cổ",
     "type":1
   },
   {
     "desc":"Giá: 430\n\u003cbr\u003e +10% giảm hồi chiêu - Nội tại duy nhất",
-    "name":"Nhẫn ma pháp",
+    "id":28,
     "level":1,
-    "id":29,
+    "name":"Nhẫn ma pháp",
     "type":1
   },
   {
     "desc":"Giá: 820\n\u003cbr\u003e +120 Công phép",
-    "name":"Sớ ma thuật",
+    "id":29,
     "level":2,
-    "id":30,
+    "name":"Sớ ma thuật",
     "type":1
   },
   {
     "desc":"Giá: 920\n\u003cbr\u003e \n\u003cp\u003e+60 Công phép\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003eSức mạnh nguyên tố: Sau khi sử dụng một kỹ năng, đòn đánh tay tiếp theo của tướng được tăng công phép, 3 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Gươm nguyên tố",
+    "id":30,
     "level":2,
-    "id":31,
+    "name":"Gươm nguyên tố",
     "type":1
   },
   {
     "desc":"Giá: 220\n\u003cbr\u003e + 90 Giáp",
-    "name":"Giáp nhẹ",
+    "id":31,
     "level":1,
-    "id":32,
+    "name":"Giáp nhẹ",
     "type":2
   },
   {
     "desc":"Giá: 960\n\u003cbr\u003e \n\u003cp\u003e+100 Công phép\u003c/p\u003e \n\u003cp\u003e(+75 xuyên giáp phép) - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Mặt nạ ma quái",
+    "id":32,
     "level":2,
-    "id":33,
+    "name":"Mặt nạ ma quái",
     "type":1
   },
   {
     "desc":"Giá: 220\n\u003cbr\u003e + 90 Giáp phép",
-    "name":"Găng giác đấu",
+    "id":33,
     "level":1,
-    "id":34,
+    "name":"Găng giác đấu",
     "type":2
   },
   {
     "desc":"Giá: 600\n\u003cbr\u003e \n\u003cp\u003e+60 Công phép\u003c/p\u003e \n\u003cp\u003eTưởng thưởng anh hùng: Khi tướng lên cấp, hồi phục 20% lượng máu và năng lượng trong 3 giây - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Phượng hoàng lệ",
+    "id":34,
     "level":2,
-    "id":35,
+    "name":"Phượng hoàng lệ",
     "type":1
   },
   {
     "desc":"Giá: 140\n\u003cbr\u003e + 30 Hồi máu/5s",
-    "name":"Bùa sức mạnh",
+    "id":35,
     "level":1,
-    "id":36,
+    "name":"Bùa sức mạnh",
     "type":2
   },
   {
-    "desc":"Giá: 1020\n\u003cbr\u003e \n\u003cp\u003e+60 Công phép\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+20 Hồi năng lượng/5s\u003c/p\u003e \n\u003cp\u003eSuối Nguồn năng lượng: Sau khi có 1 điểm Hạ hoặc Phụ, hồi phục 20% năng lượng - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Vòng đức hạnh",
+    "desc":"Giá: 720\n\u003cbr\u003e \n\u003cp\u003e+60 Công phép\u003c/p\u003e \n\u003cp\u003e+5% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+20 Hồi năng lượng/5s\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+    "id":36,
     "level":2,
-    "id":37,
+    "name":"Vòng đức hạnh",
     "type":1
   },
   {
-    "desc":"Giá: 540\n\u003cbr\u003e + 600 Máu tối đa",
-    "name":"Dây chuyền hồng ngọc",
+    "desc":"Giá: 300\n\u003cbr\u003e \n\u003cp dir\u003d\"ltr\"\u003e+5% tốc chạy\u003c/p\u003e \n\u003cp dir\u003d\"ltr\"\u003e+ hồi 8 năng lượng / 5 giây\u003c/p\u003e \n\u003cp dir\u003d\"ltr\"\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp dir\u003d\"ltr\"\u003e[Nội tại - Quân lương] Chủ thể được nhận 5 vàng hoặc\u0026nbsp;kinh nghiệm mỗi 3 giây khi sở hữu mức vàng hoặc kinh nghiệm thấp nhất đội - Nội tại duy nhất\u003c/p\u003e",
+    "id":37,
     "level":1,
+    "name":"Phong thạch",
+    "type":5
+  },
+  {
+    "desc":"Giá: 540\n\u003cbr\u003e + 600 Máu tối đa",
     "id":38,
+    "level":1,
+    "name":"Dây chuyền hồng ngọc",
     "type":2
   },
   {
     "desc":"Giá: 1130\n\u003cbr\u003e \n\u003cp\u003e+90 Công phép\u003c/p\u003e \n\u003cp\u003e(+15%) Hút máu phép - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Huyết trượng",
-    "level":2,
     "id":39,
+    "level":2,
+    "name":"Huyết trượng",
     "type":1
   },
   {
     "desc":"Giá: 900\n\u003cbr\u003e + 1000 Máu tối đa",
-    "name":"Giáp chân",
-    "level":2,
     "id":40,
+    "level":2,
+    "name":"Giáp chân",
     "type":2
   },
   {
-    "desc":"Giá: 2050\n\u003cbr\u003e \n\u003cp\u003e+180 Công phép\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[+45% Xuyên giáp phép] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e+45% Xuyên giáp phép - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Trượng hỗn mang",
-    "level":2,
+    "desc":"Giá: 2050\n\u003cbr\u003e \n\u003cp\u003e+180 Công phép\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[+40% Xuyên giáp phép] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
     "id":41,
+    "level":2,
+    "name":"Trượng hỗn mang",
     "type":1
   },
   {
-    "desc":"Giá: 910\n\u003cbr\u003e \n\u003cp\u003e+ 600 Máu tối đa\u003c/p\u003e \n\u003cp\u003eThiêu cháy: Gây 50 sát thương phép (+2 mỗi cấp) mỗi giây lên những đối thủ cạnh bên - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Tim Incubus",
-    "level":2,
+    "desc":"Giá: 760\n\u003cbr\u003e \n\u003cp\u003e+\u0026nbsp;180 hộ giáp\u003cbr\u003e \u003cbr\u003e Thiêu cháy: Gây 50 sát thương phép (+2 mỗi cấp) mỗi giây lên những đối thủ cạnh bên (tăng thêm 100% sát thương đối với Quái rừng và Lính) - Nội tại duy nhất\u003c/p\u003e",
     "id":42,
+    "level":2,
+    "name":"Tim Incubus",
     "type":2
   },
   {
     "desc":"Giá: 2000\n\u003cbr\u003e \n\u003cp\u003e+240 Công phép\u003c/p\u003e \n\u003cp\u003e[Vang vọng] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eVang vọng: Tạo nên một vùng nổ nhỏ gây 50\u0026nbsp;(+50% công phép cộng thêm)\u0026nbsp;sát thương phép xung quanh mục tiêu bị trúng chiêu, 5 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Trượng bùng nổ",
-    "level":3,
     "id":43,
+    "level":3,
+    "name":"Trượng bùng nổ",
     "type":1
   },
   {
-    "desc":"Giá: 2300\n\u003cbr\u003e \n\u003cp\u003e+200 Công phép\u003c/p\u003e \n\u003cp\u003eThuật sư: (+35%) công phép - Nội tại duy nhất\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e(+75 Xuyên kháng phép) - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Vương miện Hecate",
-    "level":3,
+    "desc":"Giá: 2300\n\u003cbr\u003e \n\u003cp\u003e+200 Công phép\u003c/p\u003e \n\u003cp\u003eThuật sư: (+35%) công phép - Nội tại duy nhất\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
     "id":44,
+    "level":3,
+    "name":"Vương miện Hecate",
     "type":1
   },
   {
     "desc":"Giá: 1000\n\u003cbr\u003e \n\u003cp\u003e+700 Máu +110 Giáp phép\u003c/p\u003e \n\u003cp\u003e[Hồi phục] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eHồi phục: Nếu chịu sát thương, tướng sẽ hồi phục 4% lượng máu trong 2 giây;\u0026nbsp;15 giây hồi chiêu\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
-    "name":"Đai kháng phép",
-    "level":2,
     "id":45,
+    "level":2,
+    "name":"Đai kháng phép",
     "type":1
   },
   {
     "desc":"Giá: 660\n\u003cbr\u003e \n\u003cp\u003e+ 10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+ 110 Giáp\u003c/p\u003e",
-    "name":"Găng bạch kim",
-    "level":2,
     "id":46,
+    "level":2,
+    "name":"Găng bạch kim",
     "type":2
   },
   {
-    "desc":"Giá: 2010\n\u003cbr\u003e \n\u003cp\u003e+140 Công phép\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Thời gian][Tưởng thưởng anh hùng] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTưởng thưởng anh hùng: Khi tướng lên cấp, hồi phục 20% Máu và Năng lượng trong 3 giây - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eThời gian: Mỗi 30 giây nhận thêm 12 Công phép, và\u0026nbsp;80 Máu. Hiệu ứng cộng dồn tối đa 10 lần - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Ngọc đại pháp sư",
-    "level":3,
+    "desc":"Giá: 2010\n\u003cbr\u003e \n\u003cp\u003e+140 Công phép\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Thời gian][Tưởng thưởng anh hùng] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTưởng thưởng anh hùng: Khi tướng lên cấp, hồi phục 20% Máu và Năng lượng trong 3 giây - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eThời gian: Mỗi 30 giây nhận thêm 12 Công phép, và 110\u0026nbsp;Máu. Hiệu ứng cộng dồn tối đa 10 lần - Nội tại duy nhất\u003c/p\u003e",
     "id":47,
+    "level":3,
+    "name":"Ngọc đại pháp sư",
     "type":1
   },
   {
     "desc":"Giá: 730\n\u003cbr\u003e \n\u003cp\u003e+ 210 Giáp\u003c/p\u003e \n\u003cp\u003eLính gác: Nếu tướng chịu sát thương, giảm 30% tốc đánh của những đối thủ đã ra đòn đánh - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Giáp hiệp sĩ",
-    "level":2,
     "id":48,
+    "level":2,
+    "name":"Giáp hiệp sĩ",
     "type":2
   },
   {
     "desc":"Giá: 2220\n\u003cbr\u003e \n\u003cp\u003e+140 Công phép\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[+25% Hút máu phép][ Khiên sinh mệnh] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e[+25% Hút máu phép] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eKhiên sinh mệnh: Khi lượng máu thấp hơn 40%, nhận được một lá chắn trong 4 giây giúp hấp thụ\u0026nbsp;(450 + cấp tướng * 50) (+40% Công phép cộng thêm)\u0026nbsp;sát thương;\u0026nbsp;75 giây hồi chiêu\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
-    "name":"Quyền trượng Rhea",
-    "level":3,
     "id":49,
+    "level":3,
+    "name":"Quyền trượng Rhea",
     "type":1
-  },
-  {
-    "desc":"Giá: 1600\n\u003cbr\u003e \n\u003cp\u003e+ 1000 Máu tối đa\u003c/p\u003e \n\u003cp\u003e+ 60 Hồi máu/5s\u003c/p\u003e \n\u003cp\u003eTăng 5% sát thương và 10% miễn thương cho đồng đội xung quanh - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Khiên Asterion",
-    "level":2,
-    "id":50,
-    "type":2
   },
   {
     "desc":"Giá: 1970\n\u003cbr\u003e \n\u003cp dir\u003d\"ltr\"\u003e+180 công phép\u003c/p\u003e \n\u003cp dir\u003d\"ltr\"\u003e+400 năng lượng\u003c/p\u003e \n\u003cp dir\u003d\"ltr\"\u003e+8% tốc chạy\u003c/p\u003e \n\u003cp dir\u003d\"ltr\"\u003eĐòn đánh thường kế tiếp tăng 50% tốc đánh cộng thêm, kéo dài 4 giây. Hồi chiêu sau 10 giây - Nội tại Duy nhất: Cấp nhận\u003c/p\u003e \n\u003cp dir\u003d\"ltr\"\u003eÁnh sáng - Nội tại duy nhất: Đòn đánh thường gây thêm sát thương phép tương đương 20% Công phép\u003c/p\u003e",
-    "name":"Kiếm chạng vạng",
+    "id":50,
     "level":3,
-    "id":51,
+    "name":"Thập Tự Kiếm",
     "type":1
   },
   {
-    "desc":"Giá: 1940\n\u003cbr\u003e \n\u003cp\u003e+300 Giáp\u003c/p\u003e \n\u003cp\u003e+1200 máu\u003c/p\u003e \n\u003cp\u003e[Phản pháo] Phản pháo: Sau khi chịu đòn đánh thường, lập tức phản lại\u0026nbsp;15% sát thương gánh chịu\u0026nbsp;thành sát thương phép (sát thương phản lại là kết quả đã qua tính toán giảm trừ giáp/giáp phép) - Nội tại Duy nhất\u003c/p\u003e",
-    "name":"Giáp thống khổ",
+    "desc":"Giá: 1940\n\u003cbr\u003e \n\u003cp\u003e+300 Giáp\u003c/p\u003e \n\u003cp\u003e+1200 máu\u003c/p\u003e \n\u003cp\u003e[Phản pháo] Phản pháo: Phản lại 15% sát thương vật lý từ mọi nguồn\u0026nbsp;đã gánh chịu thành sát thương phép về các\u0026nbsp;mục tiêu (sát thương phản là sát thương chưa giảm trừ)\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
+    "id":51,
     "level":2,
-    "id":52,
+    "name":"Giáp thống khổ",
     "type":2
   },
   {
     "desc":"Giá: 1780\n\u003cbr\u003e \n\u003cp\u003e+140 Công phép\u003c/p\u003e \n\u003cp\u003e+220 Giáp phép\u003c/p\u003e \n\u003cp\u003e+7% Tốc chạy\u003c/p\u003e \n\u003cp\u003eGiá băng: Chiêu thức gây sát thương đồng thời làm chậm 25% Tốc chạy của đối thủ trong 2 giây - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Trượng băng",
+    "id":52,
     "level":3,
-    "id":53,
+    "name":"Trượng băng",
     "type":1
   },
   {
     "desc":"Giá: 2000\n\u003cbr\u003e \n\u003cp\u003e+180 Giáp\u003c/p\u003e \n\u003cp\u003e+150 Giáp phép\u003c/p\u003e \n\u003cp\u003e+50 Công vật lý\u003c/p\u003e \n\u003cp\u003e[Cuồng bạo] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eCuồng Nộ: Khi máu của tướng xuống dưới 40%, tăng 40 công vật lý và tạo ra một lớp lá chắn trong 8 giây; 90 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Hercule thịnh nộ",
+    "id":53,
     "level":2,
-    "id":54,
+    "name":"Hercule thịnh nộ",
     "type":2
   },
   {
-    "desc":"Giá: 2160\n\u003cbr\u003e \n\u003cp\u003e+140 Công phép\u003c/p\u003e \n\u003cp\u003e+270 Giáp\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Thống khổ] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eThống khổ: gây thêm sát thương phép tương đương với 4% Máu hiện tại của mục tiêu, 1.2 giây thời gian hồi (sát thương lên Quái Rừng tối đa: 80) - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Mặt nạ Berith",
+    "desc":"Giá: 2160\n\u003cbr\u003e \n\u003cp\u003e+140 Công phép\u003c/p\u003e \n\u003cp\u003e+270 Giáp\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Thống khổ] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eThống khổ: gây thêm sát thương phép tương đương với 3% máu hiện tại của mục tiêu mỗi giây, kéo dài\u0026nbsp;trong 3 giây (sát thương lên Quái Rừng tối đa: 80) - Nội tại duy nhất\u003c/p\u003e",
+    "id":54,
     "level":3,
-    "id":55,
+    "name":"Mặt nạ Berith",
     "type":1
   },
   {
-    "desc":"Giá: 1820\n\u003cbr\u003e \n\u003cp\u003e+ 60\u0026nbsp;Công vật lý\u003c/p\u003e \n\u003cp\u003e+ 1000 Máu tối đa\u003c/p\u003e \n\u003cp\u003eĐiên cuồng: Sau khi chịu sát thương, gia tăng tốc chạy và tốc đánh thêm 2%, hiệu ứng có thể cộng dồn 5 lần - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Giáp cuồng nộ",
+    "desc":"Giá: 1820\n\u003cbr\u003e \n\u003cp\u003e+ 60\u0026nbsp;Công vật lý\u003c/p\u003e \n\u003cp\u003e+ 1000 Máu tối đa\u003c/p\u003e \n\u003cp\u003eĐiên cuồng: Sau khi chịu sát thương, gia tăng tốc chạy và sát thương gây ra\u0026nbsp;thêm 2%, hiệu ứng có thể cộng dồn 5 lần - Nội tại duy nhất\u003c/p\u003e",
+    "id":55,
     "level":2,
-    "id":56,
+    "name":"Giáp cuồng nộ",
     "type":2
   },
   {
     "desc":"Giá: 1950\n\u003cbr\u003e \n\u003cp\u003e+80 Công vật lý\u003c/p\u003e \n\u003cp\u003e+330 Giáp\u003c/p\u003e \n\u003cp\u003e[Thiêu cháy] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eThiêu cháy: Gây 100 (+4 mỗi cấp tướng) sát thương phép mỗi giây lên những kẻ địch cạnh bên\u0026nbsp;(tăng 100% sát thương đối với Lính và Quái rừng) - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Áo choàng thần Ra",
+    "id":56,
     "level":3,
-    "id":57,
+    "name":"Áo choàng thần Ra",
     "type":2
   },
   {
     "desc":"Giá: 2100\n\u003cbr\u003e \n\u003cp\u003e+360 Giáp\u003c/p\u003e \n\u003cp\u003e+1200 máu\u003c/p\u003e \n\u003cp\u003e[Trói Buộc Tinh Thần] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTrói Buộc Tinh Thần: Giảm tốc đánh của kẻ địch lân cận đi 30% - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Khiên thất truyền",
+    "id":57,
     "level":3,
-    "id":58,
+    "name":"Khiên thất truyền",
     "type":2
   },
   {
     "desc":"Giá: 2180\n\u003cbr\u003e \n\u003cp\u003e+360 Giáp\u003c/p\u003e \n\u003cp\u003e+400 năng lượng\u003c/p\u003e \n\u003cp\u003e+20% giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Lính gác] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLính gác: Nếu tướng chịu sát thương, giảm 30% Tốc đánh và\u0026nbsp;15% Tốc chạycủa những đối thủ đã ra đòn đánh - Nội tại duy nhất\u003c/p\u003e",
+    "id":58,
+    "level":3,
     "name":"Khiên huyền thoại",
-    "level":3,
+    "type":2
+  },
+  {
+    "desc":"Giá: 1960\n\u003cbr\u003e \n\u003cp\u003e+5% tốc chạy\u003c/p\u003e \n\u003cp\u003e+240 Giáp phép\u003c/p\u003e \n\u003cp\u003e+1200 máu\u003c/p\u003e \n\u003cp\u003e[Hồi phục] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eKhôi phục: Khi chịu sát thương sẽ được hồi lại 8% máu trong 2 giây, 10 giây hồi chiêu - Nội tại Duy nhất\u003c/p\u003e",
     "id":59,
-    "type":2
-  },
-  {
-    "desc":"Giá: 1960\n\u003cbr\u003e \n\u003cp\u003e+5% tốc chạy\u003c/p\u003e \n\u003cp\u003e+180 Giáp phép\u003c/p\u003e \n\u003cp\u003e+1100 máu\u003c/p\u003e \n\u003cp\u003e[Hồi phục] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eKhôi phục: Khi chịu sát thương sẽ được hồi lại 8% máu trong 2 giây, 10 giây hồi chiêu - Nội tại Duy nhất\u003c/p\u003e",
+    "level":3,
     "name":"Giáp Gaia",
-    "level":3,
-    "id":60,
     "type":2
   },
   {
-    "desc":"Giá: 2220\n\u003cbr\u003e \n\u003cp\u003e+360 Giáp phép\u003c/p\u003e \n\u003cp\u003e+1000 máu\u003c/p\u003e \n\u003cp\u003e+10% giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Thiên thần] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eHộ thân: Mỗi 15 giây nhận được một lớp bảo hộ giúp hấp thụ\u0026nbsp;(300 + Cấp tướng * 60)\u0026nbsp;sát thương phép - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Huân chương Troy",
+    "desc":"Giá: 2320\n\u003cbr\u003e \n\u003cp\u003e+360 Giáp phép\u003c/p\u003e \n\u003cp\u003e+1000 máu\u003c/p\u003e \n\u003cp\u003e+10% giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Thiên thần] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eHộ thân: Mỗi 18\u0026nbsp;giây nhận được một lớp bảo hộ giúp hấp thụ\u0026nbsp;(300 + Cấp tướng * 50)\u0026nbsp;sát thương phép - Nội tại duy nhất\u003c/p\u003e",
+    "id":60,
     "level":3,
-    "id":61,
+    "name":"Huân chương Troy",
     "type":2
   },
   {
     "desc":"Giá: 2090\n\u003cbr\u003e \n\u003cp\u003e+1500 máu\u003c/p\u003e \n\u003cp\u003e+200 Giáp\u003c/p\u003e \n\u003cp\u003e[Huyết chiến] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eHuyết chiến: Sau khi có được 1 điểm Hạ hoặc Phụ, hồi phục 20% máu trong 5 giây, 10 giây thời gian hồi - Nội tại duy nhất\u003c/p\u003e",
+    "id":61,
+    "level":3,
     "name":"Huyết giáp",
-    "level":3,
+    "type":2
+  },
+  {
+    "desc":"Giá: 1920\n\u003cbr\u003e \n\u003cp\u003e+ 100 Giáp\u003c/p\u003e \n\u003cp\u003e+ 100 Giáp phép\u003c/p\u003e \n\u003cp\u003e+ 1200 Máu tối đa\u003c/p\u003e \n\u003cp\u003eLạnh Sống Lưng: Đòn đánh tay làm chậm 25% tốc chạy của đối thủ đồng thời tăng 10% tốc chạy của người ra đòn, 2 giây hiệu lực\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
     "id":62,
-    "type":2
-  },
-  {
-    "desc":"Giá: 1920\n\u003cbr\u003e \n\u003cp\u003e+ 100 Giáp\u003c/p\u003e \n\u003cp\u003e+ 100 Giáp phép\u003c/p\u003e \n\u003cp\u003e+ 1200 Máu tối đa\u003c/p\u003e \n\u003cp\u003eLạnh Sống Lưng: Đòn đánh tay làm chậm 25% tốc chạy của đối thủ đồng thời tăng 10% tốc chạy của người ra đòn - Nội tại duy nhất\u003c/p\u003e",
+    "level":3,
     "name":"Rìu Hyoga",
-    "level":3,
+    "type":2
+  },
+  {
+    "desc":"Giá: 2400\n\u003cbr\u003e \n\u003cp\u003e+ 120 điểm giáp\u003cbr\u003e +\u0026nbsp;Tăng sát thương lên 10%\u003c/p\u003e \n\u003cp\u003ePhục sinh:\u0026nbsp;2 giây sau khi chết, sống lại tại chỗ, và nhận 2000 máu + (cấp tướng * 100), hiệu ứng này có thời gian hồi 150 giây. (Hồi sinh tối đa 2 lần trong một trò chơi)\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
     "id":63,
-    "type":2
-  },
-  {
-    "desc":"Giá: 2240\n\u003cbr\u003e \n\u003cp\u003e+ 1000 Máu tối đa\u003c/p\u003e \n\u003cp\u003ePhục sinh: Tướng sẽ sống lại sau thoáng chốc tại nơi bị hạ gục với 40% lượng máu tối đa, 3 phút thời gian hồi - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+    "level":3,
     "name":"Giáp hộ mệnh",
-    "level":3,
-    "id":64,
     "type":2
   },
   {
-    "desc":"Giá: 1980\n\u003cbr\u003e \n\u003cp\u003e+140 Công phép\u003c/p\u003e \n\u003cp\u003e+20% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+300 Năng lượng tối đa\u003c/p\u003e \n\u003cp\u003e+30 Hồi năng lượng/5s\u003c/p\u003e \n\u003cp\u003eSuối nguồn năng lượng: Sau khi có một điểm Hạ hoặc Phụ, hồi phục 20% năng lượng - Nội tại duy nhất\u003c/p\u003e",
+    "desc":"Giá: 1920\n\u003cbr\u003e \n\u003cp\u003e+160 Công phép\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+30 Hồi năng lượng/5s\u003c/p\u003e \n\u003cp\u003e[+75 Xuyên giáp phép] - Nội tại duy nhất\u003c/p\u003e",
+    "id":64,
+    "level":2,
     "name":"Dây chuyền lục bảo",
-    "level":3,
-    "id":65,
     "type":1
   },
   {
-    "desc":"Giá: 2020\n\u003cbr\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+300 Giáp\u003c/p\u003e \n\u003cp\u003e+800 Máu\u003c/p\u003e \n\u003cp\u003e[Sức Mạnh Nguyên Tố] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eNội tại duy nhất - Sức mạnh nguyên tố: Sau khi tung chiêu sẽ khiến đòn đánh kế gây thêm 150 sát thương vật lý (mỗi cấp tăng thêm 20) kèm 30% làm chậm , 3 giây hồi.\u003c/p\u003e",
+    "desc":"Giá: 2000\n\u003cbr\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+250 Giáp\u003c/p\u003e \n\u003cp\u003e+800 Máu\u003c/p\u003e \n\u003cp\u003e[Sức Mạnh Nguyên Tố] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eNội tại duy nhất - Sức mạnh nguyên tố: Sau khi tung chiêu sẽ khiến đòn đánh kế gây thêm 150 sát thương vật lý (mỗi cấp tăng thêm 20) trên diện rộng\u0026nbsp;kèm 30% làm chậm , 3 giây hồi.\u003c/p\u003e",
+    "id":65,
+    "level":3,
     "name":"Áo choàng băng giá",
-    "level":3,
+    "type":2
+  },
+  {
+    "desc":"Giá: 2680\n\u003cbr\u003e \n\u003cp\u003e+1700 Máu\u003c/p\u003e \n\u003cp\u003e+100 Hồi máu/5s\u003c/p\u003e \n\u003cp\u003e[Trường sinh] [Huyết thống] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTái Sinh: Hiệu ứng hồi máu được gia tăng thêm 20% - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTrường sinh:\u0026nbsp;Tăng máu tối đa thêm 10%\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
     "id":66,
-    "type":2
-  },
-  {
-    "desc":"Giá: 2680\n\u003cbr\u003e \n\u003cp\u003e+1800 Máu\u003c/p\u003e \n\u003cp\u003e+100 Hồi máu\u003c/p\u003e \n\u003cp\u003e[Trường sinh] [Huyết thống] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTái Sinh: Hiệu ứng hồi máu được gia tăng thêm 20% - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTrường sinh:\u0026nbsp;Tăng máu tối đa thêm 12%\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
-    "name":"Phù chú trường sinh",
     "level":3,
-    "id":67,
+    "name":"Phù chú trường sinh",
     "type":2
   },
   {
-    "desc":"Giá: 250\n\u003cbr\u003e \n\u003cp\u003eNhận tê cóng\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 3 Công vậy lý, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Cung thợ săn",
+    "desc":"Giá: 250\n\u003cbr\u003e \n\u003cp\u003e(Yêu cầu phép bổ trợ Trừng trị)\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 20% sát thương lên quái rừng. Nhận thêm 20% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+    "id":67,
     "level":1,
-    "id":68,
+    "name":"Cung thợ săn",
     "type":4
   },
   {
-    "desc":"Giá: 750\n\u003cbr\u003e \n\u003cp\u003eNhận Tê Cóng\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 8 Công phép, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Gươm hiến tế",
+    "desc":"Giá: 750\n\u003cbr\u003e \n\u003cp\u003eNhận Tê Cóng\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 8 Công phép và 30 năng lượng, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
+    "id":68,
     "level":2,
-    "id":69,
+    "name":"Gươm hiến tế",
     "type":4
   },
   {
     "desc":"Giá: 750\n\u003cbr\u003e \n\u003cp\u003eNhận Tê Cóng\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 70 máu, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Rìu Gnoll",
+    "id":69,
     "level":2,
-    "id":70,
+    "name":"Rìu Gnoll",
     "type":4
   },
   {
     "desc":"Giá: 750\n\u003cbr\u003e \n\u003cp\u003eNhận Tê Cóng\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 3 Công vật lý, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Đao truy kích",
+    "id":70,
     "level":2,
+    "name":"Đao truy kích",
+    "type":4
+  },
+  {
+    "desc":"Giá: 1750\n\u003cbr\u003e \n\u003cp\u003e+150 Công phép\u003c/p\u003e \n\u003cp\u003e+400 máu tối đa\u003c/p\u003e \n\u003cp\u003eNhận Tê cóng\u003c/p\u003e \n\u003cp\u003e[Săn bắt] [Lùng diệt] [Sức mạnh nguyên tố] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eNguyền rủa: Sau khi tung chiêu, đòn đánh thường tiếp theo gây thêm 35% Công vật lý\u0026nbsp;(+45% Công phép cộng thêm)\u0026nbsp;sát thương phép;\u0026nbsp;2 giây hồi chiêu.\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 8 Công phép và 30 năng lượng, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
     "id":71,
-    "type":4
-  },
-  {
-    "desc":"Giá: 1500\n\u003cbr\u003e \n\u003cp\u003e+120 Công phép\u003c/p\u003e \n\u003cp\u003e+25 Hồi năng lượng\u003c/p\u003e \n\u003cp\u003e[Săn bắt] [Lùng diệt] [Sức mạnh nguyên tố] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eNguyền rủa: Sau khi tung chiêu, đòn đánh thường tiếp theo gây thêm 35% Công vật lý\u0026nbsp;(+45% Công phép cộng thêm)\u0026nbsp;sát thương phép;\u0026nbsp;2 giây hồi chiêu.\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 8 Công phép, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
+    "level":3,
     "name":"Gươm Loki",
-    "level":3,
+    "type":4
+  },
+  {
+    "desc":"Giá: 1750\n\u003cbr\u003e \n\u003cp\u003e+120 Giáp\u003c/p\u003e \n\u003cp\u003e+800 Máu tối đa\u003c/p\u003e \n\u003cp\u003eNhận Tê Cóng\u003c/p\u003e \n\u003cp\u003eThiêu cháy: Gây 90 (+5 mỗi cấp)\u0026nbsp;sát thương phép mỗi giây lên những đối thủ bên cạnh.\u0026nbsp;(tăng 100% sát thương đối với Lính và Quái rừng) - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 70 máu cho tướng, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
     "id":72,
-    "type":4
-  },
-  {
-    "desc":"Giá: 1500\n\u003cbr\u003e \n\u003cp\u003e+800 Máu tối đa\u003c/p\u003e \n\u003cp\u003eNhận Tê Cóng\u003c/p\u003e \n\u003cp\u003eThiêu cháy: Gây 90 sát thương phép mỗi giây lên những đối thủ bên cạnh. Mỗi cấp tăng thêm 5 sát thương thiêu cháy (tăng 100% sát thương đối với Lính và Quái rừng) - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 70 máu cho tướng, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+    "level":3,
     "name":"Rìu Leviathan",
-    "level":3,
-    "id":73,
     "type":4
   },
   {
-    "desc":"Giá: 1500\n\u003cbr\u003e \n\u003cp\u003e+35% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+10% Hút máu\u003c/p\u003e \n\u003cp\u003eNhận Tê Cóng\u003c/p\u003e \n\u003cp\u003eTruy hồn: Các đòn đánh thường gây thêm sát thương phép bằng 6% lượng máu hiện tại - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 3 Công vật lý cho tướng, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Kiếm truy hồn",
+    "desc":"Giá: 1750\n\u003cbr\u003e \n\u003cp\u003e+80 Công vật lý\u003c/p\u003e \n\u003cp\u003e+ 6% hút máu\u003c/p\u003e \n\u003cp\u003eNhận Tê Cóng\u003c/p\u003e \n\u003cp\u003e+15% Giảm thời gian hồi chiêu - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 35% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 3 Công vật lý cho tướng, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
+    "id":73,
     "level":3,
-    "id":74,
+    "name":"Kiếm truy hồn",
     "type":4
   },
   {
     "desc":"Giá: 250\n\u003cbr\u003e +30 Tốc chạy - Nội tại duy nhất",
-    "name":"Giày thép",
+    "id":74,
     "level":1,
+    "name":"Giày thép",
+    "type":3
+  },
+  {
+    "desc":"Giá: 700\n\u003cbr\u003e \n\u003cp\u003e+110 Giáp\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eGiảm 15% sát thương gánh chịu\u0026nbsp;từ đòn đánh tay\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
     "id":75,
-    "type":3
-  },
-  {
-    "desc":"Giá: 700\n\u003cbr\u003e \n\u003cp\u003e+110 Giáp\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eGiảm 15% sát thương vật lý gánh chịu - Nội tại duy nhất\u003c/p\u003e",
+    "level":2,
     "name":"Giày hộ vệ",
-    "level":2,
+    "type":3
+  },
+  {
+    "desc":"Giá: 690\n\u003cbr\u003e \n\u003cp\u003e+110 Giáp phép\u003c/p\u003e \n\u003cp\u003e+60 Tốc độ chạy - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e35% kháng hiệu ứng\u0026nbsp;- Nội tại duy nhất\u003c/p\u003e",
     "id":76,
-    "type":3
-  },
-  {
-    "desc":"Giá: 690\n\u003cbr\u003e \n\u003cp\u003e+110 Giáp phép\u003c/p\u003e \n\u003cp\u003e+60 Tốc độ chạy - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eGiảm 10% sát thương phép gánh chịu - Nội tại duy nhất\u003c/p\u003e",
+    "level":2,
     "name":"Giày kiên cường",
-    "level":2,
+    "type":3
+  },
+  {
+    "desc":"Giá: 710\n\u003cbr\u003e \n\u003cp\u003e+15% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u003c/p\u003e",
     "id":77,
-    "type":3
-  },
-  {
-    "desc":"Giá: 760\n\u003cbr\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u003c/p\u003e",
+    "level":2,
     "name":"Giày thuật sĩ",
-    "level":2,
+    "type":3
+  },
+  {
+    "desc":"Giá: 710\n\u003cbr\u003e \n\u003cp\u003e+40 Công phép\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e+ 75 Xuyên giáp phép - Nội tại duy nhất\u003c/p\u003e",
     "id":78,
-    "type":3
-  },
-  {
-    "desc":"Giá: 750\n\u003cbr\u003e \n\u003cp\u003e+40 Công phép\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e+ 10% Xuyên giáp phép - Nội tại duy nhất\u003c/p\u003e",
+    "level":2,
     "name":"Giày phù thủy",
-    "level":2,
+    "type":3
+  },
+  {
+    "desc":"Giá: 660\n\u003cbr\u003e \n\u003cp\u003e+25% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u003c/p\u003e",
     "id":79,
-    "type":3
-  },
-  {
-    "desc":"Giá: 710\n\u003cbr\u003e \n\u003cp\u003e+25% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u003c/p\u003e",
+    "level":2,
     "name":"Giày du mục",
-    "level":2,
+    "type":3
+  },
+  {
+    "desc":"Giá: 580\n\u003cbr\u003e \n\u003cp\u003eNhanh nhẹn: Tăng 60 Tốc chạy khi không chịu sát thương - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u003c/p\u003e",
     "id":80,
-    "type":3
-  },
-  {
-    "desc":"Giá: 790\n\u003cbr\u003e \n\u003cp\u003eNhanh nhẹn: Tăng 45 Tốc chạy khi không chịu sát thương - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e+60 Tốc chạy - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e+35% kháng hiệu ứng - Nội tại duy nhất\u003c/p\u003e",
+    "level":2,
     "name":"Giày Hermes",
-    "level":2,
-    "id":81,
     "type":3
   },
   {
-    "desc":"Giá: 2000\n\u003cbr\u003e \n\u003cp\u003e+60 Công vật lý\u003c/p\u003e \n\u003cp\u003e+5% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e+10% Hút máu\u003c/p\u003e \n\u003cp\u003e[Từ chối Tử thần] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTừ chối Tử thần: Tiến vào trạng thái bất tử, miễn nhiễm sát thương và tăng Tốc chạy thêm 20% trong 1 giây cho các tướng đánh gần và 0.5 giây cho các tướng đánh xa; 90 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Liềm Đoạt Mệnh",
+    "desc":"Giá: 2000\n\u003cbr\u003e \n\u003cp\u003e+60 Công vật lý\u003c/p\u003e \n\u003cp\u003e+5% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Thần linh can thiệp] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eThần linh can thiệp: Tiến vào trạng thái bất tử, miễn nhiễm sát thương và tăng Tốc chạy thêm 20% trong 1 giây; 90 giây hồi chiêu - Nội tại duy nhất\u003c/p\u003e",
+    "id":81,
     "level":2,
+    "name":"Liềm Đoạt Mệnh",
+    "type":0
+  },
+  {
+    "desc":"Giá: 2400\n\u003cbr\u003e \n\u003cp\u003e+ 90 công vật lý\u003c/p\u003e \n\u003cp\u003e+ 10% hút máu\u003c/p\u003e \n\u003cp\u003e+ 20% chí mạng\u003c/p\u003e \n\u003cp\u003eHấp huyết: Tăng 90%\u0026nbsp;hút máu với các vị tướng đánh xa\u0026nbsp;kéo dài 3 giây (Thời gian hồi\u0026nbsp;60 giây) - Kích hoạt duy nhất\u003c/p\u003e",
     "id":82,
+    "level":3,
+    "name":"Cung tà ma",
     "type":0
   },
   {
     "desc":"Giá: 2070\n\u003cbr\u003e \n\u003cp\u003e+30% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+20% Tỷ lệ chí mạng\u003c/p\u003e \n\u003cp\u003e+5% Tốc chạy\u003c/p\u003e \n\u003cp\u003e[Hung bạo] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eHung bạo: Các đòn đánh thường trúng đích giúp tăng tốc đánh thêm 10%, kéo dài 2 giây, cộng dồn tối đa 5 lần - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Vuốt Hung Tàn",
-    "level":3,
     "id":83,
+    "level":3,
+    "name":"Vuốt Hung Tàn",
     "type":0
   },
   {
     "desc":"Giá: 1800\n\u003cbr\u003e \n\u003cp\u003e+100 Công vật lý\u003c/p\u003e \n\u003cp\u003e+10% Hút máu\u003c/p\u003e \n\u003cp\u003e[Tróc nã] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTróc nã: Sát thương trúng đích khiến mục tiêu bị giảm 50% khả năng hồi máu trong 1.5 giây (nếu sát thương từ đòn đánh thường sẽ khiến hiệu lực kéo dài 3 giây) - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Đao Truy Hồn",
-    "level":2,
     "id":84,
+    "level":2,
+    "name":"Đao Truy Hồn",
     "type":0
   },
   {
-    "desc":"Giá: 2060\n\u003cbr\u003e \n\u003cp\u003e+100 Công vật lý\u003c/p\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e[Nghiền ép] [Khinh công] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eNghiền ép: Tăng (100 + cấp tướng * 10) xuyên giáp - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eKhinh công: Rời khỏi trạng thái giao tranh giúp tăng 10% Tốc chạy - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Thương Xuyên Phá",
-    "level":3,
+    "desc":"Giá: 2020\n\u003cbr\u003e \n\u003cp\u003e+110 Công vật lý\u003c/p\u003e \n\u003cp\u003e[Nghiền ép] [Khinh công] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eNghiền ép: Tăng (100 + cấp tướng * 10) xuyên giáp - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eKhinh công: Rời khỏi trạng thái giao tranh giúp tăng 10% Tốc chạy - Nội tại duy nhất\u003c/p\u003e",
     "id":85,
+    "level":3,
+    "name":"Thương Xuyên Phá",
     "type":0
   },
   {
     "desc":"Giá: 2050\n\u003cbr\u003e \n\u003cp\u003e+240 Công phép\u003c/p\u003e \n\u003cp\u003e+500 Máu\u003c/p\u003e \n\u003cp\u003e[Tróc nã] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eTróc nã: Sát thương trúng đích khiến mục tiêu bị giảm 50% khả năng hồi máu trong 1.5 giây (nếu sát thương từ đòn đánh thường sẽ khiến hiệu lực kéo dài 3 giây) - Nội tại duy nhất\u003c/p\u003e",
-    "name":"Sách Truy Hồn",
-    "level":2,
     "id":86,
+    "level":2,
+    "name":"Sách Truy Hồn",
     "type":1
+  },
+  {
+    "desc":"Giá: 750\n\u003cbr\u003e \n\u003cp\u003eSăn bắt: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003eLùng diệt: Tiêu diệt một con quái rừng tăng 2% Tốc đánh, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e",
+    "id":87,
+    "level":2,
+    "name":"Cung Gió Lốc",
+    "type":4
+  },
+  {
+    "desc":"Giá: 1750\n\u003cbr\u003e \n\u003cp\u003e+15 Công vật lý\u003c/p\u003e \n\u003cp\u003e+20% Tốc đánh\u003c/p\u003e \n\u003cp\u003e+10% Hút máu\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e[Săn bắt] [Lùng diệt] [Lốc xoáy] - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e[Săn bắt]: Gây thêm 30% sát thương lên quái rừng. Nhận thêm 30% kinh nghiệm khi tiêu diệt quái rừng - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e[Lùng diệt]: Tiêu diệt một con quái rừng tăng 2% Tốc đánh, hiệu ứng cộng dồn 15 lần - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e[Lốc xoáy]:\u0026nbsp;\u0026nbsp;Liên tục đánh thường cùng mục tiêu sẽ \u0026nbsp;gây thêm (18 + cấp tướng *0.5) sát thương phép (tướng đánh xa chỉ gây ra 75% lượng sát thương này, cộng dồn tối đa 6 lần - Nội tại duy nhất\u003c/p\u003e",
+    "id":88,
+    "level":3,
+    "name":"Cung Bão Tố",
+    "type":4
+  },
+  {
+    "desc":"Giá: 2000\n\u003cbr\u003e \n\u003cp\u003e+ 200 công phép\u003c/p\u003e \n\u003cp\u003ePhong Ấn: Trở thành bất khả xâm phạm và bất động trong 1.5 giây. (Thời gian hồi\u0026nbsp;90 giây) - Kích hoạt duy nhất\u003c/p\u003e",
+    "id":89,
+    "level":3,
+    "name":"Cầu pha lê",
+    "type":1
+  },
+  {
+    "desc":"Giá: 1980\n\u003cbr\u003e \n\u003cp\u003e+ 150 giáp\u003c/p\u003e \n\u003cp\u003e+150 giáp phép\u003c/p\u003e \n\u003cp\u003e+800 máu\u003c/p\u003e \n\u003cp\u003eTích tụ: Sau khi kích hoạt, lực tấn công của bản thân giảm 70% trong 3 giây. Hết 3 giây đạt được một lớp khiên chắn (30% sát thương gánh chịu chưa qua giảm\u0026nbsp;+ 10% máu tối đa) trong 3 giây.\u0026nbsp;(Thời gian hồi: 75 giây) - Kích hoạt duy nhất\u003c/p\u003e",
+    "id":90,
+    "level":3,
+    "name":"Thuẫn nham thạch",
+    "type":2
+  },
+  {
+    "desc":"Giá: 300\n\u003cbr\u003e \n\u003cp\u003e+10 Hồi năng lượng\u003cbr\u003e +20 Hồi máu\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e[Nội tại- Đồng chí] Mỗi 30 giây tích lũy một điểm cộng dồn Đồng chí lên đến tối đa 2. Trong vòng 8 mét xung quanh có lính bị tiêu diệt sẽ tự hao tổn một điểm Đồng chí giúp một tướng đồng minh lân cận nhận 15 vàng và 40 điểm kinh nghiệm - Nội tại duy nhất\u003c/p\u003e",
+    "id":91,
+    "level":1,
+    "name":"Hải thạch",
+    "type":5
+  },
+  {
+    "desc":"Giá: 850\n\u003cbr\u003e \n\u003cp\u003e+60 Công phép\u003cbr\u003e +20 Hồi năng lượng\u003cbr\u003e +5% Tốc chạy\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Quân lương] -\u003cstrong\u003e \u003c/strong\u003eChủ thể được nhận 5 vàng hoặc kinh nghiệm mỗi 3 giây khi sở hữu mức vàng hoặc kinh nghiệm thấp nhất đội - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Công huân]: Hạ hoặc phụ hạ gục giúp nhận thêm 30% vàng và kinh nghiệm - Nội tại duy nhất\u003c/p\u003e",
+    "id":92,
+    "level":2,
+    "name":"Nhẫn phong thạch",
+    "type":5
+  },
+  {
+    "desc":"Giá: 850\n\u003cbr\u003e \n\u003cp\u003e+175 giáp\u003cbr\u003e +40 hồi máu\u003cbr\u003e +15 hồi mana\u003cbr\u003e +5%Tốc chạy\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Quân lương] -\u003cstrong\u003e \u003c/strong\u003eChủ thể được nhận 5 vàng hoặc kinh nghiệm mỗi 3 giây khi sở hữu mức vàng hoặc kinh nghiệm thấp nhất đội - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Công huân]: Hạ hoặc phụ hạ gục giúp nhận thêm 30% vàng và kinh nghiệm - Nội tại duy nhất\u003c/p\u003e",
+    "id":93,
+    "level":2,
+    "name":"Lệnh bài phong thạch",
+    "type":5
+  },
+  {
+    "desc":"Giá: 850\n\u003cbr\u003e \n\u003cp\u003e+120 Giáp\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Đồng chí] Mỗi 30 giây tích lũy một điểm cộng dồn Đồng chí lên đến tối đa 2. Trong vòng 8 mét xung quanh có lính bị tiêu diệt sẽ tự hao tổn một điểm Đồng chí giúp một tướng đồng minh lân cận nhận 15 vàng và 40 điểm kinh nghiệm - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Quang minh] - Giúp bản thân và đồng đội xung quanh (phạm vi 600) hưởng hào quang tăng 20 Hồi máu (+1 mỗi cấp tướng) - Nội tại Duy nhất\u003c/p\u003e",
+    "id":94,
+    "level":2,
+    "name":"Huân chương hải thạch",
+    "type":5
+  },
+  {
+    "desc":"Giá: 850\n\u003cbr\u003e \n\u003cp\u003e+10% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e[Đồng chí]:Mỗi 30 giây tích lũy một điểm cộng dồn Đồng chí lên đến tối đa 2. Trong vòng 8 mét xung quanh có lính bị tiêu diệt sẽ tự hao tổn một điểm Đồng chí giúp một tướng đồng minh lân cận nhận 15 vàng và 40 điểm kinh nghiệm - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e[Quang minh] - Giúp bản thân và đồng đội xung quanh (phạm vi 600) hưởng hào quang tăng 20 Hồi máu (+1 mỗi cấp tướng) - Nội tại Duy nhất\u003c/p\u003e",
+    "id":95,
+    "level":2,
+    "name":"Giáp tay hải thạch",
+    "type":5
+  },
+  {
+    "desc":"Giá: 1850\n\u003cbr\u003e \n\u003cp\u003e+250 Giáp\u003cbr\u003e +600 Máu\u003cbr\u003e +5% Tốc chạy\u003cbr\u003e +40 Hồi máu\u003cbr\u003e +15 Hồi năng lượng\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Quân lương] -\u0026nbsp;Chủ thể được nhận 5 vàng hoặc kinh nghiệm mỗi 3 giây khi sở hữu mức vàng hoặc kinh nghiệm thấp nhất đội - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Công huân]: Hạ hoặc phụ hạ gục giúp nhận thêm 30% vàng và kinh nghiệm - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Phong thuẫn] Tạo lá chắn cho bản thân hoặc tướng đồng minh lân cận thấp máu nhất giúp chặn (800 + cấp tướng *80) sát thương, đồng thời giúp tăng 30% tốc chạy cho mục tiêu trong 3 giây; 45 giây hồi chiêu - Kích hoạt duy nhất\u003c/p\u003e",
+    "id":96,
+    "level":3,
+    "name":"Lệnh bài phong thần",
+    "type":5
+  },
+  {
+    "desc":"Giá: 1850\n\u003cbr\u003e \n\u003cp\u003e+90 Công phép\u003cbr\u003e +15% Giảm hồi chiêu\u003cbr\u003e +5% Tốc chạy\u003cbr\u003e +30 Hồi năng lượng\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e[Quân lương] Chủ thể được nhận 5 vàng hoặc kinh nghiệm mỗi 3 giây khi sở hữu mức vàng hoặc kinh nghiệm thấp nhất đội - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e[Công huân]\u0026nbsp;Hạ hoặc phụ hạ gục giúp nhận thêm 30% vàng và kinh nghiệm - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e[Phong nhãn]\u0026nbsp;Lập tức làm lộ diện tướng địch gần nhất trong 4 giây; 30 giây hồi chiêu - Kích hoạt duy nhất\u003c/p\u003e",
+    "id":97,
+    "level":3,
+    "name":"Nhẫn phong thần",
+    "type":5
+  },
+  {
+    "desc":"Giá: 1850\n\u003cbr\u003e \n\u003cp\u003e+500 Máu\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e +15% Giảm hồi chiêu\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Đồng chí] Mỗi 30 giây tích lũy một điểm cộng dồn Đồng chí lên đến tối đa 2. Trong vòng 8 mét xung quanh có lính bị tiêu diệt sẽ tự hao tổn một điểm Đồng chí giúp một tướng đồng minh lân cận nhận 15 vàng và 40 điểm kinh nghiệm - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Quang minh] Giúp bản thân và đồng đội xung quanh (phạm vi 600) hưởng hào quang tăng 20 Hồi máu (+1 mỗi cấp tướng) - Nội tại Duy nhất\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Thánh thủy]\u0026nbsp;Giải phóng một tướng đồng minh lân cận khỏi các trạng thái khống chế hiện tại (ưu tiên tướng thấp máu), đồng thời giúp hồi 160 + cấp tướng *30 máu và 20% tốc chạy trong 1 giây, hiệu ứng chậm dần trong vòng 2s - 90 giây hồi chiêu - Kích hoạt duy nhất\u003c/p\u003e",
+    "id":98,
+    "level":3,
+    "name":"Giáp tay hải thần",
+    "type":5
+  },
+  {
+    "desc":"Giá: 1850\n\u003cbr\u003e \n\u003cp\u003e+200 Giáp\u003cbr\u003e +600 Máu\u003c/p\u003e \n\u003cp\u003e[Đồng chí] Mỗi 30 giây tích lũy một điểm cộng dồn Đồng chí lên đến tối đa 2. Trong vòng 8 mét xung quanh có lính bị tiêu diệt sẽ tự hao tổn một điểm Đồng chí giúp một tướng đồng minh lân cận nhận 15 vàng và 40 điểm kinh nghiệm - Nội tại duy nhất\u003c/p\u003e \n\u003cp\u003e\u003cbr\u003e [Quang minh] Giúp bản thân và đồng đội xung quanh (phạm vi 600) hưởng hào quang tăng 20 Hồi máu (+1 mỗi cấp tướng) - Nội tại Duy nhất\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e[Hải thần] Tăng 5% sát thương gây ra và 10% miễn thương của đồng đội xung quanh - Nội tại duy nhất\u003c/p\u003e",
+    "id":99,
+    "level":3,
+    "name":"Huân chương hải thần",
+    "type":5
   }
-  ]
+]
