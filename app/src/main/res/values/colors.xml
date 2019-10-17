@@ -13,6 +13,7 @@
     <color name="cmn_dark">#181818</color>
     <color name="cmn_white">#ffffff</color>
     <color name="cmn_orange">#f57c13</color>
+    <color name="cmn_white_50">#14ffffff</color>
     <color name="cmn_divider_gray">#CABBBBBB</color>
     <color name="cmn_gray_header_bg">#ececec</color>
     <color name="cmn_gray_search_bg">#e1e4e9</color>

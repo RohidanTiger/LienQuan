@@ -21,18 +21,34 @@
         <TextView
             android:id="@+id/btnRateApp"
             android:layout_width="250dp"
-            android:layout_height="@dimen/btn_height"
+            android:layout_height="@dimen/btn_height_medium"
             android:layout_alignParentBottom="true"
             android:text="~ Đánh giá ứng dụng ~"
             android:gravity="center"
             android:background="#ffeeeeee"/>
+
+        <TextView
+            android:id="@+id/btnOpenCamera"
+            android:layout_width="250dp"
+            android:layout_height="@dimen/btn_height_medium"
+            android:text="~ Liên Quân Camera ~"
+            android:layout_above="@id/btnRateApp"
+            android:gravity="center"
+            android:background="#ffeeeeee"/>
+
+        <View
+            android:layout_width="250dp"
+            android:layout_height="1dp"
+            android:background="@color/cmn_white"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/btn_height_medium"/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/navList"
             android:layout_width="250dp"
             android:layout_height="match_parent"
             android:layout_marginTop="?attr/actionBarSize"
-            android:layout_above="@id/btnRateApp"
+            android:layout_above="@id/btnOpenCamera"
             android:background="@color/list_row_start_color"/>
 
     </RelativeLayout>
