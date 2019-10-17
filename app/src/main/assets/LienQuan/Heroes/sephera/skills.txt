@@ -1,0 +1,30 @@
+[
+{
+"desc":"Nội tại: Mỗi khi tung chiêu Sephera sẽ kích hoạt nội tại Suối nguồn gây 75 (+9 mỗi cấp) \n\u003cspan style\u003d\"color:#00FFFF\"\u003e(0.15 công phép)\u003c/span\u003e \n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e lên tướng địch lân cận thấp máu nhất, đồng thời hồi 50 + (6 mỗi cấp) + \n\u003cspan style\u003d\"color:#00FFFF\"\u003e(0.1 công phép)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003emáu\u003c/span\u003e cho tướng đồng minh lân cận thấp máu nhất.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Suối nguồn",
+"youtube":"https://www.youtube.com/embed/0svxNC5b4M4"
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eSephera gảy đàn tấn công 3 kẻ địch lân cận (ưu tiên tướng), gây 250/280/310/340/370/400\u003cspan style\u003d\"color:#00FFFF\"\u003e (+0.3 công phép)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e, đồng thời làm chậm 50% tốc chạy của nạn nhân trong 1 giây.\u003c/li\u003e \n \u003cli\u003eĐặc biệt đòn đánh thường kế tiếp sau khi tung chiêu này sẽ gây\u0026nbsp;175/200/225/250/275/300 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.25 công phép)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e, và giúp giảm 1 giây hồi tất cả chiêu.\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"1",
+"mana":"Tiêu hao: 50/55/60/65/70/75 năng lượng",
+"name":"Thuỷ âm",
+"youtube":"https://www.youtube.com/embed/fRzMHEU6MmM"
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eSephera được tăng 40% tốc chạy trong thoáng chốc, rồi 1.5 giây sau dựng lên một vòng tròn nước gây 300/360/420/480/540/600 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.4 công phép)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e kèm 0.75 giây choáng,\u003cspan style\u003d\"color:#FF0000\"\u003e \u003cstrong\u003eáp dụng\u0026nbsp;đối với những nạn nhân đứng ở rìa.\u003c/strong\u003e\u003c/span\u003e\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"2",
+"mana":"Tiêu hao: 70/75/80/85/90/95 năng lượng",
+"name":"Ao tù",
+"youtube":"https://www.youtube.com/embed/vHbLjWF9geM"
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eSephera hòa mình vào dòng nước khiến bản thân không thể bị chọn làm mục tiêu trong 1.7 giây, đồng thời giúp hồi 500/650/800 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.75 công phép)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003emáu\u003c/span\u003e cho các đồng minh lân cận, và gây 600/800/1000 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.9 công phép)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e lên những kẻ địch cạnh bên.\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"3",
+"mana":"Tiêu hao: 100/110/120 năng lượng",
+"name":"Sóng ngầm",
+"youtube":"https://www.youtube.com/embed/g0eWR01NlqU"
+}
+]

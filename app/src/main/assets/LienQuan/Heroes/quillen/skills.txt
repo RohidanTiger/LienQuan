@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e \u003cp\u003eNhững đòn đánh và chiêu thức tấn công từ phía sau kẻ địch chắc chắn gây chí mạng (tối đa 1500 lên kẻ địch không phải tướng).\u003c/p\u003e \u003c/li\u003e \n \u003cli\u003e \u003cp\u003eTuy nhiên sát thương chí mạng khởi điểm của hắn chỉ là 125% (tăng 0.5% theo mỗi 0.5% tỷ lệ chí mạng Quillen có)\u003c/p\u003e \u003c/li\u003e \n \u003cli\u003e \u003cp\u003eTấn công trước mặt chắc chắn không chí mạng\u003c/p\u003e \u003c/li\u003e \n\u003c/ul\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"ĐÁNH LÉN",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eQuillen chém chớp nhoáng hai lần theo hướng chỉ định, gây 175/200/225/250/275/300 + \u003cspan style\u003d\"color:#FF8C00\"\u003e(0.55 công vật lý cộng thêm)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e mỗi lần\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"1",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"CHÉM ĐÔI",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eQuillen lướt đi, khi đến đích lập tức tấn công kẻ địch gây 350/390/430/470/510/550 + \u003cspan style\u003d\"color:#FF8C00\"\u003e(1.0 công vật lý cộng thêm)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e và đánh dấu nó trong 10 giây (chỉ có thể đánh dấu một kẻ địch mỗi lần).\u003c/li\u003e \n \u003cli\u003eMỗi lần Quillen công kích nạn nhân bị đánh dấu sẽ làm chậm 50% tốc chạy trong 1 giây, và giảm 1 giây hồi chiêu này.\u003c/li\u003e \n \u003cli\u003eKẻ địch chịu dấu ấn sẽ bị giảm 30% sát thương gây ra lên Quillen\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"2",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"ĐOẢN MỆNH",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eQuillen lăn một vòng, sau đó tàng hình trong 3 giây, tăng 40% tốc chạy và hồi 100/150/200 + \u003cspan style\u003d\"color:#FF8C00\"\u003e( 0.25 công vật lý cộng thêm)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003emáu\u003c/span\u003e mỗi 0.5 giây. Suốt thời gian này, nếu Quillen tấn công kẻ địch sẽ hiện hình và cường hoá bản thân trong 3 giây kế tiếp.\u003c/li\u003e \n \u003cli\u003eCường hoá: Quillen nhận 150/175/200 công vật lý, và 30% tốc chạy mỗi khi gây sát thương lên kẻ địch.\u003c/li\u003e \n \u003cli\u003eNội tại: Phụ hoặc hạ gục tướng địch sẽ làm mới hồi chiêu của toàn bộ kỹ năng\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"3",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"ẨN SÁT",
+"youtube":""
+}
+]

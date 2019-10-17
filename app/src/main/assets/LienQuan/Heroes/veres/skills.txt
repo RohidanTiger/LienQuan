@@ -1,0 +1,30 @@
+﻿[
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003eCác đòn đánh thường trúng đích giúp Veres tích lũy 1 điểm nội tại Huyết xích; khi đạt đủ 4 điểm tích lũy Veres sẽ tung Huyết xích tấn công tất cả kẻ địch lân cận, gây 320 + (30 mỗi cấp) \u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.5 công vật lý)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e; nếu có tướng địch trúng đòn, Veres hồi lại 10% sát thương gây ra (máu càng thấp, tỷ lệ hút máu càng cao lên đến 100%).\u003c/span\u003e\u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003eĐặc biệt Veres còn được giảm 1 giây hồi Song xích \u0026amp; Xiềng xích, và 2 giây hồi Đoạt mệnh xích. Chưa hết, suốt thời gian tung Huyết xích Veres có thể thoải mái di chuyển, và còn được tăng 35% kháng hiệu ứng.\u003c/span\u003e\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Huyết xích",
+"youtube":"https://www.youtube.com/embed/lkQ0lT4ldvA"
+},
+{
+"desc":"\u003cp\u003eVeres phóng xích tách làm hai sợi tấn công kẻ địch gây 130/180/230/280/330/380\u003cspan style\u003d\"color:#FF8C00\"\u003e (+0.6 công vật lý)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e. Nạn nhân xấu số trúng cả hai sợi xích sẽ bị choáng 1 giây.\u003c/p\u003e \n\u003cp\u003eChưa hết, tung xích trúng tướng địch giúp Veres nhận một điểm tích lũy Huyết xích\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Song xích",
+"youtube":"https://www.youtube.com/embed/zE0N0gKoixQ"
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eVeres phóng xích tấn công kẻ địch gây 85/120/155/190/225/260 \u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.4 công vật lý)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e. Đặc biệt sợi xích sẽ đẩy lùi kẻ địch nếu chúng đang ở gần Veres, hoặc kéo kẻ địch về trước mặt nếu chúng đang ở xa Veres; trong cả hai trường hợp nạn nhân đều sẽ bị choáng ngay sau đó.\u003c/li\u003e \n \u003cli\u003eChưa hết, tung xích trúng tướng địch giúp Veres nhận một điểm tích lũy Huyết xích\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"2",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Xiềng xích",
+"youtube":"https://www.youtube.com/embed/v0qQ42eAHkg"
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003eVeres nhảy đến phía trước triệu hồi vô số xích trồi lên từ mặt đất tấn công những kẻ địch trong vùng ảnh hưởng, gây 300/450/600 + 12/16/20% \u003cspan style\u003d\"color:#FF8C00\"\u003e(+1% mỗi 100 công vật lý)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003emáu đã mất của mục tiêu\u003c/span\u003e \u003cspan style\u003d\"color:#FFD700\"\u003esát thương chuẩn\u003c/span\u003e\u003c/span\u003e\u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003eTung chiêu trúng tướng địch giúp Veres tiến vào trạng thái Cuồng huyết: tăng 30/45/60% tốc đánh, 150/250/350 công vật lý, 15/25/35% xuyên giáp trong 4 giây (nếu kết liễu tướng địch sẽ tăng thành 10 giây). Suốt thời gian này nếu nội tại được kích hoạt tung Huyết xích trúng một tướng địch sẽ giúp tăng thêm 2 giây trạng thái Cuồng huyết\u003c/span\u003e\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"3",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Đoạt mệnh xích",
+"youtube":"https://www.youtube.com/embed/FiRdKbx2wv0"
+}
+]

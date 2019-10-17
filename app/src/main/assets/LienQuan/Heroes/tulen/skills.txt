@@ -1,0 +1,30 @@
+﻿[
+{
+"desc":"Chiêu thức trúng đích giúp Tulen tích lũy dấu ấn Lôi Điện. Khi đạt tới 5 điểm Tulen sẽ tạo ra 5 luồng sét quanh bản thân, thứ sẽ lần lượt tự công kích kẻ địch lân cận (ưu tiên tướng) gây ra 434\n\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+0)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u0026nbsp;mỗi luồng. Nếu 1 mục tiêu bị nhiều luồng sét tấn công trong 1s, nạn nhân sẽ chịu giảm 20% sát thương (sét đánh không tấn công các đơn vị quái rừng không trong trạng thái chiến đấu)",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Lôi điện",
+"youtube":"https://www.youtube.com/embed/B5MEzKwo_FA"
+},
+{
+"desc":"Tulen bắn ra 3 tia sét về phía trước. Mỗi tia trúng đích gây 500\n\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+0)\u0026nbsp;\u003c/span\u003e\n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e. Mục tiêu trúng nhiều tia sẽ chỉ phải chịu 30% sát thương từ các tia khác. Mỗi tia chỉ có thể gây 1 điểm hiệu ứng\u0026nbsp;\n\u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003eLôi điện\u003c/strong\u003e\u003c/span\u003e",
+"id":"1",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Lôi quang",
+"youtube":"https://www.youtube.com/embed/I0e3-55tbAM"
+},
+{
+"desc":"\u003cp\u003eTulen biến ảo cực nhanh gây ra 350\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u0026nbsp;tại cả vùng biến đến và biến đi (nạn nhân bị trúng chiêu nhiều lần trong thời gian ngắn sẽ chỉ phải chịu 50% sát thương ở các lần sau)\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003eNếu kẻ địch trong vòng 5s liên tục chịu ảnh hưởng bởi chiêu này sẽ bị làm chậm 90% tốc chạy giảm dần trong 3s, ngoài ra mỗi mục tiêu trúng chiêu sẽ chỉ phải chịu 1 điểm hiệu ứng\u0026nbsp;\u003cstrong\u003e\u003cspan style\u003d\"color:#FF0000\"\u003eLôi điện\u003c/span\u003e.\u0026nbsp;\u003c/strong\u003eChiêu thức tích lũy tối đa 3 lần (giảm hồi chiêu giúp nạp đạn nhanh hơn)\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 50 năng lượng",
+"name":"Lôi động",
+"youtube":"https://www.youtube.com/embed/HNeK7j295x0"
+},
+{
+"desc":"\u003cp\u003eTulen có thể vừa di chuyển, vừa tung chiêu triệu hồi một chú chim điện tấn công mục tiêu chỉ định gây 360\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+0)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e, kèm theo 30% máu đã mất của nạn nhân thành sát thương thêm, đồng thời tự tăng cho bản thân 1 dấu ấn Lôi điện.\u003c/p\u003e \n\u003cp\u003eNếu chim điện trực tiếp hạ gục tướng địch sẽ lập tức kích hoạt nội tại Lôi điện, đồng thời giảm 80% thời gian hồi Lôi điểu. Chim điện có thể bị cản lại bởi những tướng địch khác, còn đối với các đơn vị không phải tướng sẽ phải chịu sát thương và chịu đẩy lùi\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 120 năng lượng",
+"name":"Lôi điểu",
+"youtube":"https://www.youtube.com/embed/Xc_PvNMH2iw"
+}
+]

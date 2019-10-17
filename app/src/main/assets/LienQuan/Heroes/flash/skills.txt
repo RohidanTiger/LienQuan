@@ -1,0 +1,30 @@
+[
+{
+"desc":"The Flash nhận 1 điểm tốc lực sau mỗi 4 mét di chuyển; khi tích đủ 4 điểm sẽ khiến bản thân cường hóa đòn đánh kế giúp lướt đến mục tiêu, gây\n\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+90)\u003c/span\u003e\n\u003cspan style\u003d\"color:#0000FF\"\u003e\u0026nbsp;sát thương phép\u003c/span\u003e\u0026nbsp;và làm chậm 50% tốc chạy của nạn nhân. Đòn đánh trúng đích giúp The Flash nhận lá chắn hấp thu 375\u0026nbsp;\n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+45)\u003c/span\u003e\u0026nbsp;sát thương",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Thần tốc lực",
+"youtube":"https://www.youtube.com/embed/7WSk4lOxrCo"
+},
+{
+"desc":"The Flash lướt đi cực nhanh gây 200\n\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+36)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u0026nbsp;\u003c/span\u003elên những kẻ địch trúng chiêu dọc đường. Khi lướt đi The Flash không bị chọn ngăn chặn, trừ khi tự dừng lại bằng cách phối hợp với chiêu thức khác. Khi đến đích, The Flash có thể kích hoạt chiêu lần nữa để lướt về điểm khởi đầu, gây 200\u0026nbsp;\n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+36)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u0026nbsp;lên những kẻ địch trúng chiêu dọc đường. Các nạn nhân cả hai lần sẽ phải chịu thêm 300\n\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+54)\u003c/span\u003e\u0026nbsp;\n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e",
+"id":"1",
+"mana":"Tiêu hao: 65 năng lượng",
+"name":"Hành trình siêu tốc",
+"youtube":"https://www.youtube.com/embed/In3gxP98efk"
+},
+{
+"desc":"The Flash tung chuỗi liên hoàn đấm công kích kẻ địch 5 lần trong 0.8 giây, mỗi đợt gây 120\n\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+22)\u003c/span\u003e\n\u003cspan style\u003d\"color:#0000FF\"\u003e\u0026nbsp;sát thương phép\u003c/span\u003e, đặc biệt cú đấm cuối có thể gây gấp đôi sát thương, đồng thời giúp bản thân tăng 80% tốc chạy (hiệu ứng giảm dần theo thời gian) trong 2 giây",
+"id":"2",
+"mana":"Tiêu hao: 55 năng lượng",
+"name":"Cú đấm chớp nhoáng",
+"youtube":"https://www.youtube.com/embed/dPntmzsxUmQ"
+},
+{
+"desc":"\u003cp\u003eThe Flash chạy vòng quanh tạo nên một cơn lốc chân không giúp bản thân không bị chọn làm mục tiêu và gây 80\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+13)\u0026nbsp;\u003c/span\u003e\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u0026nbsp;lên những kẻ địch trong phạm vi ảnh hưởng, bù lại tự giảm 40% tốc chạy của bản thân trong 2 giây.\u003c/p\u003e \n\u003cp\u003eSau 2 giây The Flash dừng lại đột ngột khiến kẻ địch bị hút về tâm bão, gây 400\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+67)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e. Suốt quá trình di chuyển The Flash hoàn toàn có thể từ từ thay đổi hướng gió\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Lốc chân không",
+"youtube":"https://www.youtube.com/embed/7WSk4lOxrCo"
+}
+]

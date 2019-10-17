@@ -1,0 +1,30 @@
+[
+{
+"desc":"Với mỗi 2% máu bị mất, Marja nhận 1% hút máu và hút máu phép\n\u003cbr\u003e \n\u003cbr\u003e Ngoài ra, đòn đánh và kĩ năng của Marja còn làm chậm mục tiêu, máu mất càng nhiều làm chậm càng mạnh",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Hồn chú",
+"youtube":"https://www.youtube.com/embed/6YQ-ujMLeU8?"
+},
+{
+"desc":"\u003cp\u003eMarja vung tay phóng làn sóng ma mị về phía trước công kích kẻ địch, gây 400/480/560/640/720/800\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.5\u0026nbsp;công phép)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u0026nbsp;và làm chậm nạn nhân trúng chiêu 40% trong 2 giây\u003cbr\u003e Bất cứ kẻ địch nào rơi vào tầm đánh của làn sóng này đều phải chịu tác động của nó.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Sóng thống khổ",
+"youtube":"https://www.youtube.com/embed/rS01q4NloSc?"
+},
+{
+"desc":"Marja triệu hồi một bầy yêu trùng tấn công lên những kẻ địch lân cận gây 350/420/490/560/630/700\n\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+0.55 công phép)\u0026nbsp;\u003c/span\u003e\n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\n\u003cbr\u003e Càng nhiều đối tượng xung quanh Marja, càng nhiều yêu trùng được sinh ra.",
+"id":"2",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Phệ hồn trùng",
+"youtube":"https://www.youtube.com/embed/d5Y07UHLqYQ?"
+},
+{
+"desc":"\u003cp\u003eMarja hóa thân thành Oán hồn vực thẳm, giúp bản thân được tăng 30% tốc chạy và không thể bị chọn làm mục tiêu trong 2 giây.\u003cbr\u003e Khi hóa thân và hoàn hồn, cô nàng gây 300/450/600\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.45 công phép)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u0026nbsp;\u003c/span\u003elên kẻ địch lân cận.\u003cbr\u003e Đặc biệt, tại khoảnh khắc hóa thân, Marja trở nên bất khả xâm phạm và phá bỏ mọi hiệu ứng khống chế tồn tại trước đó.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Ác hồn",
+"youtube":"https://www.youtube.com/embed/aXBjmO2EnqE?"
+}
+]

@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003eBaldum mặc định tăng thêm 18% giáp\u003c/p\u003e \n\u003cp\u003eMỗi đòn đánh thường của Baldum gây thêm 20 + \u003cspan style\u003d\"color:#FFFF00\"\u003e(3% giáp vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Cường tráng",
+"youtube":"https://www.youtube.com/embed/43QgPx67RU4"
+},
+{
+"desc":"Baldum lao theo hướng chỉ định, gây 200/240/280/320/360/400 (\n\u003cspan style\u003d\"color:#FF8C00\"\u003e+0.30 công vật lý\u003c/span\u003e) (\n\u003cspan style\u003d\"color:#FFFF00\"\u003e+ 0.15 giáp vật lý\u003c/span\u003e) \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e và hất tung lên những kẻ địch trúng chiêu dọc đường; khi tông phải tướng địch sẽ dừng lại rồi múa vũ khí hất kẻ địch ra sau, gây thêm 8% máu tối đa của mục tiêu sát thương vật lý, và làm chậm 90% tốc chạy trong 1 giây.",
+"id":"1",
+"mana":"Tiêu hao: 60/65/70/75/80/85 năng lượng",
+"name":"Vật tổ vỗ tất",
+"youtube":"https://www.youtube.com/embed/Wqd_TEVgSS0"
+},
+{
+"desc":"Baldum dậm mạnh lên mặt đất tạo sóng chấn động gây 50/55/60/65/70/75 (\n\u003cspan style\u003d\"color:#FF8C00\"\u003e+0.30 công vật lý\u003c/span\u003e)(\n\u003cspan style\u003d\"color:#FFFF00\"\u003e+0.05 giáp vật lý\u003c/span\u003e) \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, tổng cộng 6 lần lên những kẻ địch lân cận, và làm chậm 30% tốc chạy từ các mục tiêu, ngoài ra hiệu ứng còn khiến các sát thương vật lý từ những nạn nhân này lên Baldum bị giảm 15/18/21/24/27/30% trong 1 giây. Mỗi tướng địch trúng chiêu giảm 0.3 giây hồi chiêu thức này",
+"id":"2",
+"mana":"Tiêu hao: 50 năng lượng",
+"name":"Địa chấn",
+"youtube":"https://www.youtube.com/embed/2QyISGxVjBs"
+},
+{
+"desc":"Sau 0.5 giây, Baldum tạo ra một vùng giam giữ kẻ địch trong 3 giây, suốt thời gian này nạn nhân không thể thực hiện bất cứ hành động nào và không thể bị chọn. Khi hết thời gian giam giữ, nạn nhân sẽ phải chịu 400/600/800 (\n\u003cspan style\u003d\"color:#FF8C00\"\u003e+0.50 công vật lý\u003c/span\u003e)(\n\u003cspan style\u003d\"color:#FFFF00\"\u003e+0.3 giáp vật lý\u003c/span\u003e) \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e và giảm 50% tốc chạy trong 2 giây",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Địa giam",
+"youtube":"https://www.youtube.com/embed/JDddpL-pINM"
+}
+]

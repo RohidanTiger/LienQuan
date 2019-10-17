@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u003cspan style\u003d\"font-size:11px\"\u003eNội tại:Wiro cường hoá 60 (+ 5 mỗi cấp) cả giáp vật lý lẫn giáp phép (vô hiệu hoá khi chiêu đang hồi).\u003c/span\u003e\u003c/p\u003e \n\u003cp\u003e\u003cspan style\u003d\"font-size:11px\"\u003eKhi Wiro nhận sát thương chí tử, anh không chết mà được hồi 60% máu. Đổi lại, trong\u0026nbsp;4.5 giây\u0026nbsp;Wiro sẽ miễn nhiễm khống chế, nhưng không thể hành động và bị giảm 25% cả hai loại giáp. \u003c/span\u003e\u003c/p\u003e \n\u003cp\u003e\u003cspan style\u003d\"font-size:11px\"\u003eĐồng thời, sẽ có 3 dấu ấn xung quanh anh, đồng đội giẫm lên sẽ giúp Wiro và tướng đó hồi 10% máu. Nếu 3 dấu ấn đều được kích hoạt, hoặc qua 4.5 giây, Wiro sẽ gầm lên gây 150 + \u003cspan style\u003d\"color:#FF8C00\"\u003e(1.0 công vật lý)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e, và làm chậm tốc chạy của kẻ địch. Bản thân Wiro nhận 50% tốc đánh và 30% tốc chạy trong 5 giây kế.\u003c/span\u003e\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Dấu ấn 212",
+"youtube":""
+},
+{
+"desc":"Wiro làm mới lại đòn đánh, cường hoá ba đòn đánh kế tiếp. Mỗi đòn sẽ gây thêm 100/130/160/190/220/250 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.2 công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e. Riêng đòn thứ ba sẽ hất tung kẻ địch trong 0.75 giây",
+"id":"1",
+"mana":"Tiêu hao: 60/65/70/75/80/85 năng lượng",
+"name":"Rìu chiến lực",
+"youtube":""
+},
+{
+"desc":"Wiro ủi kẻ địch về phía chỉ định, gây 100/130/160/190/220/250 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.4 công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e. Nếu kẻ địch bị đẩy vào tường sẽ nhận thêm 50% sát thương từ chiêu thức. Chiêu thức này sẽ gây 250/325/400/475/550/625 \n\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.0 công vật lý)\u003c/span\u003e \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e lên trụ kẻ địch.",
+"id":"2",
+"mana":"Tiêu hao: 80/85/90/95/100/105 năng lượng",
+"name":"Găng chiến lực",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003eWiro vận sức tung rìu gây 300/375/450 \u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.5 công vật lý)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e kèm 1 giây hất tung lên kẻ địch xung quanh. Tụ lực càng lâu, phạm vi ảnh hưởng và sát thương càng lớn, tối đa 1000/1250/1500 \u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.5 công vật lý)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e. Mỗi nạn nhân rơi xuống sẽ gây 50% sát thương chiêu thức lên kẻ địch lân cận (nạn nhân rơi không chịu thêm sát thương này). Wiro có thể di chuyển khi tung chiêu, và hồi chiêu sẽ giảm đi 80% nếu huỷ chiêu.\u003c/span\u003e\u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003eNội tại: Khi Wiro tung chiêu hoặc cường hoá đánh thường sẽ tạo lốc xoáy xung quanh bản thân trong 3 giây, gây 38/42/46 \u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.25 công vật lý)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e mỗi giây lên mọi kẻ địch, kể cả công trình.\u003c/span\u003e\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"3",
+"mana":"Tiêu hao: 120/135/150 năng lượng",
+"name":"Thần lực 212",
+"youtube":""
+}
+]

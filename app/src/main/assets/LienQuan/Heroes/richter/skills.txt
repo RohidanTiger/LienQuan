@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \u003cp\u003eỞ các môi trường khác nhau hơn 1.5 giây sẽ giúp cơ thể thích nghi và cường hoá bản thân. Mỗi lần chuyển trạng thái sẽ giúp Richter tăng tốc trong thoáng chốc\u003c/p\u003e \n \u003cul\u003e \n \u003cli\u003e \u003cp\u003e\u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003eBụi cỏ:\u003c/strong\u003e\u003c/span\u003e Tăng 15% (+3% mỗi cấp) tốc đánh\u003c/p\u003e \u003c/li\u003e \n \u003cli\u003e \u003cp\u003e\u003cspan style\u003d\"color:#0000FF\"\u003e\u003cstrong\u003eDưới sông:\u003c/strong\u003e\u003c/span\u003e Tăng 15% tốc chạy\u003c/p\u003e \u003c/li\u003e \n \u003cli\u003e \u003cp\u003e\u003cspan style\u003d\"color:#FFD700\"\u003e\u003cstrong\u003eTrên đường:\u003c/strong\u003e\u003c/span\u003e Tăng 10% miễn thương.\u003c/p\u003e \u003c/li\u003e \n \u003c/ul\u003e \u003c/li\u003e \n\u003c/ul\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"Thanh gươm biến ảo",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003eRichter lướt về phía trước gây 60/75/90/105/120/135\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.40 công vật lý)\u003c/span\u003e\u003cspan style\u003d\"color:#FF0000\"\u003e\u0026nbsp;sát thương vật lý\u003c/span\u003e, đồng thời gây hiệu ứng tuỳ theo màu gươm hiện có\u003c/span\u003e \n \u003cul\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003e\u003cspan style\u003d\"color:#0000FF\"\u003e\u003cstrong\u003eGươm xanh:\u003c/strong\u003e\u003c/span\u003e tăng tầm lướt và gây làm chậm 60%\u003c/span\u003e\u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003e\u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003eGươm đỏ:\u003c/strong\u003e\u003c/span\u003e Hất tung\u003c/span\u003e\u003c/li\u003e \n \u003c/ul\u003e \u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003eChưa hết, Richter vung gươm chém tiếp gây 150/180/210/240/270/300\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+0.80 công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, rồi biến đòn đánh kế tiếp gây 25/50/75/100/125/150\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.0 công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u003c/span\u003e\u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003eNếu chiêu thức trúng kẻ địch sẽ được hồi lại ngay lập tức. Hiệu ứng này chỉ xảy ra mỗi 4 giây một lần.\u003c/span\u003e\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"1",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"Chặt \u0026amp; chém",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eRichter huơ gươm phòng thủ giúp bản thân miễn nhiễm mọi trạng thái khống chế và sát thương trong 0.75 giây (có thể di chuyển bình thường).\u003c/li\u003e \n \u003cli\u003eVừa hết thời gian, Richter lập tức tấn công gây 200/250/300/350/400/450\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+1.20 công vật lý)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u003cstrong\u003e.\u0026nbsp;\u003c/strong\u003eTích trữ tối đa 2 cộng dồn\u003c/li\u003e \n \u003cli\u003eNếu Richter đang có Gươm vàng và chặn thành công một hiệu ứng khống chế thì hắn sẽ gây choáng mục tiêu 1 giây\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"2",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"Công thủ toàn diện",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eRichter tung chiêu, khắc dấu ấn diệt quỷ lên kẻ địch lân cậnul\u003e, Richter tung chiêu, khắc dấu ấn diệt quỷ lên kẻ địch lân cận, đồng thời tạo ra một vùng gây 36/58/80 (+0.1 công vật lý) sát thương chuẩn và làm chậm mỗi 0.5 giây trong 5 giây. Các nạn nhân trúng dấu ấn nếu chịu 5 đợt sát thương từ chiêu thức này sẽ nhận 300/500/700 (+1.0 công vật lý) sát thương chuẩn, đồng thời bị câm lặng 1 giây.",
+"id":"2",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"Vùng diệt quỷ",
+"youtube":""
+}
+]

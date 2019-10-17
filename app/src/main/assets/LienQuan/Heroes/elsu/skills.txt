@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eCác đòn đánh thường của Elsu gây 150 + (12.5 mỗi cấp) + \u003cspan style\u003d\"color:#FF8C00\"\u003e\u003cstrong\u003e(1.0 công vật lý)\u003c/strong\u003e\u0026nbsp;+\u0026nbsp;\u003cstrong\u003e(0.8 công vật lý cộng thêm)\u003c/strong\u003e\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003esát thương vật lý\u003c/strong\u003e\u003c/span\u003e, tuy nhiên sẽ không thể gây chí mạng.\u0026nbsp;Thay vào đó, với mỗi 1% chí mạng Elsu sở hữu, anh sẽ được tăng 3 \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003ecông vật lý\u003c/strong\u003e\u003c/span\u003e.\u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003eNội tại:\u003c/strong\u003e\u003c/span\u003e\u0026nbsp;Khi rời khỏi giao tranh 5 giây\u0026nbsp;và đứng gần địa hình vách núi, Elsu sẽ nguỵ trang\u0026nbsp;trong thời gian ngắn, gia tăng 16% ( +1% mỗi cấp) tốc độ di chuyển và trở nên mờ nhạt đi\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Bắn tỉa",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003e\u003cstrong\u003eKích hoạt:\u003c/strong\u003e\u0026nbsp;Elsu cài đặt một thiết bị Ưng trạm tại chỗ giúp cung cấp tầm nhìn trong phạm vi 600 - 1000 khoảng cách (tăng theo cấp tướng). Ưng trạm tồn tại trong 300 giây, có thể tích trữ tối đa 2 cái, và đặt tối đa 3 cái trên bản đồ. Khi đứng trong phạm vi của Ưng trạm, Elsu được tăng thêm sát thương mỗi đòn bắn lên quái rừng (tối đa 250), nhưng sẽ bị vô hiệu hoá khi tướng địch giẫm lên.\u003c/span\u003e\u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:11px\"\u003e\u003cstrong\u003eNội tại\u003c/strong\u003e: Đứng tại chỗ mỗi giây giúp Elsu tăng 7/8/9/10/11/12% xuyên giáp (tăng theo cấp tướng), tối đa cộng dồn 5 lần. Nếu Elsu di chuyển sẽ không được làm mới nội tại nữa.\u003c/span\u003e\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"1",
+"mana":"Tiêu hao: 30 năng lượng",
+"name":"Ưng trạm",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eElsu nhắm bắn gây 1050/1200/1350/1500/1650/1800 + (\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e\u003cstrong\u003e0.4\u003c/strong\u003e\u0026nbsp;\u003cstrong\u003ecông vật lý cộng thêm\u003c/strong\u003e\u003c/span\u003e) \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003esát thương vật lý\u003c/strong\u003e\u003c/span\u003e kèm làm chậm tốc chạy lên tướng đầu tiên trúng phải. Elsu cần ngắm bắn trong 2 giây để gia tăng khoảng cách và độ chính xác.\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"2",
+"mana":"Tiêu hao: 60/65/70/75/80/85 năng lượng",
+"name":"Viễn trình kích",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eElsu lộn ra phía sau rồi lập tức bắn về phía trước gây 500/700/900 + (\u003cspan style\u003d\"color:#FF8C00\"\u003e\u003cstrong\u003e0.6 công vật lý\u003c/strong\u003e\u003c/span\u003e) \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003esát thương vật lý\u003c/strong\u003e\u003c/span\u003e và làm chậm 50% tốc chạy của nạn nhân. Khi đáp đất Elsu được tăng 30% tốc chạy trong 2 giây, nhưng nếu tung chiêu hoặc đánh thường sẽ lập tức giải trừ hiệu ứng này\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"3",
+"mana":"Tiêu hao: 100/110/120 năng lượng",
+"name":"Giật bắn",
+"youtube":""
+}
+]

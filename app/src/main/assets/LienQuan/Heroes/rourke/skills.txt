@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eNội tại:\u003c/strong\u003e\u0026nbsp;Nỏ của Rourke bắn ra mũi tên đặc biệt khiến nạn nhân tướng địch trúng phải sẽ bị giảm giáp trong 6 giây, cộng dồn tối đa 12 lần; gây 50% tổng công vật lý + 40% x sát thương các mũi tên cộng dồn (công trình không phải chịu sát thương thêm từ các mũi tên này. Chỉ các đòn đánh xen kẽ giữa các mũi tên đặc biệt có thể gây chí mạng hoặc kích hoạt hiệu ứng đi kèm đòn đánh.\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Tán Xạ",
+"youtube":"https://www.youtube.com/embed/zSueWmN1CB8"
+},
+{
+"desc":"\u003cp\u003eRourke tăng 40% tốc chạy trong 1.5 giây, đồng thời bắn ra mũi tên đặc biệt trong đòn đánh kế, gây 225\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;mỗi mũi. Nạn nhân trúng 4 mũi tên này sẽ bị giảm tốc chạy.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Đoạt mệnh nỏ",
+"youtube":"https://www.youtube.com/embed/l4wt61f24Kc"
+},
+{
+"desc":"\u003cp\u003eRourke anh dũng lướt tới trước gây 180\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;kèm hiệu ứng đẩy lùi trong một vùng nhỏ, đồng thời lập tức thắng lại. Nếu có nạn nhân tướng địch trúng chiêu sẽ giúp Rourke giảm 2 giây hồi chiêu này.\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 80 năng lượng",
+"name":"Xung phong",
+"youtube":"https://www.youtube.com/embed/N_QmIzECko8"
+},
+{
+"desc":"\u003cp\u003eRourke loại bỏ mọi trạng thái khống chế hiện tại, đồng thời tự tạo lá chắn giúp chặn 1200 sát thương. Chừng nào lá chắn còn tồn tại, Rourke còn được miễn nhiễm các trạng thái khống chế, và khiến mọi đòn đánh hoặc chiêu thức chuyển hóa 50% sát thương gây ra thành giá trị cộng thêm cho lá chắn (20% hiệu lực lên lính và quái); tối đa lên đến 150% giá trị lá chắn gốc. Đặc biệt ngay tại thời điểm tung chiêu Rourke còn được tăng\u0026nbsp;Công vật lý\u0026nbsp;và Giáp; hiệu ứng kéo dài 6 giây.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 130 năng lượng",
+"name":"Càng chiến càng hăng",
+"youtube":"https://www.youtube.com/embed/64JuhKJ0vfE"
+}
+]

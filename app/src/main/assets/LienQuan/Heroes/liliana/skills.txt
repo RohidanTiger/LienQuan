@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eDạng người\u003c/strong\u003e: Trong trạng thái loài người Liliana sẽ đánh xa\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e\u003cstrong\u003eDạng hồ ly\u003c/strong\u003e: Tăng 20 giá trị giáp \u0026amp; giáp phép (+5 mỗi cấp tướng), 30 tốc chạy, đồng thời khiến đòn đánh thường gây thêm\u0026nbsp;171\u0026nbsp;sát thương phép\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Yêu hồ",
+"youtube":"https://www.youtube.com/embed/yQPq1aKYz5s"
+},
+{
+"desc":"\u003cp\u003e\u003cspan style\u003d\"font-size:11px\"\u003eKhi tung chiêu trong dạng người Liliana ngưng tụ ma lực gây 500\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+69)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u0026nbsp;\u003c/span\u003elên những kẻ địch trong phạm vi ảnh hưởng. Nếu có 2 tướng địch trúng chiêu trở lên, đòn đánh thường kế tiếp của Liliana sẽ được cường hóa gây thêm 5% máu tối đa mục tiêu thành sát thương phép (+1% mỗi 120 công phép); 4 giây hiệu lực\u003c/span\u003e\u003c/p\u003e \n\u003cp\u003e\u003cspan style\u003d\"font-size:11px\"\u003eKhi ở dạng hồ ly sẽ thành\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003eHồ Vĩ Kích\u003c/strong\u003e\u003c/span\u003e\u003cstrong\u003e:\u0026nbsp;\u003c/strong\u003eLiliana vẫy đuôi tấn công kẻ địch phía trước, gây 300\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+38)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép,\u003c/span\u003e đồng thời khiến lần đánh thường kế trở thành chuỗi liên hoàn 3 đòn, mỗi đòn gây 167 sát thương phép, kèm hiệu ứng ngày vồ đến mục tiêu\u003c/span\u003e\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 40 năng lượng",
+"name":"Hồ quang lực",
+"youtube":"https://www.youtube.com/embed/gSRCqh6xbDQ"
+},
+{
+"desc":"\u003cp\u003e\u003cspan style\u003d\"font-size:11px\"\u003eKhi tung chiêu ở dạng người, Liliana bắn ra một luồng đạn ma lực, thứ sẽ phát nổ khi trúng đích gây 300\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+46)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u0026nbsp;và 1 giây choáng lên những kẻ địch trong phạm vi hiệu lực.\u003c/span\u003e\u003c/p\u003e \n\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cp\u003e\u003cspan style\u003d\"font-size:11px\"\u003eKhi ở dạng hồ ly chiêu thức này sẽ hóa thành\u0026nbsp;\u003cstrong\u003e\u003cspan style\u003d\"color:#FF0000\"\u003eVũ Điệu Yêu Hồ:\u003c/span\u003e\u0026nbsp;\u003c/strong\u003eLiliana lướt về hướng chỉ định gây 450\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+50)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u0026nbsp;lên những kẻ địch trúng chiêu. Nếu có nạn nhân là tướng địch, Liliana có thể tung chiêu lần nữa, bắn ra đạn linh lực tấn công những kẻ địch lân cận gây 1500\u003cspan style\u003d\"color:#00FFFF\"\u003e\u0026nbsp;(+134)\u003c/span\u003e\u003cspan style\u003d\"color:#0000FF\"\u003e\u0026nbsp;sát thương phép\u003c/span\u003e\u003c/span\u003e\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 50 năng lượng",
+"name":"Hồ quang đạn",
+"youtube":"https://www.youtube.com/embed/XQuRZcvtJig"
+},
+{
+"desc":"Khi tung chiêu trong dạng người, Liliana lướt theo hướng chỉ định và hóa thành hồ ly gây 300 (+53) sát thương phép lên những kẻ địch trúng chiêu dọc đường, đồng thời làm chậm 50% tốc chạy của nạn nhân trong 2 giây. Suốt thời gian lướt đi Liliana không thể bị chọn làm mục tiêu, đồng thời tăng 120 giáp và giáp phép trong 2.5 giây sau khi biến hình. Sau khi trở lại dạng người Liliana được tăng thêm 80 công phép trong 2.5 giây.\n Khi tung chiêu trong hồ hình: Liliana lướt theo hướng chỉ định và hóa thành người đồng thời tạo một pháp trận tại điểm khởi đầu và kết thúc khiến các kẻ địch bên trong bị giảm 50% tốc chạy, sau 1 giây pháp trận nổ tung gây 600 (+53) sát thương phép. Suốt thời gian lướt đi Liliana không thể bị chọn làm mục tiêu đồng thời tăng 320 công phép trong 2.5 giây sau khi biến hình",
+"id":"3",
+"mana":"Tiêu hao: 40 năng lượng",
+"name":"BIẾN ẢNH HOÁN HÌNH",
+"youtube":"qSieN5neWZE"
+}
+]

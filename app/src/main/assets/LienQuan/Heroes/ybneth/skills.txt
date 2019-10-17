@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u0026nbsp;\u003c/p\u003e \n\u003cul\u003e \n \u003cli\u003e \u003cp\u003eMỗi khi tiến vào bụi cỏ, Y\u0027Bneth nhận được bùa lợi hồi 80 (+15 mỗi cấp) máu và 14 (+2 mỗi cấp) năng lượng mỗi giây, kéo dài trong 5 giây. Hiệu ứng kết thúc ngay khi Y\u0027Bneth tiến vào giao tranh.\u003c/p\u003e \u003cp\u003e\u0026nbsp;\u003c/p\u003e \u003c/li\u003e \n\u003c/ul\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Đất mẹ",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eY\u0027Bneth duỗi tay tấn công kẻ địch phía trước gây 270/310/350/390/430/470 + ( \u003cspan style\u003d\"color:#FF8C00\"\u003e0.8 công vật lý\u003c/span\u003e) \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003esát thương vật lý\u003c/strong\u003e\u003c/span\u003e và làm chậm tốc chạy các nạn nhân trúng chiêu. Mọi chiêu trúng đích 5 lần (tướng tính 2) giúp chiêu được làm mới và cho phép Y\u0027bneth tung Cây Đổ\u003c/li\u003e \n \u003cli\u003e\u0026nbsp;\u003c/li\u003e \n \u003cli\u003eCây Đổ: Y\u0027Bneth nhận lá chắn tương đương (\u003cspan style\u003d\"color:#FF0000\"\u003e8% máu tối đa\u003c/span\u003e) sát thương và tông theo hướng chỉ định, gây 270/310/350/390/430/470 + ( \u003cspan style\u003d\"color:#FF8C00\"\u003e0.8 công vật lý\u003c/span\u003e) \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003esát thương vật lý\u003c/strong\u003e\u003c/span\u003e đồng thời hất lui các nạn nhân trúng đích.\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"1",
+"mana":"Tiêu hao: 40/45/50/55/60/65 năng lượng",
+"name":"Dây leo",
+"youtube":""
+},
+{
+"desc":"Y\u0027Bneth vung tay tấn công các kẻ địch trong vùng hình nón phía trước gây 340/385/430/475/520/565 + ( \n\u003cspan style\u003d\"color:#FF8C00\"\u003e0.85 công vật lý\u003c/span\u003e) \n\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, đồng thời đẩy mục tiêu vào trung tâm; nếu có hai nạn nhân trở lên đồng thời trúng chiêu thì chúng sẽ phải chịu thêm 50% sát thương và bị choáng 1 giây",
+"id":"2",
+"mana":"Tiêu hao: 70/75/80/85/90/95 năng lượng",
+"name":"Thiên nhiên vỗ về",
+"youtube":""
+},
+{
+"desc":"Y\u0027bneth rơi vào giấc mộng ngàn thu, tự bao phủ bản thân trong một lớp lá chắn giúp chặn (\n\u003cspan style\u003d\"color:#FF0000\"\u003e20% máu tối đa\u003c/span\u003e) sát thương, đồng thời tạo ra một vùng đất thần bí khiến tất cả kẻ địch trong tầm ảnh hưởng bị giảm 60% tốc chạy. Suốt thời gian này, Y\u0027bneth miễn nhiễm khống chế và gieo rắc tối đa 20 đợt hạt giống gây 60/110/160 (\n\u003cspan style\u003d\"color:#FF0000\"\u003e+ 1% máu tối đa\u003c/span\u003e) \n\u003cstrong\u003e\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u003c/strong\u003e trong vùng chỉ định. Nếu có tướng địch trúng chiêu sẽ giúp bản thân \n\u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003ehồi 2% máu\u003c/strong\u003e\u003c/span\u003e. Đặc biệt nạn nhân trúng 8 đợt công kích sẽ bị choáng 1 giây",
+"id":"3",
+"mana":"Tiêu hao: 120/135/150 năng lượng",
+"name":"Hạt giống sinh mệnh",
+"youtube":""
+}
+]

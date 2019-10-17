@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eNội tại\u003c/strong\u003e: Sau khi bị hạ gục, Wisp tự hủy bằng số tạc đạn còn thừa lại, gây 465\u0026nbsp;sát thương vật lý\u0026nbsp;lên những kẻ địch lân cận đồng thời làm chậm 25% tốc chạy của chúng trong 1.5 giây. Tướng địch trúng nhiều đạn tạc chỉ phải chịu 50% sát thương ở các lần sau.\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Tự hủy",
+"youtube":"https://www.youtube.com/embed/S7l_L8KSRnI"
+},
+{
+"desc":"\u003cp\u003eWisp lướt về phía trước đồng thời kích hoạt chế độ pháo kích. Mỗi đòn đánh thường trong thời gian này bắn kèm pháo cối gây 45\u003cspan style\u003d\"color:#FF8C00\"\u003e\u0026nbsp;(+194)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u0026nbsp;\u003c/span\u003elên mục tiêu và những nạn nhân lân cận, đồng thời\u0026nbsp;Wisp được tăng 10% tốc đánh, hiệu ứng kéo dài 5 giây\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 55 năng lượng",
+"name":"Pháo động năng",
+"youtube":"https://www.youtube.com/embed/A4G9hRzNOqs"
+},
+{
+"desc":"\u003cp\u003eWisp bắn pháo YOYO theo hướng chỉ định, gây 200\u003cspan style\u003d\"color:#FF0000\"\u003e\u0026nbsp;\u003c/span\u003e\u003cspan style\u003d\"color:#FF8C00\"\u003e(+106)\u0026nbsp;\u003c/span\u003e\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;lên những kẻ địch trúng chiêu dọc đường lăn, đồng thời làm chậm 30% tốc chạy của nạn nhân trong vòng 1 giây. Pháo YOYO lăn tới điểm cuối sẽ phát nổ, gây 300\u003cspan style\u003d\"color:#FF8C00\"\u003e\u0026nbsp;(+159)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;lên những kẻ địch trong phạm vi ảnh hưởng, kèm hiệu ứng choáng 1s. Tướng địch trúng pháo giúp Wisp được giảm 3 giây hồi chiêu này.\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 75 năng lượng",
+"name":"Pháo YOYO",
+"youtube":"https://www.youtube.com/embed/x0irWtlK98k"
+},
+{
+"desc":"\u003cp\u003eWisp niệm chú tập trung giữ nguyên vị trí để oanh kích vùng chỉ định liên tục 6 đợt, mỗi đợt gây 200\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+88)\u0026nbsp;\u003c/span\u003e\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e.Sát thương này có thể chí mạng, gây thêm 50% sát thương. Chiêu thức này cần niệm chú giữ nguyên vị trí, tối đa kéo dài 3 giây. Sau 0.6 giây nếu di chuyển hoặc tung chiêu khác sẽ ngắt quãng chiêu hiện tại.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Pháo Cao Xạ",
+"youtube":"https://www.youtube.com/embed/HkQcMzNRyr0"
+}
+]

@@ -1,0 +1,30 @@
+﻿[
+{
+"desc":"Nội tại: D\u0027Arcy tăng Lực lượng thứ nguyên trong suốt trạng thái giao tranh thông qua các đòn đánh thường và chiêu trúng đối phương. Nếu thoát khỏi giao tranh, Lực lượng thứ nguyên sẽ nhanh chóng giảm dần.\n\u003cbr\u003e Khi Lực lượng thứ nguyên đạt đến tối đa, D\u0027Arcy được cường hóa trong 8 giây, hồi 20% năng lượng đã tổn thất, đồng thời được tăng 20% tốc chạy và cường hóa kỹ năng thường kế tiếp.",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Lực lượng thứ nguyên",
+"youtube":""
+},
+{
+"desc":"\u003cspan style\u003d\"font-size:11px\"\u003eD\u0027Arcy tiến vào một chiều không gian cấp cao trong 1.5 giây giúp bản thân miễn nhiễm khống chế đồng thời được tăng 20% tốc chạy và chịu giảm 40/42/44/46/48/50% sát thương. Đòn đánh thường tiếp theo trong vòng 5 giây sẽ được tăng tầm đánh và gây thêm 300/370/440/510/580/650 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.8 công phép)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e và làm chậm 60% tốc chạy của nạn nhân. Du hành thứ nguyên sẽ mất tác dụng ngay khi D\u0027Arcy tung chiêu hoặc đòn đánh.\u003cbr\u003e Lực lượng thứ nguyên đạt tối đa giúp cường hóa: Darcy tăng thêm 40% tốc chạy và hồi phục [10/11/12/13/14/15% \u003cspan style\u003d\"color:#FF0000\"\u003emáu đã tổn thất\u003c/span\u003e + 100/120/140/160/180/200\u0026nbsp;\u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.3 công phép) \u003c/span\u003e] \u003cspan style\u003d\"color:#FF0000\"\u003emáu\u003c/span\u003e\u003c/span\u003e",
+"id":"1",
+"mana":"Tiêu hao: 70 năng lượng",
+"name":"Du hành thứ nguyên",
+"youtube":""
+},
+{
+"desc":"D\u0027Arcy tạo ra một Lập phương thứ nguyên tại điểm đã chọn, thứ sẽ bùng nổ sau 1,25 giây và gây 900/990/1080/1170/1260/1350 \n\u003cspan style\u003d\"color:#00FFFF\"\u003e(+1.75 công phép)\u003c/span\u003e \n\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\n\u003cbr\u003e Lực lượng thứ nguyên đạt tối đa giúp cường hóa: gia tăng phạm vi sát thương của Lập phương thứ nguyên, đồng thời giúp D\u0027Arcy tích lũy thêm 10 Lực lượng thứ nguyên theo mỗi đơn vị trúng chiêu.",
+"id":"2",
+"mana":"Tiêu hao: 70 năng lượng",
+"name":"Lập phương thứ nguyên",
+"youtube":""
+},
+{
+"desc":"\u003cspan style\u003d\"font-size:11px\"\u003eD\u0027Arcry tạo ra một Ma trận thứ nguyên tại điểm đã chọn, tất cả kẻ địch trúng chiêu sẽ phải chịu 100/150/200 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0.4 công phép)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e và chịu dấu ấn thứ nguyên. Sau 2 giây tất cả nạn nhân đang phải chịu dấu ấn sẽ bị cưỡng ép truyền tống về Ma trận và trúng choáng thoáng chốc (thời gian hồi chiêu bắt đầu tính từ lúc này).\u003cbr\u003e Đặc biệt trong vòng 6 giây sau khi tung chiêu, D\u0027Arcy có thể kích hoạt lần nữa để tự truyền tống bản thân về tâm Ma trận và gây 200/350/500 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+1.0 công phép)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u003c/span\u003e",
+"id":"3",
+"mana":"Tiêu hao: 125 năng lượng",
+"name":"Ma trận thứ nguyên",
+"youtube":""
+}
+]

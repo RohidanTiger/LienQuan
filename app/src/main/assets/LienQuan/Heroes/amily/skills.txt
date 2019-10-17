@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e\u003cstrong\u003eĐơn đả độc cước\u003c/strong\u003e\u003c/li\u003e \n \u003cli\u003e \u003cp\u003eAmily sở hữu khả năng chiến đấu điêu luyện đến mức các đòn đánh thường và Liên hoàn cước chỉ trúng một mục tiêu sẽ gây thêm 50% sát thương\u003c/p\u003e \u003c/li\u003e \n\u003c/ul\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Đơn đả độc cước",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eAmily phóng tàng đao công kích mục tiêu, vũ khí này nảy lan tối đa 4 lần gây 150/180/210/240/270/300 + (\u003cstrong\u003e\u003cspan style\u003d\"color:#FF8C00\"\u003e 0.6 công vật lý\u003c/span\u003e\u003c/strong\u003e) \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003esát thương vật lý\u003c/strong\u003e\u003c/span\u003e kèm hiệu ứng làm chậm 30% tốc chạy, riêng nạn nhân đầu tiên bị làm chậm 50% tốc chạy trong 1 giây. Sau khi công kích hết các mục tiêu, lưỡi đao nảy trở về bản thân giúp Amily tăng 20% tốc chạy trong 3 giây, và hồi 125/150/175/200/225/250 (\u003cspan style\u003d\"color:#FF8C00\"\u003e\u003cstrong\u003e+0.5 công vật lý\u003c/strong\u003e\u003c/span\u003e) \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003emáu\u003c/strong\u003e\u003c/span\u003e kèm 30% giảm thời gian hồi chiêu này.\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"1",
+"mana":"Tiêu hao: 60/65/70/75/80/85 năng lượng",
+"name":"Tàng đao kích",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e\u003cstrong\u003eKích hoạt\u003c/strong\u003e: Amily lướt theo hướng chỉ định tung hai cú đá gây 80/96/112/128/144/160(\u003cspan style\u003d\"color:#FF8C00\"\u003e\u003cstrong\u003e+0.30 công vật lý\u003c/strong\u003e\u003c/span\u003e) \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003esát thương vật lý\u003c/strong\u003e\u003c/span\u003e, đặc biệt cú đá thứ hai sẽ gây hiệu ứng hất văng và cường hoá đòn đánh thường kế tiếp gây thêm 80/96/112/128/144/160(\u003cspan style\u003d\"color:#FF8C00\"\u003e\u003cstrong\u003e+0.30 công vật lý\u003c/strong\u003e\u003c/span\u003e) \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003esát thương vật lý\u003c/strong\u003e\u003c/span\u003e kèm hiệu ứng đòn đánh.\u003c/li\u003e \n \u003cli\u003e\u0026nbsp;\u003c/li\u003e \n \u003cli\u003e\u003cstrong\u003eNội tại\u003c/strong\u003e: Sau khi thoát khỏi giao tranh Amily được tăng 10/12/14/16/18/20 tốc chạy và hồi 1% máu và năng lượng tối đa mỗi giây\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"2",
+"mana":"Tiêu hao: 50/55/60/65/70/75 năng lượng",
+"name":"Liên hoàn cước",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eSau 1 giây vận công, Amily gây 300/400/500 \u003cspan style\u003d\"color:#0000FF\"\u003e\u003cstrong\u003esát thương phép\u003c/strong\u003e\u003c/span\u003e diện rộng và cường hoá bản thân giúp tăng 100/150/200 công vật lý, 40 tốc chạy, 40/60/80 miễn thương. Suốt thời gian cường hoá Amily gây 60/80/100 \u003cspan style\u003d\"color:#0000FF\"\u003e\u003cstrong\u003esát thương phép\u003c/strong\u003e\u003c/span\u003e lên kẻ địch lân cận mỗi giây; hiệu ứng kéo dài 8 giây\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"3",
+"mana":"Tiêu hao: 120/130/140 năng lượng",
+"name":"Cuồng bạo cước",
+"youtube":""
+}
+]

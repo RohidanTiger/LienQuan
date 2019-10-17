@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003eMọi sát thương của Max khiến các mục tiêu rơi vào trạng thái\u003cspan style\u003d\"color:#FF0000\"\u003e\u0026nbsp;\u003c/span\u003e\u003cstrong\u003e\u003cspan style\u003d\"color:#FF0000\"\u003eĐiện tích\u003c/span\u003e,\u0026nbsp;\u003c/strong\u003echịu 30\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+34)\u003c/span\u003e\u0026nbsp;\u003cspan style\u003d\"color:#FFFF00\"\u003esát thương chuẩn\u003c/span\u003e\u0026nbsp;mỗi giây trong vòng 3s. Suốt thời gian này, khả năng hồi phục của nạn nhân bị giảm 25%\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Điện tích",
+"youtube":"https://www.youtube.com/embed/AUch6eDXXFw"
+},
+{
+"desc":"\u003cp\u003eMax vươn đôi tay máy xoay tròn tấn công kẻ địch lân cận, gây 300\u003cspan style\u003d\"color:#FF8C00\"\u003e\u0026nbsp;(+143)\u0026nbsp;\u003c/span\u003e\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e. Mỗi nạn nhân trúng chiêu giúp Max nhận 10% tốc chạy, tối đa đạt 50% trong 4 giây\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 55 năng lượng",
+"name":"Tay bán dẫn",
+"youtube":"https://www.youtube.com/embed/AqgMRRJVPDU"
+},
+{
+"desc":"\u003cp\u003eMax nhảy vọt qua mục tiêu và giật điện khiến nạn nhân bị choáng trong thoáng chốc, đồng thời Max tự tạo cho bản thân một lá chắn điện từ giúp tăng 15% miễn thương trong 3s. Chiêu thức có thể tung lần nữa sau 4s\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 65 năng lượng",
+"name":"Động cơ cao thế",
+"youtube":"https://www.youtube.com/embed/zHezMtYEipc"
+},
+{
+"desc":"\u003cp\u003eMax kích hoạt Ra-đa quét kẻ địch, giúp phát hiện tướng địch ở cự ly cực xa đồng thời ngắt quãng quá trình biến về của các nạn nhân trong vùng hiệu lực. Kích hoạt lần 2 để chọn mục tiêu tướng địch, sau đấy Max liền cất cánh bay vút đến tấn công nạn nhân, gây 600\u0026nbsp;\u003cspan style\u003d\"color:#FF8C00\"\u003e(+159)\u0026nbsp;\u003c/span\u003e\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u0026nbsp;kèm hiệu ứng đẩy lùi.\u003c/p\u003e \n\u003cp\u003eSau khi đáp xuống Max nhận lá chắn điện từ giúp tăng miễn thương và 30% kháng hiệu ứng, đồng thời tạo ra một vùng điện tích khiến những kẻ địch lân cận liên tục chịu ảnh hưởng trạng thái này. Suốt quá trình bay Max có thể kích hoạt lần nữa để hạ cánh\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 140 năng lượng",
+"name":"Ra đa đạn đạo",
+"youtube":"https://www.youtube.com/embed/xrPwsqWWWQg"
+}
+]

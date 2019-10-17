@@ -23,16 +23,16 @@ public class SlideMenuAdapter extends RecyclerView.Adapter<SlideMenuAdapter.Simp
 
     private final MainActivity mContext;
     private int[] mTitle;
-    private int[] mImage;
+    private int[] mImages;
     private OnItemClickListener listener;
 
     public SlideMenuAdapter(MainActivity context) {
         mContext = context;
         mTitle = new int[]{R.string.str_hero,R.string.str_item, R.string.str_support_skill
-                ,R.string.str_challenger,R.string.str_league, R.string.str_news,R.string.str_free_hero};
-        mImage = new int[]{R.drawable.icon_hero, R.drawable.icon_item, R.drawable.icon_support_skill,
+                ,R.string.str_challenger,R.string.str_league, R.string.str_news,R.string.str_free_hero,R.string.str_wallpaper};
+        mImages = new int[]{R.drawable.icon_hero, R.drawable.icon_item, R.drawable.icon_support_skill,
                 android.R.drawable.ic_menu_compass, android.R.drawable.ic_menu_slideshow,
-                android.R.drawable.ic_menu_recent_history,android.R.drawable.ic_menu_rotate};
+                android.R.drawable.ic_menu_recent_history,android.R.drawable.ic_menu_rotate,android.R.drawable.ic_menu_gallery};
     }
 
     public SimpleViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -43,7 +43,7 @@ public class SlideMenuAdapter extends RecyclerView.Adapter<SlideMenuAdapter.Simp
     @Override
     public void onBindViewHolder(SimpleViewHolder holder, final int position) {
         holder.title.setText(mTitle[position]);
-        holder.image.setImageResource(mImage[position]);
+        if(mImages[position] != -1) holder.image.setImageResource(mImages[position]);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

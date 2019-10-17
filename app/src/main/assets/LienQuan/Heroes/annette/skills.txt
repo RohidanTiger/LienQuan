@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003eAnnette nhận một điểm cộng dồn Gió nhẹ mỗi khi tướng xung quanh tung chiêu, tối đa 15 điểm\u003c/p\u003e \n\u003cp\u003eKhi đã đủ 15 điểm, nếu bản thân Annette hoặc một tướng đồng minh lân cận còn dưới 70% máu, tất cả điểm cộng dồn sẽ chuyển thành hiệu ứng hồi 275\u0026nbsp;+ ( \u003cstrong\u003e\u003cspan style\u003d\"color:#00FFFF\"\u003e0.3 công phép\u003c/span\u003e\u003c/strong\u003e) (+25\u0026nbsp;mỗi cấp tướng) \u003cstrong\u003e\u003cspan style\u003d\"color:#FF0000\"\u003emáu\u003c/span\u003e\u003c/strong\u003e cho mọi tướng đồng minh xung quanh.\u0026nbsp;\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Gió nhẹ",
+"youtube":""
+},
+{
+"desc":"\u003cp\u003eAnnette tạo ra một cơn gió lốc gây 75/84/93/102/111/120 \u0026nbsp;(\u003cstrong\u003e\u003cspan style\u003d\"color:#00FFFF\"\u003e+ 0.12 công phép\u003c/span\u003e\u003c/strong\u003e) \u003cstrong\u003e\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u003c/strong\u003e mỗi 0.25 giây tại điểm chỉ định. Mỗi đợt tăng 33% sát thương, kéo dài trong 2 giây. Những kẻ địch tại vùng tâm cơn gió sẽ phải chịu thêm 2%\u003cstrong\u003e\u003cspan style\u003d\"color:#FF0000\"\u003e máu tối đa\u003c/span\u003e\u003c/strong\u003e thành \u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003esát thương phép\u003c/strong\u003e\u003c/span\u003e, đồng thời bị làm chậm 50% tốc chạy trong 0.25 giây\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 50/55/60/65/70/75 năng lượng",
+"name":"Gió xoáy",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e\u003cstrong\u003eKích hoạt\u003c/strong\u003e: Annette bắn một quả cầu gió theo hướng chỉ định gây 250 (\u003cstrong\u003e\u003cspan style\u003d\"color:#00FFFF\"\u003e+ 0.3 công phép\u003c/span\u003e\u003c/strong\u003e) \u003cspan style\u003d\"color:#0000FF\"\u003e\u003cstrong\u003esát thương phép\u003c/strong\u003e\u003c/span\u003e, và làm chậm 50% tốc chạy của các đơn vị trúng chiêu. Quả cầu gió bay xuyên qua nạn nhân đầu tiên, nếu trúng phải nạn nhân thứ hai sẽ gom cả hai lại, gây thêm 300 + (\u003cspan style\u003d\"color:#00FFFF\"\u003e\u003cstrong\u003e + 0.5 công phép\u003c/strong\u003e\u003c/span\u003e) \u003cspan style\u003d\"color:#0000FF\"\u003e\u003cstrong\u003esát thương phép\u003c/strong\u003e\u003c/span\u003e, và làm choáng trúng 1 giây.\u003c/li\u003e \n \u003cli\u003e\u003cstrong\u003eNội tại\u003c/strong\u003e: Nếu Annette bị choáng sẽ lập tức hoàn lại thời gian hồi chiêu này, đồng thời giúp tạo lá chắn 300/360/420/480/540/600 (\u003cspan style\u003d\"color:#00FFFF\"\u003e+ 0.5 công phép\u003c/span\u003e)\u0026nbsp;và tăng 150/192/234/276/318/360 giáp cùng giáp phép trong 2 giây; 45 giây hồi chiêu.\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"2",
+"mana":"Tiêu hao: 70/75/80/85/90/95 năng lượng",
+"name":"Gió nồm",
+"youtube":""
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eAnnette bay đến địa điểm chỉ định tạo ra một cơn bão hất văng kẻ địch lân cận và gây 400/600/800 + ( \u003cspan style\u003d\"color:#00FFFF\"\u003e\u003cstrong\u003e0.5 công phép\u003c/strong\u003e\u003c/span\u003e) \u003cspan style\u003d\"color:#0000FF\"\u003e\u003cstrong\u003esát thương phép\u003c/strong\u003e\u003c/span\u003e, đồng thời tạo thành một bức tường gió ngăn kẻ địch vượt qua trong 3.5 giây. Các tướng đồng minh bên trong bức tường gió được tăng 40/60/80% tốc chạy và 30/40/50% tốc đánh. Khi tung chiêu này Annette sẽ được hoá giải mọi trạng thái khống chế hiện tại đang phải gánh chịu.\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"3",
+"mana":"Tiêu hao: 100/125/150 năng lượng",
+"name":"Mắt bão",
+"youtube":""
+}
+]

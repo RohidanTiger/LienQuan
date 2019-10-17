@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003eCác đòn đánh và chiêu thức trúng đích giúp cộng dồn dấu ấn Tinh Chuẩn trên Moren. Khi đạt đủ năm dấu ấn, thời gian hồi của \u003cem\u003eSúng thần công \u003c/em\u003elập tức hoàn tất, đồng thời giúp Moren nhận 12- 26% hút máu (tăng 1% mỗi cấp tướng).\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Tinh chuẩn",
+"youtube":"Ht0iRT1a2yw"
+},
+{
+"desc":"\u003cp\u003eMoren tự tăng 40% tốc chạy giảm dần trong 1.5 giây, đồng thời nhận \u003cspan style\u003d\"color:#FF8C00\"\u003e25\u003c/span\u003e cả giáp lẫn giáp phép trong 3 giây, đặc biệt các đòn đánh thường trúng đích sẽ lập tức làm mới thời gian duy trì hiệu ứng, cộng dồn tối đa 10 lần. Đòn đánh thường đâu tiên trong 5s sau khi kích hoạt sẽ bắn 2 viên đạn, mỗi viên gây 25 \u003cspan style\u003d\"color:#FF8C00\"\u003e(+143)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 40 năng lượng",
+"name":"Súng thần công",
+"youtube":"4mTLaSyCus0"
+},
+{
+"desc":"\u003cp\u003eMoren khai hỏa tấn công kẻ địch trước mặt, gây 150\u003cspan style\u003d\"color:#FF8C00\"\u003e (+101) \u003c/span\u003e\u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e và đẩy lùi kẻ địch, đồng thời giảm 30% tốc chạy của nạn nhân trong 3s.\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 70 năng lượng",
+"name":"Pháo phản lực",
+"youtube":"A6F-evqqHhI"
+},
+{
+"desc":"\u003cp\u003eMoren ném một viên nam châm vào một vùng chỉ định, thứ sẽ kích hoạt trường điện từ trong 2.5 giây, gây 6 đợt 180 \u003cspan style\u003d\"color:#FF8C00\"\u003e(+50)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e liên tục lên các nạn nhân trong vùng ảnh hưởng, đồng thời giảm 50% tốc chạy của chúng. Kẻ địch bị Moren đẩy lùi vào trường điện từ sẽ bị choáng 1 giây.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 120 năng lượng",
+"name":"Trường điện từ",
+"youtube":"YfEiMw0pgt4"
+}
+]

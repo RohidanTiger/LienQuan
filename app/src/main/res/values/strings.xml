@@ -92,6 +92,7 @@
         <item>Phòng thủ</item>
         <item>Giày</item>
         <item>Đi rừng</item>
+        <item>Bổ trợ</item>
     </string-array>
 
     <string name="str_information">Thông tin</string>
@@ -104,6 +105,8 @@
     <string name="str_league">Giải đấu</string>
     <string name="str_challenger">Kênh cao thủ</string>
     <string name="str_free_hero">Tướng miễn phí tuần</string>
+    <string name="str_english_version">English version</string>
+    <string name="str_wallpaper">Hình nền</string>
 
     <!--API-->
     <string name="unit_ad_unit_id">ca-app-pub-2910568088893309~5546094871</string>

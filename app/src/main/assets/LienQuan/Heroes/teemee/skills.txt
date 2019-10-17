@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003eCác đơn vị kẻ địch lân cận (không phải tướng) khi bị hạ gục giúp TeeMee và đồng đội xung quanh nhận thêm 25% vàng\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Vàng vung vãi",
+"youtube":"https://www.youtube.com/embed/M2hiynovrRI"
+},
+{
+"desc":"\u003cp\u003eTeeMee bỗng nhiên đau bụng khiến toàn thân căng thẳng, liên tục toát mồ hôi trong 5s. Suốt thời gian này, TeeMee có thể tự chủ động hoặc hết thời gian chịu đựng dẫn đến đánh rắm khiến kẻ địch lân cận chịu tối đa 750 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e và bị choáng. Thời gian nín càng lâu, sát thương và choáng càng cao.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 65 năng lượng",
+"name":"Rắm thần lực",
+"youtube":"https://www.youtube.com/embed/BqDZBSLhH5E"
+},
+{
+"desc":"\u003cp\u003eTeeMee phóng giáo móc theo hướng chỉ định và kéo bản thân lại gần mục tiêu. Nếu đấy là kẻ địch, nạn nhân sẽ phải chịu 450 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0) \u003c/span\u003e\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e, và bị choáng 1 giây\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 65 năng lượng",
+"name":"Giáo Móc TeeMee",
+"youtube":"https://www.youtube.com/embed/e2JXht-41-A"
+},
+{
+"desc":"\u003cp\u003eTeeMee tạo ra một vùng ma trận phục sinh bao phủ bản thân và đồng minh thấp máu nhất (vẫn có thể tung chiêu khi bị khống chế) sau 3 giây\u003c/p\u003e \n\u003cp\u003eSuốt thời gian hiệu lực, khi bản thân hoặc tướng muc tiêu đồng minh bị hạ gục sẽ đươc hồi sinh sau 2 giây với 2000 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0)\u003c/span\u003e máu. Đơn vị khi sống lại gây 600 \u003cspan style\u003d\"color:#00FFFF\"\u003e(+0)\u003c/span\u003e \u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e, và làm chậm 50% tốc chạy trong 2 giây lên các kẻ địch lân cận\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 150 năng lượng",
+"name":"Pháp trận thần kỳ",
+"youtube":"https://www.youtube.com/embed/j5drdEYoa64"
+}
+]

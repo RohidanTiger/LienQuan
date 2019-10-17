@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cul\u003e \n \u003cli\u003e \u003cp\u003e\u003cspan style\u003d\"font-size:12px\"\u003e\u003cstrong\u003eĐột kích\u003c/strong\u003e: Florentino khi rời giao tranh sẽ khiến đòn đánh thường kế tiếp lướt tới kẻ địch, gây thêm 80 + (8 mỗi cấp) \u003cspan style\u003d\"color:#FF8C00\"\u003e(+ 1.25 công vật lý cộng thêm)\u003c/span\u003e\u003cspan style\u003d\"color:#FF0000\"\u003e sát thương vật lý\u003c/span\u003e, đồng thời làm chậm tốc chạy kẻ địch 70% trong 0.5 giây. Đòn đánh thường tiếp theo đó sẽ được tăng 20% sát thương. Đột kích trúng tướng địch giúp Florentino hồi 85 + (7 mỗi cấp) \u003cspan style\u003d\"color:#FF8C00\"\u003e(+ 1.0 công vật lý cộng thêm)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003emáu\u003c/span\u003e.\u003c/span\u003e\u003c/p\u003e \u003c/li\u003e \n \u003cli\u003e \u003cp\u003e\u003cspan style\u003d\"font-size:12px\"\u003e\u003cstrong\u003eKiếm bộ\u003c/strong\u003e: Sau khi tung Đột kích, Florentino sẽ lướt một đoạn ngắn, miễn nhiễm mọi hiệu ứng khống chế. Lướt xong Florentino được tăng 50% tốc chạy trong 0.5 giây.\u003c/span\u003e\u003c/p\u003e \u003c/li\u003e \n\u003c/ul\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"Xuất chúng",
+"youtube":"https://www.youtube.com/embed/3bgksSent0w"
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eFlorentino phóng hoa vào kẻ địch, gây 280/320/360400/440/480 \u003cspan style\u003d\"color:#FF8C00\"\u003e(+ 1.2 công vật lý cộng thêm)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e, làm choáng địch trong 0.75 giây.\u003c/li\u003e \n \u003cli\u003eDùng trúng địch sẽ tạo ra ba đoá hoa trong 5 giây. Nhặt hoa sẽ giúp Florentino hồi 100 nội năng, đồng thời khiến đòn đánh kế tiếp \u003cstrong\u003eĐột kích\u003c/strong\u003e và hoàn lại hồi chiêu của Thưởng hoa.\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"1",
+"mana":"Tiêu hao: 20 nội năng",
+"name":"Hào hoa",
+"youtube":"https://www.youtube.com/embed/zxT8q2aGukc"
+},
+{
+"desc":"\u003cspan style\u003d\"font-size:12px\"\u003eFlorentino tung ba nhát kiếm xảo diệu lên kẻ địch, mỗi lần gây thêm \u003cspan style\u003d\"color:#FFD700\"\u003esát thương chuẩn\u003c/span\u003e bằng 4% + \u003cspan style\u003d\"color:#FF8C00\"\u003e(0.01 công vật lý cộng thêm)\u003c/span\u003e \u003cspan style\u003d\"color:#FF0000\"\u003emáu tối đa kẻ địch\u003c/span\u003e. Khi kết thúc chiêu có thể tung Kiếm bộ, nếu trúng tướng địch sẽ giảm 1 giây hồi chiêu Hào hoa\u003c/span\u003e \n\u003cul\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:12px\"\u003eThưởng hoa: gây 300/380/460/540/620/700 \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e\u003c/span\u003e\u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:12px\"\u003eHộ hoa: gây 300/380/460/540/620/700 \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e và hất tung 0.75 giây\u003c/span\u003e\u003c/li\u003e \n \u003cli\u003e\u003cspan style\u003d\"font-size:12px\"\u003eKhai hoa: tung kiếm hai lần gây 250/300/350/400/450/500 \u003cspan style\u003d\"color:#FF0000\"\u003esát thương vật lý\u003c/span\u003e mỗi kiếm\u003c/span\u003e\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"2",
+"mana":"Tiêu hao: 100 nội năng",
+"name":"Thưởng hoa",
+"youtube":"https://www.youtube.com/embed/HjgsKThInJg"
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eFlorentino lướt đến phía trước, Quyết đấu với tướng đầu tiên trúng chiêu. Trong 5 giây kế tiếp, Florentino gây thêm 20% sát thương lên mục tiêu, đồng thời giảm giáp kẻ đó 15/20/25%.\u003c/li\u003e \n \u003cli\u003eSuốt thời gian này, Florentino miễn nhiễm mọi khống chế và miễn",
+"id":"2",
+"mana":"Tiêu hao: 0 nội năng",
+"name":"TÀI HOA",
+"youtube":"https://www.youtube.com/embed/hohG8r8uXi8"
+}
+]

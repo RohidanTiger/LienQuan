@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eMỗi 50 máu tối đa Roxie có, cô được tăng thêm 1 công phép\u003c/li\u003e \n \u003cli\u003eĐòn đánh thường thứ ba lên kẻ địch sẽ giúp Roxie hồi 8% năng lượng tối đa, và đánh dấu Cuốc lửa lên nạn nhân trong 5 giây\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Cuốc lửa",
+"youtube":"https://www.youtube.com/embed/8jDtAcaDiA4"
+},
+{
+"desc":"\u003cp\u003eRoxie tự tiêu hao năng lượng trong 5 giây để duy trì vệt lửa dưới đôi patin khiến mọi nơi cô lướt qua đều bùng cháy trong 2.5 giây. Tàn lửa gây 35/45/55/65/75/85 (\u003cspan style\u003d\"color:#00FFFF\"\u003e+0.16 công phép\u003c/span\u003e)\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003e\u003cstrong\u003esát thương phép\u003c/strong\u003e\u003c/span\u003e\u0026nbsp;mỗi nửa giây lên các đơn vị trong vùng ảnh hưởng, tối đa cộng dồn ba lần. Nếu nạn nhân đang chịu dấu ấn Cuốc lửa thì Roxie sẽ được hồi 1%\u0026nbsp;\u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003emáu tổn thất\u003c/strong\u003e\u003c/span\u003e\u0026nbsp;(2% nếu là tướng). Hiệu ứng hồi phục không cộng dồn.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 16 / giây năng lượng",
+"name":"Patin lửa",
+"youtube":"https://www.youtube.com/embed/38_mrLrIcjI"
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eRoxie tăng 20% tốc chạy và tạo lá chắn lửa giúp chặn đứng 150 (\u003cstrong\u003e\u003cspan style\u003d\"color:#FF0000\"\u003e6%\u0026nbsp;máu tối đa bản thân\u003c/span\u003e\u003c/strong\u003e) sát thương trong 3 giây. Suốt thời gian này kẻ địch va phải Roxie sẽ bị làm chậm 50% trong 1.5 giây\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"2",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Balo lửa",
+"youtube":"https://www.youtube.com/embed/3cxwOWtuxAg"
+},
+{
+"desc":"\u003cul\u003e \n \u003cli\u003eAgnie bay đến lôi mục tiêu đầu tiên tóm được về phía bản thân trong 2.5 giây, đồng thời giúp Roxie làm mới lại thời gian hồi Patin lửa, khắc dấu ấn Cuốc lửa lên nạn nhân và gây 75/100/125 + (\u003cspan style\u003d\"color:#FF0000\"\u003e\u003cstrong\u003e4/5/6%\u0026nbsp;máu hiện tại mục tiêu\u003c/strong\u003e\u003c/span\u003e)\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003e\u003cstrong\u003esát thương phép\u003c/strong\u003e\u003c/span\u003e\u003cstrong\u003e\u0026nbsp;\u003c/strong\u003esau khi chiêu kết thúc. Suốt thời gian này Roxie đi đâu nạn nhân sẽ bị kéo theo đó, thậm chí có thể kéo vượt địa hình, nhưng bù lại nạn nhân miễn nhiễm với tất cả các khống chế khác. Không có tác dụng lên quái khủng.\u003c/li\u003e \n\u003c/ul\u003e",
+"id":"3",
+"mana":"Tiêu hao: 100/120/140 năng lượng",
+"name":"Keo lửa",
+"youtube":"https://www.youtube.com/embed/-ZI-Eg5mYcg"
+}
+]

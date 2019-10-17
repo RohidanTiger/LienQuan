@@ -1,0 +1,30 @@
+[
+{
+"desc":"\u003cp\u003e\u003cstrong\u003eNội tại:\u003c/strong\u003e\u0026nbsp;Arum triệu hồi linh thú vờn quanh bản thân, gây 80 (1% máu tối đa mục tiêu)\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u0026nbsp;lên những kẻ địch lân cận, đồng thời giúp Arum hồi 80 (1% máu tối đa bản thân) máu. Nếu nạn nhân trúng đòn không phải tướng địch, Arum sẽ chỉ được hồi 1% máu tối đa bản thân.\u003c/p\u003e",
+"id":"0",
+"mana":"Tiêu hao: 0 năng lượng",
+"name":"Linh thú",
+"youtube":"https://www.youtube.com/embed/Fb4AFq-iaVI"
+},
+{
+"desc":"\u003cp\u003eArum phóng năng lượng lan tỏa ra xung quanh gây 275\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e\u0026nbsp;lên những kẻ địch lân cận, đồng thời triệu hồi 1 linh thú vờn quanh bản thân. Trong thời gian linh thú vờn quanh bản thân, tung chiêu trúng tướng địch giúp giảm thời gian hồi 50%. Số lượng linh thú quyết định hiệu lực của Thú sổng; tối đa tồn tại 3 linh thú.\u003c/p\u003e",
+"id":"1",
+"mana":"Tiêu hao: 60 năng lượng",
+"name":"Thú kích",
+"youtube":"https://www.youtube.com/embed/HXgqjixkOtA"
+},
+{
+"desc":"\u003cp\u003eArum lệnh cho linh thú tấn công vùng chỉ định gây 500\u0026nbsp;\u003cspan style\u003d\"color:#0000FF\"\u003esát thương phép\u003c/span\u003e, đồng thời giúp bản thân tăng tốc chạy trong thoáng chốc. Sau khi tấn công linh thú sẽ biến mất khỏi Arum. Số lượng linh thú quyết định số lần và hiệu quả công kích; linh thú đầu tiên làm chậm 50% tốc chạy trong 1 giây, linh thú thứ hai làm chậm 90% tốc chạy trong 1 giây, linh thú thứ ba gây choáng 1 giây.\u003c/p\u003e",
+"id":"2",
+"mana":"Tiêu hao: 75 năng lượng",
+"name":"Thú sổng",
+"youtube":"https://www.youtube.com/embed/S8PvqOYlUE0"
+},
+{
+"desc":"\u003cp\u003eArum lướt đến trói buộc mục tiêu trong 2.5 giây, đồng thời lập tức triệu hồi 3 linh thú vờn quanh bản thân. Suốt thời gian này cả Arum lẫn nạn nhân đều bất động hoàn toàn dưới tác động của mối liên kết không thể bị phá vỡ, đặc biệt mọi sát thương bất kỳ ai trong cả hai gánh chịu đều sẽ được truyền đến người còn lại.\u003c/p\u003e",
+"id":"3",
+"mana":"Tiêu hao: 100 năng lượng",
+"name":"Thú khốn",
+"youtube":"https://www.youtube.com/embed/_uq9k18S9mI"
+}
+]
